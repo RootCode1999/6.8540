@@ -1,0 +1,1451 @@
+2024/06/18 18:45:43 2024-06-18 18:45:43.97165732 +0800 CST m=+0.000657385 serverId:0 start ElectProcess
+2024/06/18 18:45:43 nodeId:0 role:1 currentTerm:1 votedFor:0 getVote:1
+2024/06/18 18:45:43 node0 send vote request to node2
+2024/06/18 18:45:43 2024-06-18 18:45:43.971921443 +0800 CST m=+0.000921508 serverId:2 start ElectProcess
+2024/06/18 18:45:43 nodeId:2 role:1 currentTerm:1 votedFor:2 getVote:1
+2024/06/18 18:45:43 node2 send vote request to node1
+2024/06/18 18:45:43 Fail:Node1's term is same with Node0's term
+2024/06/18 18:45:43 nodeId:2 role:1 currentTerm:1 votedFor:2 getVote:1
+2024/06/18 18:45:43 node1 change to follower
+2024/06/18 18:45:43 nodeId:1 role:0 currentTerm:1 votedFor:-1 getVote:0
+2024/06/18 18:45:43 nodeId:1 role:0 currentTerm:1 votedFor:-1 getVote:0
+2024/06/18 18:45:43 vote success:node1 vote to node2
+2024/06/18 18:45:43 nodeId:1 role:0 currentTerm:1 votedFor:2 getVote:0
+2024/06/18 18:45:43 node0 send vote request to node1
+2024/06/18 18:45:43 Node2 become leader
+2024/06/18 18:45:43 nodeId:2 role:2 currentTerm:1 votedFor:2 getVote:2
+2024/06/18 18:45:43 node2 send heartbeat to node0
+2024/06/18 18:45:43 node2 send heartbeat to node1
+2024/06/18 18:45:43 Fail:Node1's term is same with Node0's term
+2024/06/18 18:45:43 nodeId:1 role:0 currentTerm:1 votedFor:2 getVote:0
+2024/06/18 18:45:43 node2 send vote request to node0
+2024/06/18 18:45:43 Fail:Node1's term is same with Node2's term
+2024/06/18 18:45:43 nodeId:0 role:1 currentTerm:1 votedFor:0 getVote:1
+2024/06/18 18:45:43 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:43 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:44 node2 send heartbeat to node0
+2024/06/18 18:45:44 node2 send heartbeat to node1
+2024/06/18 18:45:44 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:44 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:44 node2 send heartbeat to node0
+2024/06/18 18:45:44 node2 send heartbeat to node1
+2024/06/18 18:45:44 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:44 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:44 node2 send heartbeat to node0
+2024/06/18 18:45:44 node2 send heartbeat to node1
+2024/06/18 18:45:44 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:44 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:44 node2 send heartbeat to node0
+2024/06/18 18:45:44 node2 send heartbeat to node1
+2024/06/18 18:45:44 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:44 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:44 node2 send heartbeat to node0
+2024/06/18 18:45:44 node2 send heartbeat to node1
+2024/06/18 18:45:44 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:44 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:44 node2 send heartbeat to node0
+2024/06/18 18:45:44 node2 send heartbeat to node1
+2024/06/18 18:45:44 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:44 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:44 node2 send heartbeat to node0
+2024/06/18 18:45:44 node2 send heartbeat to node1
+2024/06/18 18:45:44 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:44 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:44 node2 send heartbeat to node0
+2024/06/18 18:45:44 node2 send heartbeat to node1
+2024/06/18 18:45:44 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:44 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:44 node2 send heartbeat to node0
+2024/06/18 18:45:44 node2 send heartbeat to node1
+2024/06/18 18:45:44 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:44 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:44 node2 send heartbeat to node0
+2024/06/18 18:45:44 node2 send heartbeat to node1
+2024/06/18 18:45:44 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:44 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:45 node2 send heartbeat to node0
+2024/06/18 18:45:45 node2 send heartbeat to node1
+2024/06/18 18:45:45 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:45 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:45 node2 send heartbeat to node0
+2024/06/18 18:45:45 node2 send heartbeat to node1
+2024/06/18 18:45:45 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:45 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:45 node2 send heartbeat to node0
+2024/06/18 18:45:45 node2 send heartbeat to node1
+2024/06/18 18:45:45 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:45 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:45 node2 send heartbeat to node0
+2024/06/18 18:45:45 node2 send heartbeat to node1
+2024/06/18 18:45:45 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:45 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:45 node2 send heartbeat to node0
+2024/06/18 18:45:45 node2 send heartbeat to node1
+2024/06/18 18:45:45 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:45 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:45 node2 send heartbeat to node0
+2024/06/18 18:45:45 node2 send heartbeat to node1
+2024/06/18 18:45:45 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:45 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:45 node2 send heartbeat to node0
+2024/06/18 18:45:45 node2 send heartbeat to node1
+2024/06/18 18:45:45 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:45 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:45 node2 send heartbeat to node0
+2024/06/18 18:45:45 node2 send heartbeat to node1
+2024/06/18 18:45:45 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:45 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:45 node2 send heartbeat to node0
+2024/06/18 18:45:45 node2 send heartbeat to node1
+2024/06/18 18:45:45 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:45 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:46 node2 send heartbeat to node0
+2024/06/18 18:45:46 node2 send heartbeat to node1
+2024/06/18 18:45:46 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:46 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:46 node2 send heartbeat to node0
+2024/06/18 18:45:46 node2 send heartbeat to node1
+2024/06/18 18:45:46 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:46 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:46 node2 send heartbeat to node0
+2024/06/18 18:45:46 node2 send heartbeat to node1
+2024/06/18 18:45:46 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:46 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:46 node2 send heartbeat to node0
+2024/06/18 18:45:46 node2 send heartbeat to node1
+2024/06/18 18:45:46 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:46 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:46 node2 send heartbeat to node0
+2024/06/18 18:45:46 node2 send heartbeat to node1
+2024/06/18 18:45:46 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:46 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:46 node2 send heartbeat to node0
+2024/06/18 18:45:46 node2 send heartbeat to node1
+2024/06/18 18:45:46 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:46 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:46 node2 send heartbeat to node0
+2024/06/18 18:45:46 node2 send heartbeat to node1
+2024/06/18 18:45:46 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:46 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:46 node2 send heartbeat to node0
+2024/06/18 18:45:46 node2 send heartbeat to node1
+2024/06/18 18:45:46 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:46 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:46 node2 send heartbeat to node0
+2024/06/18 18:45:46 node2 send heartbeat to node1
+2024/06/18 18:45:46 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:46 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:46 node2 send heartbeat to node0
+2024/06/18 18:45:46 node2 send heartbeat to node1
+2024/06/18 18:45:46 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:46 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:47 2024-06-18 18:45:47.012402346 +0800 CST m=+3.041402411 serverId:0 start ElectProcess
+2024/06/18 18:45:47 nodeId:0 role:1 currentTerm:1 votedFor:0 getVote:1
+2024/06/18 18:45:47 node0 send vote request to node2
+2024/06/18 18:45:47 2024-06-18 18:45:47.012459938 +0800 CST m=+3.041460003 serverId:1 start ElectProcess
+2024/06/18 18:45:47 nodeId:1 role:1 currentTerm:1 votedFor:1 getVote:1
+2024/06/18 18:45:47 node1 send vote request to node2
+2024/06/18 18:45:47 node2 change to follower
+2024/06/18 18:45:47 node0 send vote request to node1
+2024/06/18 18:45:47 nodeId:2 role:0 currentTerm:1 votedFor:-1 getVote:0
+2024/06/18 18:45:47 nodeId:2 role:0 currentTerm:1 votedFor:-1 getVote:0
+2024/06/18 18:45:47 vote success:node2 vote to node1
+2024/06/18 18:45:47 nodeId:2 role:0 currentTerm:1 votedFor:1 getVote:0
+2024/06/18 18:45:47 node1 send vote request to node0
+2024/06/18 18:45:47 Node1 become leader
+2024/06/18 18:45:47 nodeId:1 role:2 currentTerm:1 votedFor:1 getVote:2
+2024/06/18 18:45:47 Fail:Node1's term is same with Node0's term
+2024/06/18 18:45:47 nodeId:2 role:0 currentTerm:1 votedFor:1 getVote:0
+2024/06/18 18:45:47 node1 send heartbeat to node0
+2024/06/18 18:45:47 node1 send heartbeat to node2
+2024/06/18 18:45:47 Fail:Node1's term is same with Node1's term
+2024/06/18 18:45:47 nodeId:0 role:1 currentTerm:1 votedFor:0 getVote:1
+2024/06/18 18:45:47 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:47 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:47 Fail:Node1's term is same with Node0's term
+2024/06/18 18:45:47 nodeId:1 role:2 currentTerm:1 votedFor:1 getVote:2
+2024/06/18 18:45:47 node1 send heartbeat to node0
+2024/06/18 18:45:47 node1 send heartbeat to node2
+2024/06/18 18:45:47 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:47 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:47 node1 send heartbeat to node0
+2024/06/18 18:45:47 node1 send heartbeat to node2
+2024/06/18 18:45:47 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:47 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:47 node1 send heartbeat to node0
+2024/06/18 18:45:47 node1 send heartbeat to node2
+2024/06/18 18:45:47 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:47 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:47 node1 send heartbeat to node0
+2024/06/18 18:45:47 node1 send heartbeat to node2
+2024/06/18 18:45:47 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:47 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:47 node1 send heartbeat to node0
+2024/06/18 18:45:47 node1 send heartbeat to node2
+2024/06/18 18:45:47 node1 send heartbeat to node0
+2024/06/18 18:45:47 node1 send heartbeat to node2
+2024/06/18 18:45:47 node1 send heartbeat to node0
+2024/06/18 18:45:47 node1 send heartbeat to node2
+2024/06/18 18:45:47 2024-06-18 18:45:47.772636086 +0800 CST m=+3.801636151 serverId:0 start ElectProcess
+2024/06/18 18:45:47 nodeId:0 role:1 currentTerm:2 votedFor:0 getVote:1
+2024/06/18 18:45:47 node0 send vote request to node2
+2024/06/18 18:45:47 node0 send vote request to node1
+2024/06/18 18:45:47 node2 change to follower
+2024/06/18 18:45:47 nodeId:2 role:0 currentTerm:2 votedFor:-1 getVote:0
+2024/06/18 18:45:47 nodeId:2 role:0 currentTerm:2 votedFor:-1 getVote:0
+2024/06/18 18:45:47 vote success:node2 vote to node0
+2024/06/18 18:45:47 nodeId:2 role:0 currentTerm:2 votedFor:0 getVote:0
+2024/06/18 18:45:47 Node0 become leader
+2024/06/18 18:45:47 nodeId:0 role:2 currentTerm:2 votedFor:0 getVote:2
+2024/06/18 18:45:47 node0 send heartbeat to node1
+2024/06/18 18:45:47 node0 send heartbeat to node2
+2024/06/18 18:45:47 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:47 node1 send heartbeat to node0
+2024/06/18 18:45:47 node1 send heartbeat to node2
+2024/06/18 18:45:47 node0 send heartbeat to node1
+2024/06/18 18:45:47 node0 send heartbeat to node2
+2024/06/18 18:45:47 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:47 node1 send heartbeat to node0
+2024/06/18 18:45:47 node1 send heartbeat to node2
+2024/06/18 18:45:47 node0 send heartbeat to node1
+2024/06/18 18:45:47 node0 send heartbeat to node2
+2024/06/18 18:45:47 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:48 node1 send heartbeat to node0
+2024/06/18 18:45:48 node1 send heartbeat to node2
+2024/06/18 18:45:48 node0 send heartbeat to node1
+2024/06/18 18:45:48 node0 send heartbeat to node2
+2024/06/18 18:45:48 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:48 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:48 node0 send heartbeat to node1
+2024/06/18 18:45:48 node0 send heartbeat to node2
+2024/06/18 18:45:48 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:48 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:48 node0 send heartbeat to node1
+2024/06/18 18:45:48 node0 send heartbeat to node2
+2024/06/18 18:45:48 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:48 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:48 node0 send heartbeat to node1
+2024/06/18 18:45:48 node0 send heartbeat to node2
+2024/06/18 18:45:48 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:48 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:48 node0 send heartbeat to node1
+2024/06/18 18:45:48 node0 send heartbeat to node2
+2024/06/18 18:45:48 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:48 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:48 node0 send heartbeat to node1
+2024/06/18 18:45:48 node0 send heartbeat to node2
+2024/06/18 18:45:48 node0 send heartbeat to node1
+2024/06/18 18:45:48 node0 send heartbeat to node2
+2024/06/18 18:45:48 node0 send heartbeat to node1
+2024/06/18 18:45:48 node0 send heartbeat to node2
+2024/06/18 18:45:48 2024-06-18 18:45:48.828793329 +0800 CST m=+4.857793394 serverId:2 start ElectProcess
+2024/06/18 18:45:48 nodeId:2 role:1 currentTerm:3 votedFor:2 getVote:1
+2024/06/18 18:45:48 node2 send vote request to node1
+2024/06/18 18:45:48 node2 send vote request to node0
+2024/06/18 18:45:48 node0 send heartbeat to node1
+2024/06/18 18:45:48 node0 send heartbeat to node2
+2024/06/18 18:45:48 2024-06-18 18:45:48.928325788 +0800 CST m=+4.957325883 serverId:1 start ElectProcess
+2024/06/18 18:45:48 nodeId:1 role:1 currentTerm:3 votedFor:1 getVote:1
+2024/06/18 18:45:48 node1 send vote request to node2
+2024/06/18 18:45:48 node1 send vote request to node0
+2024/06/18 18:45:48 node0 send heartbeat to node1
+2024/06/18 18:45:48 node0 send heartbeat to node2
+2024/06/18 18:45:49 node0 send heartbeat to node1
+2024/06/18 18:45:49 node0 send heartbeat to node2
+2024/06/18 18:45:49 2024-06-18 18:45:49.157631007 +0800 CST m=+5.186631072 serverId:2 start ElectProcess
+2024/06/18 18:45:49 nodeId:2 role:1 currentTerm:4 votedFor:2 getVote:1
+2024/06/18 18:45:49 node2 send vote request to node1
+2024/06/18 18:45:49 node2 send vote request to node0
+2024/06/18 18:45:49 node0 send heartbeat to node1
+2024/06/18 18:45:49 node0 send heartbeat to node2
+2024/06/18 18:45:49 node0 send heartbeat to node1
+2024/06/18 18:45:49 node0 send heartbeat to node2
+2024/06/18 18:45:49 node0 send heartbeat to node1
+2024/06/18 18:45:49 node0 send heartbeat to node2
+2024/06/18 18:45:49 node0 send heartbeat to node1
+2024/06/18 18:45:49 node0 send heartbeat to node2
+2024/06/18 18:45:49 2024-06-18 18:45:49.539013124 +0800 CST m=+5.568013190 serverId:1 start ElectProcess
+2024/06/18 18:45:49 nodeId:1 role:1 currentTerm:4 votedFor:1 getVote:1
+2024/06/18 18:45:49 node1 send vote request to node2
+2024/06/18 18:45:49 node1 send vote request to node0
+2024/06/18 18:45:49 node0 send heartbeat to node1
+2024/06/18 18:45:49 node0 send heartbeat to node2
+2024/06/18 18:45:49 node0 send heartbeat to node1
+2024/06/18 18:45:49 node0 send heartbeat to node2
+2024/06/18 18:45:49 node0 send heartbeat to node1
+2024/06/18 18:45:49 node0 send heartbeat to node2
+2024/06/18 18:45:49 2024-06-18 18:45:49.820542077 +0800 CST m=+5.849542142 serverId:2 start ElectProcess
+2024/06/18 18:45:49 nodeId:2 role:1 currentTerm:5 votedFor:2 getVote:1
+2024/06/18 18:45:49 node2 send vote request to node1
+2024/06/18 18:45:49 node2 send vote request to node0
+2024/06/18 18:45:49 2024-06-18 18:45:49.895433267 +0800 CST m=+5.924433332 serverId:1 start ElectProcess
+2024/06/18 18:45:49 nodeId:1 role:1 currentTerm:5 votedFor:1 getVote:1
+2024/06/18 18:45:49 node1 send vote request to node2
+2024/06/18 18:45:49 node1 send vote request to node0
+2024/06/18 18:45:49 node0 send heartbeat to node1
+2024/06/18 18:45:49 node0 send heartbeat to node2
+2024/06/18 18:45:50 node0 send heartbeat to node1
+2024/06/18 18:45:50 node0 send heartbeat to node2
+2024/06/18 18:45:50 node0 send heartbeat to node1
+2024/06/18 18:45:50 node0 send heartbeat to node2
+2024/06/18 18:45:50 node0 send heartbeat to node1
+2024/06/18 18:45:50 node0 send heartbeat to node2
+2024/06/18 18:45:50 node0 send heartbeat to node1
+2024/06/18 18:45:50 node0 send heartbeat to node2
+2024/06/18 18:45:50 node0 send heartbeat to node1
+2024/06/18 18:45:50 node0 send heartbeat to node2
+2024/06/18 18:45:50 2024-06-18 18:45:50.423837212 +0800 CST m=+6.452837308 serverId:2 start ElectProcess
+2024/06/18 18:45:50 nodeId:2 role:1 currentTerm:6 votedFor:2 getVote:1
+2024/06/18 18:45:50 node2 send vote request to node1
+2024/06/18 18:45:50 node2 send vote request to node0
+2024/06/18 18:45:50 2024-06-18 18:45:50.494389809 +0800 CST m=+6.523389874 serverId:1 start ElectProcess
+2024/06/18 18:45:50 nodeId:1 role:1 currentTerm:6 votedFor:1 getVote:1
+2024/06/18 18:45:50 node1 send vote request to node0
+2024/06/18 18:45:50 node1 send vote request to node2
+2024/06/18 18:45:50 node0 send heartbeat to node1
+2024/06/18 18:45:50 node0 send heartbeat to node2
+2024/06/18 18:45:50 node0 send heartbeat to node1
+2024/06/18 18:45:50 node0 send heartbeat to node2
+2024/06/18 18:45:50 node0 send heartbeat to node1
+2024/06/18 18:45:50 node0 send heartbeat to node2
+2024/06/18 18:45:50 node0 send heartbeat to node1
+2024/06/18 18:45:50 node0 send heartbeat to node2
+2024/06/18 18:45:50 2024-06-18 18:45:50.882072728 +0800 CST m=+6.911072824 serverId:1 start ElectProcess
+2024/06/18 18:45:50 nodeId:1 role:1 currentTerm:7 votedFor:1 getVote:1
+2024/06/18 18:45:50 node1 send vote request to node0
+2024/06/18 18:45:50 node1 send vote request to node2
+2024/06/18 18:45:50 node2 change to follower
+2024/06/18 18:45:50 nodeId:2 role:0 currentTerm:7 votedFor:-1 getVote:1
+2024/06/18 18:45:50 nodeId:2 role:0 currentTerm:7 votedFor:-1 getVote:1
+2024/06/18 18:45:50 vote success:node2 vote to node1
+2024/06/18 18:45:50 nodeId:2 role:0 currentTerm:7 votedFor:1 getVote:1
+2024/06/18 18:45:50 Node1 become leader
+2024/06/18 18:45:50 nodeId:1 role:2 currentTerm:7 votedFor:1 getVote:2
+2024/06/18 18:45:50 node1 send heartbeat to node0
+2024/06/18 18:45:50 node1 send heartbeat to node2
+2024/06/18 18:45:50 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:50 node0 send heartbeat to node1
+2024/06/18 18:45:50 node0 send heartbeat to node2
+2024/06/18 18:45:50 node1 send heartbeat to node0
+2024/06/18 18:45:50 node1 send heartbeat to node2
+2024/06/18 18:45:50 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:51 node0 send heartbeat to node1
+2024/06/18 18:45:51 node0 send heartbeat to node2
+2024/06/18 18:45:51 node1 send heartbeat to node0
+2024/06/18 18:45:51 node1 send heartbeat to node2
+2024/06/18 18:45:51 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:51 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:51 node1 send heartbeat to node0
+2024/06/18 18:45:51 node1 send heartbeat to node2
+2024/06/18 18:45:51 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:51 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:51 node1 send heartbeat to node0
+2024/06/18 18:45:51 node1 send heartbeat to node2
+2024/06/18 18:45:51 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:51 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:51 node1 send heartbeat to node0
+2024/06/18 18:45:51 node1 send heartbeat to node2
+2024/06/18 18:45:51 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:51 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:51 node1 send heartbeat to node0
+2024/06/18 18:45:51 node1 send heartbeat to node2
+2024/06/18 18:45:51 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:51 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:51 node1 send heartbeat to node0
+2024/06/18 18:45:51 node1 send heartbeat to node2
+2024/06/18 18:45:51 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:51 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:51 2024-06-18 18:45:51.617249519 +0800 CST m=+7.646249614 serverId:0 start ElectProcess
+2024/06/18 18:45:51 nodeId:0 role:1 currentTerm:1 votedFor:0 getVote:1
+2024/06/18 18:45:51 node0 send vote request to node6
+2024/06/18 18:45:51 node0 send vote request to node2
+2024/06/18 18:45:51 node0 send vote request to node3
+2024/06/18 18:45:51 node0 send vote request to node1
+2024/06/18 18:45:51 node0 send vote request to node4
+2024/06/18 18:45:51 2024-06-18 18:45:51.617697097 +0800 CST m=+7.646697192 serverId:1 start ElectProcess
+2024/06/18 18:45:51 nodeId:1 role:1 currentTerm:1 votedFor:1 getVote:1
+2024/06/18 18:45:51 2024-06-18 18:45:51.617743105 +0800 CST m=+7.646743201 serverId:2 start ElectProcess
+2024/06/18 18:45:51 node1 send vote request to node6
+2024/06/18 18:45:51 node1 send vote request to node0
+2024/06/18 18:45:51 node1 send vote request to node2
+2024/06/18 18:45:51 node1 send vote request to node4
+2024/06/18 18:45:51 node1 send vote request to node5
+2024/06/18 18:45:51 node1 send vote request to node3
+2024/06/18 18:45:51 node0 send vote request to node5
+2024/06/18 18:45:51 nodeId:2 role:1 currentTerm:1 votedFor:2 getVote:1
+2024/06/18 18:45:51 node2 send vote request to node6
+2024/06/18 18:45:51 node2 send vote request to node3
+2024/06/18 18:45:51 node2 send vote request to node0
+2024/06/18 18:45:51 node2 send vote request to node4
+2024/06/18 18:45:51 node2 send vote request to node1
+2024/06/18 18:45:51 node2 send vote request to node5
+2024/06/18 18:45:51 2024-06-18 18:45:51.618084708 +0800 CST m=+7.647084773 serverId:3 start ElectProcess
+2024/06/18 18:45:51 nodeId:3 role:1 currentTerm:1 votedFor:3 getVote:1
+2024/06/18 18:45:51 2024-06-18 18:45:51.618105228 +0800 CST m=+7.647105293 serverId:4 start ElectProcess
+2024/06/18 18:45:51 nodeId:4 role:1 currentTerm:1 votedFor:4 getVote:1
+2024/06/18 18:45:51 node3 send vote request to node1
+2024/06/18 18:45:51 node4 send vote request to node6
+2024/06/18 18:45:51 2024-06-18 18:45:51.618136458 +0800 CST m=+7.647136523 serverId:5 start ElectProcess
+2024/06/18 18:45:51 nodeId:5 role:1 currentTerm:1 votedFor:5 getVote:1
+2024/06/18 18:45:51 node3 send vote request to node2
+2024/06/18 18:45:51 node3 send vote request to node6
+2024/06/18 18:45:51 node5 send vote request to node6
+2024/06/18 18:45:51 node3 send vote request to node4
+2024/06/18 18:45:51 node3 send vote request to node0
+2024/06/18 18:45:51 node5 send vote request to node0
+2024/06/18 18:45:51 node3 send vote request to node5
+2024/06/18 18:45:51 node4 send vote request to node0
+2024/06/18 18:45:51 node5 send vote request to node1
+2024/06/18 18:45:51 node4 send vote request to node3
+2024/06/18 18:45:51 node4 send vote request to node5
+2024/06/18 18:45:51 node5 send vote request to node2
+2024/06/18 18:45:51 node4 send vote request to node1
+2024/06/18 18:45:51 node4 send vote request to node2
+2024/06/18 18:45:51 node5 send vote request to node3
+2024/06/18 18:45:51 2024-06-18 18:45:51.618308573 +0800 CST m=+7.647308638 serverId:6 start ElectProcess
+2024/06/18 18:45:51 nodeId:6 role:1 currentTerm:1 votedFor:6 getVote:1
+2024/06/18 18:45:51 node6 send vote request to node5
+2024/06/18 18:45:51 Fail:Node1's term is same with Node4's term
+2024/06/18 18:45:51 node6 send vote request to node4
+2024/06/18 18:45:51 Fail:Node1's term is same with Node6's term
+2024/06/18 18:45:51 nodeId:5 role:1 currentTerm:1 votedFor:5 getVote:1
+2024/06/18 18:45:51 nodeId:2 role:1 currentTerm:1 votedFor:2 getVote:1
+2024/06/18 18:45:51 Fail:Node1's term is same with Node6's term
+2024/06/18 18:45:51 nodeId:4 role:1 currentTerm:1 votedFor:4 getVote:1
+2024/06/18 18:45:51 Fail:Node1's term is same with Node5's term
+2024/06/18 18:45:51 nodeId:2 role:1 currentTerm:1 votedFor:2 getVote:1
+2024/06/18 18:45:51 node6 send vote request to node2
+2024/06/18 18:45:51 node5 send vote request to node4
+2024/06/18 18:45:51 Fail:Node1's term is same with Node6's term
+2024/06/18 18:45:51 nodeId:2 role:1 currentTerm:1 votedFor:2 getVote:1
+2024/06/18 18:45:51 node6 send vote request to node0
+2024/06/18 18:45:51 Fail:Node1's term is same with Node6's term
+2024/06/18 18:45:51 nodeId:0 role:1 currentTerm:1 votedFor:0 getVote:1
+2024/06/18 18:45:51 node6 send vote request to node1
+2024/06/18 18:45:51 Fail:Node1's term is same with Node6's term
+2024/06/18 18:45:51 nodeId:1 role:1 currentTerm:1 votedFor:1 getVote:1
+2024/06/18 18:45:51 Fail:Node1's term is same with Node5's term
+2024/06/18 18:45:51 nodeId:4 role:1 currentTerm:1 votedFor:4 getVote:1
+2024/06/18 18:45:51 Fail:Node1's term is same with Node5's term
+2024/06/18 18:45:51 nodeId:3 role:1 currentTerm:1 votedFor:3 getVote:1
+2024/06/18 18:45:51 node6 send vote request to node3
+2024/06/18 18:45:51 Fail:Node1's term is same with Node6's term
+2024/06/18 18:45:51 nodeId:3 role:1 currentTerm:1 votedFor:3 getVote:1
+2024/06/18 18:45:51 2024-06-18 18:45:51.926229524 +0800 CST m=+7.955229619 serverId:1 start ElectProcess
+2024/06/18 18:45:51 nodeId:1 role:1 currentTerm:2 votedFor:1 getVote:1
+2024/06/18 18:45:51 node1 send vote request to node6
+2024/06/18 18:45:51 node1 send vote request to node3
+2024/06/18 18:45:51 node1 send vote request to node4
+2024/06/18 18:45:51 node1 send vote request to node0
+2024/06/18 18:45:51 node1 send vote request to node2
+2024/06/18 18:45:51 node3 change to follower
+2024/06/18 18:45:51 nodeId:3 role:0 currentTerm:2 votedFor:-1 getVote:1
+2024/06/18 18:45:51 nodeId:3 role:0 currentTerm:2 votedFor:-1 getVote:1
+2024/06/18 18:45:51 vote success:node3 vote to node1
+2024/06/18 18:45:51 nodeId:3 role:0 currentTerm:2 votedFor:1 getVote:1
+2024/06/18 18:45:51 node4 change to follower
+2024/06/18 18:45:51 node2 change to follower
+2024/06/18 18:45:51 nodeId:2 role:0 currentTerm:2 votedFor:-1 getVote:1
+2024/06/18 18:45:51 nodeId:2 role:0 currentTerm:2 votedFor:-1 getVote:1
+2024/06/18 18:45:51 vote success:node2 vote to node1
+2024/06/18 18:45:51 nodeId:2 role:0 currentTerm:2 votedFor:1 getVote:1
+2024/06/18 18:45:51 nodeId:4 role:0 currentTerm:2 votedFor:-1 getVote:1
+2024/06/18 18:45:51 nodeId:4 role:0 currentTerm:2 votedFor:-1 getVote:1
+2024/06/18 18:45:51 vote success:node4 vote to node1
+2024/06/18 18:45:51 nodeId:4 role:0 currentTerm:2 votedFor:1 getVote:1
+2024/06/18 18:45:51 node1 send vote request to node5
+2024/06/18 18:45:51 node5 change to follower
+2024/06/18 18:45:51 nodeId:5 role:0 currentTerm:2 votedFor:-1 getVote:1
+2024/06/18 18:45:51 nodeId:5 role:0 currentTerm:2 votedFor:-1 getVote:1
+2024/06/18 18:45:51 vote success:node5 vote to node1
+2024/06/18 18:45:51 nodeId:5 role:0 currentTerm:2 votedFor:1 getVote:1
+2024/06/18 18:45:51 node6 change to follower
+2024/06/18 18:45:51 nodeId:6 role:0 currentTerm:2 votedFor:-1 getVote:1
+2024/06/18 18:45:51 nodeId:6 role:0 currentTerm:2 votedFor:-1 getVote:1
+2024/06/18 18:45:51 vote success:node6 vote to node1
+2024/06/18 18:45:51 nodeId:6 role:0 currentTerm:2 votedFor:1 getVote:1
+2024/06/18 18:45:51 node0 change to follower
+2024/06/18 18:45:51 nodeId:0 role:0 currentTerm:2 votedFor:-1 getVote:1
+2024/06/18 18:45:51 nodeId:0 role:0 currentTerm:2 votedFor:-1 getVote:1
+2024/06/18 18:45:51 vote success:node0 vote to node1
+2024/06/18 18:45:51 nodeId:0 role:0 currentTerm:2 votedFor:1 getVote:1
+2024/06/18 18:45:51 Node1 become leader
+2024/06/18 18:45:51 nodeId:1 role:2 currentTerm:2 votedFor:1 getVote:4
+2024/06/18 18:45:51 node1 send heartbeat to node0
+2024/06/18 18:45:51 node1 send heartbeat to node2
+2024/06/18 18:45:51 node1 send heartbeat to node3
+2024/06/18 18:45:51 node1 send heartbeat to node4
+2024/06/18 18:45:51 node1 send heartbeat to node5
+2024/06/18 18:45:51 node1 send heartbeat to node6
+2024/06/18 18:45:51 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:51 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:51 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:51 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:51 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:51 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:52 node1 send heartbeat to node0
+2024/06/18 18:45:52 node1 send heartbeat to node2
+2024/06/18 18:45:52 node1 send heartbeat to node3
+2024/06/18 18:45:52 node1 send heartbeat to node4
+2024/06/18 18:45:52 node1 send heartbeat to node5
+2024/06/18 18:45:52 node1 send heartbeat to node6
+2024/06/18 18:45:52 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:52 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:52 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:52 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:52 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:52 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:52 node1 send heartbeat to node0
+2024/06/18 18:45:52 node1 send heartbeat to node2
+2024/06/18 18:45:52 node1 send heartbeat to node3
+2024/06/18 18:45:52 node1 send heartbeat to node4
+2024/06/18 18:45:52 node1 send heartbeat to node5
+2024/06/18 18:45:52 node1 send heartbeat to node6
+2024/06/18 18:45:52 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:52 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:52 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:52 node1 send heartbeat to node0
+2024/06/18 18:45:52 node1 send heartbeat to node2
+2024/06/18 18:45:52 node1 send heartbeat to node3
+2024/06/18 18:45:52 node1 send heartbeat to node4
+2024/06/18 18:45:52 node1 send heartbeat to node5
+2024/06/18 18:45:52 node1 send heartbeat to node6
+2024/06/18 18:45:52 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:52 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:52 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:52 node1 send heartbeat to node0
+2024/06/18 18:45:52 node1 send heartbeat to node2
+2024/06/18 18:45:52 node1 send heartbeat to node3
+2024/06/18 18:45:52 node1 send heartbeat to node4
+2024/06/18 18:45:52 node1 send heartbeat to node5
+2024/06/18 18:45:52 node1 send heartbeat to node6
+2024/06/18 18:45:52 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:52 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:52 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:52 node1 send heartbeat to node0
+2024/06/18 18:45:52 node1 send heartbeat to node2
+2024/06/18 18:45:52 node1 send heartbeat to node3
+2024/06/18 18:45:52 node1 send heartbeat to node4
+2024/06/18 18:45:52 node1 send heartbeat to node5
+2024/06/18 18:45:52 node1 send heartbeat to node6
+2024/06/18 18:45:52 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:52 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:52 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:52 2024-06-18 18:45:52.456185753 +0800 CST m=+8.485185818 serverId:4 start ElectProcess
+2024/06/18 18:45:52 nodeId:4 role:1 currentTerm:3 votedFor:4 getVote:1
+2024/06/18 18:45:52 node4 send vote request to node6
+2024/06/18 18:45:52 node4 send vote request to node2
+2024/06/18 18:45:52 node4 send vote request to node5
+2024/06/18 18:45:52 node4 send vote request to node0
+2024/06/18 18:45:52 node4 send vote request to node3
+2024/06/18 18:45:52 node4 send vote request to node1
+2024/06/18 18:45:52 2024-06-18 18:45:52.529390803 +0800 CST m=+8.558390899 serverId:0 start ElectProcess
+2024/06/18 18:45:52 nodeId:0 role:1 currentTerm:3 votedFor:0 getVote:1
+2024/06/18 18:45:52 node0 send vote request to node6
+2024/06/18 18:45:52 node0 send vote request to node3
+2024/06/18 18:45:52 node0 send vote request to node2
+2024/06/18 18:45:52 node0 send vote request to node4
+2024/06/18 18:45:52 node0 send vote request to node5
+2024/06/18 18:45:52 node0 send vote request to node1
+2024/06/18 18:45:52 node1 send heartbeat to node0
+2024/06/18 18:45:52 node1 send heartbeat to node2
+2024/06/18 18:45:52 node1 send heartbeat to node3
+2024/06/18 18:45:52 node1 send heartbeat to node4
+2024/06/18 18:45:52 node1 send heartbeat to node5
+2024/06/18 18:45:52 node1 send heartbeat to node6
+2024/06/18 18:45:52 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:52 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:52 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:52 node1 send heartbeat to node0
+2024/06/18 18:45:52 node1 send heartbeat to node2
+2024/06/18 18:45:52 node1 send heartbeat to node3
+2024/06/18 18:45:52 node1 send heartbeat to node4
+2024/06/18 18:45:52 node1 send heartbeat to node5
+2024/06/18 18:45:52 node1 send heartbeat to node6
+2024/06/18 18:45:52 2024-06-18 18:45:52.657169097 +0800 CST m=+8.686169182 serverId:6 start ElectProcess
+2024/06/18 18:45:52 nodeId:6 role:1 currentTerm:3 votedFor:6 getVote:1
+2024/06/18 18:45:52 node6 send vote request to node5
+2024/06/18 18:45:52 node6 send vote request to node2
+2024/06/18 18:45:52 node6 send vote request to node3
+2024/06/18 18:45:52 node6 send vote request to node0
+2024/06/18 18:45:52 node6 send vote request to node4
+2024/06/18 18:45:52 node5 change to follower
+2024/06/18 18:45:52 nodeId:5 role:0 currentTerm:3 votedFor:-1 getVote:1
+2024/06/18 18:45:52 node6 send vote request to node1
+2024/06/18 18:45:52 nodeId:5 role:0 currentTerm:3 votedFor:-1 getVote:1
+2024/06/18 18:45:52 vote success:node5 vote to node6
+2024/06/18 18:45:52 nodeId:5 role:0 currentTerm:3 votedFor:6 getVote:1
+2024/06/18 18:45:52 Fail:Node3's term is same with Node6's term
+2024/06/18 18:45:52 nodeId:4 role:1 currentTerm:3 votedFor:4 getVote:1
+2024/06/18 18:45:52 node2 change to follower
+2024/06/18 18:45:52 nodeId:2 role:0 currentTerm:3 votedFor:-1 getVote:1
+2024/06/18 18:45:52 nodeId:2 role:0 currentTerm:3 votedFor:-1 getVote:1
+2024/06/18 18:45:52 vote success:node2 vote to node6
+2024/06/18 18:45:52 nodeId:2 role:0 currentTerm:3 votedFor:6 getVote:1
+2024/06/18 18:45:52 node1 send heartbeat to node0
+2024/06/18 18:45:52 node1 send heartbeat to node2
+2024/06/18 18:45:52 node1 send heartbeat to node3
+2024/06/18 18:45:52 node1 send heartbeat to node4
+2024/06/18 18:45:52 node1 send heartbeat to node5
+2024/06/18 18:45:52 node1 send heartbeat to node6
+2024/06/18 18:45:52 2024-06-18 18:45:52.792108899 +0800 CST m=+8.821108964 serverId:4 start ElectProcess
+2024/06/18 18:45:52 nodeId:4 role:1 currentTerm:4 votedFor:4 getVote:1
+2024/06/18 18:45:52 node4 send vote request to node6
+2024/06/18 18:45:52 node4 send vote request to node2
+2024/06/18 18:45:52 node4 send vote request to node3
+2024/06/18 18:45:52 node4 send vote request to node5
+2024/06/18 18:45:52 node4 send vote request to node1
+2024/06/18 18:45:52 node2 change to follower
+2024/06/18 18:45:52 nodeId:2 role:0 currentTerm:4 votedFor:-1 getVote:1
+2024/06/18 18:45:52 nodeId:2 role:0 currentTerm:4 votedFor:-1 getVote:1
+2024/06/18 18:45:52 vote success:node2 vote to node4
+2024/06/18 18:45:52 nodeId:2 role:0 currentTerm:4 votedFor:4 getVote:1
+2024/06/18 18:45:52 node6 change to follower
+2024/06/18 18:45:52 nodeId:6 role:0 currentTerm:4 votedFor:-1 getVote:3
+2024/06/18 18:45:52 nodeId:6 role:0 currentTerm:4 votedFor:-1 getVote:3
+2024/06/18 18:45:52 vote success:node6 vote to node4
+2024/06/18 18:45:52 nodeId:6 role:0 currentTerm:4 votedFor:4 getVote:3
+2024/06/18 18:45:52 node5 change to follower
+2024/06/18 18:45:52 node4 send vote request to node0
+2024/06/18 18:45:52 nodeId:5 role:0 currentTerm:4 votedFor:-1 getVote:1
+2024/06/18 18:45:52 nodeId:5 role:0 currentTerm:4 votedFor:-1 getVote:1
+2024/06/18 18:45:52 vote success:node5 vote to node4
+2024/06/18 18:45:52 nodeId:5 role:0 currentTerm:4 votedFor:4 getVote:1
+2024/06/18 18:45:52 Node4 become leader
+2024/06/18 18:45:52 nodeId:4 role:2 currentTerm:4 votedFor:4 getVote:4
+2024/06/18 18:45:52 node4 send heartbeat to node0
+2024/06/18 18:45:52 node4 send heartbeat to node1
+2024/06/18 18:45:52 node4 send heartbeat to node2
+2024/06/18 18:45:52 node4 send heartbeat to node3
+2024/06/18 18:45:52 node4 send heartbeat to node5
+2024/06/18 18:45:52 node4 send heartbeat to node6
+2024/06/18 18:45:52 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:52 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:52 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:52 2024-06-18 18:45:52.838205988 +0800 CST m=+8.867206083 serverId:3 start ElectProcess
+2024/06/18 18:45:52 nodeId:3 role:1 currentTerm:3 votedFor:3 getVote:1
+2024/06/18 18:45:52 node3 send vote request to node6
+2024/06/18 18:45:52 node3 send vote request to node2
+2024/06/18 18:45:52 node3 send vote request to node4
+2024/06/18 18:45:52 node3 send vote request to node0
+2024/06/18 18:45:52 node3 send vote request to node1
+2024/06/18 18:45:52 node3 send vote request to node5
+2024/06/18 18:45:52 node1 send heartbeat to node0
+2024/06/18 18:45:52 node1 send heartbeat to node2
+2024/06/18 18:45:52 node1 send heartbeat to node3
+2024/06/18 18:45:52 node1 send heartbeat to node4
+2024/06/18 18:45:52 node1 send heartbeat to node5
+2024/06/18 18:45:52 node1 send heartbeat to node6
+2024/06/18 18:45:52 node4 send heartbeat to node0
+2024/06/18 18:45:52 node4 send heartbeat to node1
+2024/06/18 18:45:52 node4 send heartbeat to node2
+2024/06/18 18:45:52 node4 send heartbeat to node3
+2024/06/18 18:45:52 node4 send heartbeat to node5
+2024/06/18 18:45:52 node4 send heartbeat to node6
+2024/06/18 18:45:52 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:52 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:52 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:52 node1 send heartbeat to node0
+2024/06/18 18:45:52 node1 send heartbeat to node2
+2024/06/18 18:45:52 node1 send heartbeat to node3
+2024/06/18 18:45:52 node1 send heartbeat to node4
+2024/06/18 18:45:52 node1 send heartbeat to node5
+2024/06/18 18:45:52 node1 send heartbeat to node6
+2024/06/18 18:45:52 node4 send heartbeat to node0
+2024/06/18 18:45:52 node4 send heartbeat to node1
+2024/06/18 18:45:52 node4 send heartbeat to node2
+2024/06/18 18:45:52 node4 send heartbeat to node3
+2024/06/18 18:45:52 node4 send heartbeat to node5
+2024/06/18 18:45:52 node4 send heartbeat to node6
+2024/06/18 18:45:52 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:52 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:52 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:53 node1 send heartbeat to node0
+2024/06/18 18:45:53 node1 send heartbeat to node2
+2024/06/18 18:45:53 node1 send heartbeat to node3
+2024/06/18 18:45:53 node1 send heartbeat to node4
+2024/06/18 18:45:53 node1 send heartbeat to node5
+2024/06/18 18:45:53 node1 send heartbeat to node6
+2024/06/18 18:45:53 2024-06-18 18:45:53.060811277 +0800 CST m=+9.089811342 serverId:0 start ElectProcess
+2024/06/18 18:45:53 nodeId:0 role:1 currentTerm:4 votedFor:0 getVote:1
+2024/06/18 18:45:53 node0 send vote request to node6
+2024/06/18 18:45:53 node0 send vote request to node3
+2024/06/18 18:45:53 node0 send vote request to node4
+2024/06/18 18:45:53 node0 send vote request to node1
+2024/06/18 18:45:53 Fail:Node4's term is same with Node0's term
+2024/06/18 18:45:53 node0 send vote request to node2
+2024/06/18 18:45:53 node0 send vote request to node5
+2024/06/18 18:45:53 vote success:node1 vote to node0
+2024/06/18 18:45:53 nodeId:1 role:0 currentTerm:4 votedFor:0 getVote:4
+2024/06/18 18:45:53 Fail:Node4's term is same with Node0's term
+2024/06/18 18:45:53 nodeId:2 role:0 currentTerm:4 votedFor:4 getVote:1
+2024/06/18 18:45:53 nodeId:6 role:0 currentTerm:4 votedFor:4 getVote:3
+2024/06/18 18:45:53 node3 change to follower
+2024/06/18 18:45:53 nodeId:3 role:0 currentTerm:4 votedFor:-1 getVote:1
+2024/06/18 18:45:53 nodeId:3 role:0 currentTerm:4 votedFor:-1 getVote:1
+2024/06/18 18:45:53 vote success:node3 vote to node0
+2024/06/18 18:45:53 nodeId:3 role:0 currentTerm:4 votedFor:0 getVote:1
+2024/06/18 18:45:53 node4 send heartbeat to node0
+2024/06/18 18:45:53 node4 send heartbeat to node1
+2024/06/18 18:45:53 node4 send heartbeat to node2
+2024/06/18 18:45:53 node4 send heartbeat to node3
+2024/06/18 18:45:53 node4 send heartbeat to node5
+2024/06/18 18:45:53 node4 send heartbeat to node6
+2024/06/18 18:45:53 node4 send heartbeat to node0
+2024/06/18 18:45:53 node4 send heartbeat to node1
+2024/06/18 18:45:53 node4 send heartbeat to node2
+2024/06/18 18:45:53 node4 send heartbeat to node3
+2024/06/18 18:45:53 node4 send heartbeat to node5
+2024/06/18 18:45:53 node4 send heartbeat to node6
+2024/06/18 18:45:53 2024-06-18 18:45:53.204063675 +0800 CST m=+9.233063740 serverId:6 start ElectProcess
+2024/06/18 18:45:53 nodeId:6 role:1 currentTerm:5 votedFor:6 getVote:1
+2024/06/18 18:45:53 node6 send vote request to node5
+2024/06/18 18:45:53 node6 send vote request to node3
+2024/06/18 18:45:53 node6 send vote request to node2
+2024/06/18 18:45:53 node6 send vote request to node4
+2024/06/18 18:45:53 node6 send vote request to node0
+2024/06/18 18:45:53 node6 send vote request to node1
+2024/06/18 18:45:53 node3 change to follower
+2024/06/18 18:45:53 nodeId:3 role:0 currentTerm:5 votedFor:-1 getVote:1
+2024/06/18 18:45:53 nodeId:3 role:0 currentTerm:5 votedFor:-1 getVote:1
+2024/06/18 18:45:53 vote success:node3 vote to node6
+2024/06/18 18:45:53 nodeId:3 role:0 currentTerm:5 votedFor:6 getVote:1
+2024/06/18 18:45:53 node1 change to follower
+2024/06/18 18:45:53 nodeId:1 role:0 currentTerm:5 votedFor:-1 getVote:4
+2024/06/18 18:45:53 nodeId:1 role:0 currentTerm:5 votedFor:-1 getVote:4
+2024/06/18 18:45:53 vote success:node1 vote to node6
+2024/06/18 18:45:53 node2 change to follower
+2024/06/18 18:45:53 nodeId:2 role:0 currentTerm:5 votedFor:-1 getVote:1
+2024/06/18 18:45:53 nodeId:2 role:0 currentTerm:5 votedFor:-1 getVote:1
+2024/06/18 18:45:53 vote success:node2 vote to node6
+2024/06/18 18:45:53 nodeId:2 role:0 currentTerm:5 votedFor:6 getVote:1
+2024/06/18 18:45:53 nodeId:1 role:0 currentTerm:5 votedFor:6 getVote:4
+2024/06/18 18:45:53 Node6 become leader
+2024/06/18 18:45:53 nodeId:6 role:2 currentTerm:5 votedFor:6 getVote:4
+2024/06/18 18:45:53 node0 change to follower
+2024/06/18 18:45:53 nodeId:0 role:0 currentTerm:5 votedFor:-1 getVote:3
+2024/06/18 18:45:53 nodeId:0 role:0 currentTerm:5 votedFor:-1 getVote:3
+2024/06/18 18:45:53 vote success:node0 vote to node6
+2024/06/18 18:45:53 nodeId:0 role:0 currentTerm:5 votedFor:6 getVote:3
+2024/06/18 18:45:53 node6 send heartbeat to node0
+2024/06/18 18:45:53 node6 send heartbeat to node1
+2024/06/18 18:45:53 node6 send heartbeat to node2
+2024/06/18 18:45:53 node6 send heartbeat to node3
+2024/06/18 18:45:53 node6 send heartbeat to node4
+2024/06/18 18:45:53 node6 send heartbeat to node5
+2024/06/18 18:45:53 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:53 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:53 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:53 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:53 node4 send heartbeat to node0
+2024/06/18 18:45:53 node4 send heartbeat to node1
+2024/06/18 18:45:53 node4 send heartbeat to node2
+2024/06/18 18:45:53 node4 send heartbeat to node3
+2024/06/18 18:45:53 node4 send heartbeat to node5
+2024/06/18 18:45:53 node4 send heartbeat to node6
+2024/06/18 18:45:53 node6 send heartbeat to node0
+2024/06/18 18:45:53 node6 send heartbeat to node1
+2024/06/18 18:45:53 node6 send heartbeat to node2
+2024/06/18 18:45:53 node6 send heartbeat to node3
+2024/06/18 18:45:53 node6 send heartbeat to node4
+2024/06/18 18:45:53 node6 send heartbeat to node5
+2024/06/18 18:45:53 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:53 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:53 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:53 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:53 node4 send heartbeat to node0
+2024/06/18 18:45:53 node4 send heartbeat to node1
+2024/06/18 18:45:53 node4 send heartbeat to node2
+2024/06/18 18:45:53 node4 send heartbeat to node3
+2024/06/18 18:45:53 node4 send heartbeat to node5
+2024/06/18 18:45:53 node4 send heartbeat to node6
+2024/06/18 18:45:53 node6 send heartbeat to node0
+2024/06/18 18:45:53 node6 send heartbeat to node1
+2024/06/18 18:45:53 node6 send heartbeat to node2
+2024/06/18 18:45:53 node6 send heartbeat to node3
+2024/06/18 18:45:53 node6 send heartbeat to node4
+2024/06/18 18:45:53 node6 send heartbeat to node5
+2024/06/18 18:45:53 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:53 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:53 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:53 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:53 node4 send heartbeat to node0
+2024/06/18 18:45:53 node4 send heartbeat to node1
+2024/06/18 18:45:53 node4 send heartbeat to node2
+2024/06/18 18:45:53 node4 send heartbeat to node3
+2024/06/18 18:45:53 node4 send heartbeat to node5
+2024/06/18 18:45:53 node4 send heartbeat to node6
+2024/06/18 18:45:53 node6 send heartbeat to node0
+2024/06/18 18:45:53 node6 send heartbeat to node1
+2024/06/18 18:45:53 node6 send heartbeat to node2
+2024/06/18 18:45:53 node6 send heartbeat to node3
+2024/06/18 18:45:53 node6 send heartbeat to node4
+2024/06/18 18:45:53 node6 send heartbeat to node5
+2024/06/18 18:45:53 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:53 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:53 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:53 2024-06-18 18:45:53.583315739 +0800 CST m=+9.612315834 serverId:5 start ElectProcess
+2024/06/18 18:45:53 nodeId:5 role:1 currentTerm:5 votedFor:5 getVote:1
+2024/06/18 18:45:53 node5 send vote request to node6
+2024/06/18 18:45:53 node5 send vote request to node2
+2024/06/18 18:45:53 node5 send vote request to node3
+2024/06/18 18:45:53 node5 send vote request to node0
+2024/06/18 18:45:53 node5 send vote request to node1
+2024/06/18 18:45:53 node5 send vote request to node4
+2024/06/18 18:45:53 node6 send heartbeat to node0
+2024/06/18 18:45:53 node6 send heartbeat to node1
+2024/06/18 18:45:53 node6 send heartbeat to node2
+2024/06/18 18:45:53 node6 send heartbeat to node3
+2024/06/18 18:45:53 node6 send heartbeat to node4
+2024/06/18 18:45:53 node6 send heartbeat to node5
+2024/06/18 18:45:53 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:53 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:53 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:53 node6 send heartbeat to node0
+2024/06/18 18:45:53 node6 send heartbeat to node1
+2024/06/18 18:45:53 node6 send heartbeat to node2
+2024/06/18 18:45:53 node6 send heartbeat to node3
+2024/06/18 18:45:53 node6 send heartbeat to node4
+2024/06/18 18:45:53 node6 send heartbeat to node5
+2024/06/18 18:45:53 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:53 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:53 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:53 2024-06-18 18:45:53.747674006 +0800 CST m=+9.776674071 serverId:2 start ElectProcess
+2024/06/18 18:45:53 nodeId:2 role:1 currentTerm:6 votedFor:2 getVote:1
+2024/06/18 18:45:53 node2 send vote request to node6
+2024/06/18 18:45:53 node2 send vote request to node3
+2024/06/18 18:45:53 node2 send vote request to node4
+2024/06/18 18:45:53 node2 send vote request to node0
+2024/06/18 18:45:53 node2 send vote request to node1
+2024/06/18 18:45:53 node2 send vote request to node5
+2024/06/18 18:45:53 node6 send heartbeat to node0
+2024/06/18 18:45:53 node6 send heartbeat to node1
+2024/06/18 18:45:53 node6 send heartbeat to node2
+2024/06/18 18:45:53 node6 send heartbeat to node3
+2024/06/18 18:45:53 node6 send heartbeat to node4
+2024/06/18 18:45:53 node6 send heartbeat to node5
+2024/06/18 18:45:53 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:53 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:53 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:53 2024-06-18 18:45:53.842830869 +0800 CST m=+9.871830934 serverId:0 start ElectProcess
+2024/06/18 18:45:53 nodeId:0 role:1 currentTerm:6 votedFor:0 getVote:1
+2024/06/18 18:45:53 node0 send vote request to node6
+2024/06/18 18:45:53 node0 send vote request to node3
+2024/06/18 18:45:53 node0 send vote request to node4
+2024/06/18 18:45:53 node0 send vote request to node2
+2024/06/18 18:45:53 node0 send vote request to node5
+2024/06/18 18:45:53 node0 send vote request to node1
+2024/06/18 18:45:53 node6 send heartbeat to node0
+2024/06/18 18:45:53 node6 send heartbeat to node1
+2024/06/18 18:45:53 node6 send heartbeat to node2
+2024/06/18 18:45:53 node6 send heartbeat to node3
+2024/06/18 18:45:53 node6 send heartbeat to node4
+2024/06/18 18:45:53 node6 send heartbeat to node5
+2024/06/18 18:45:53 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:53 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:53 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:53 2024-06-18 18:45:53.953462122 +0800 CST m=+9.982462187 serverId:5 start ElectProcess
+2024/06/18 18:45:53 nodeId:5 role:1 currentTerm:6 votedFor:5 getVote:1
+2024/06/18 18:45:53 node5 send vote request to node6
+2024/06/18 18:45:53 node5 send vote request to node2
+2024/06/18 18:45:53 node5 send vote request to node3
+2024/06/18 18:45:53 node5 send vote request to node0
+2024/06/18 18:45:53 node5 send vote request to node4
+2024/06/18 18:45:53 node5 send vote request to node1
+2024/06/18 18:45:54 node6 send heartbeat to node0
+2024/06/18 18:45:54 node6 send heartbeat to node1
+2024/06/18 18:45:54 node6 send heartbeat to node2
+2024/06/18 18:45:54 node6 send heartbeat to node3
+2024/06/18 18:45:54 node6 send heartbeat to node4
+2024/06/18 18:45:54 node6 send heartbeat to node5
+2024/06/18 18:45:54 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:54 2024-06-18 18:45:54.203483032 +0800 CST m=+10.232483127 serverId:3 start ElectProcess
+2024/06/18 18:45:54 nodeId:3 role:1 currentTerm:6 votedFor:3 getVote:1
+2024/06/18 18:45:54 node3 send vote request to node6
+2024/06/18 18:45:54 node3 send vote request to node2
+2024/06/18 18:45:54 node3 send vote request to node5
+2024/06/18 18:45:54 node3 send vote request to node0
+2024/06/18 18:45:54 node3 send vote request to node1
+2024/06/18 18:45:54 node3 send vote request to node4
+2024/06/18 18:45:54 2024-06-18 18:45:54.229361078 +0800 CST m=+10.258361143 serverId:0 start ElectProcess
+2024/06/18 18:45:54 nodeId:0 role:1 currentTerm:7 votedFor:0 getVote:1
+2024/06/18 18:45:54 node0 send vote request to node6
+2024/06/18 18:45:54 node0 send vote request to node3
+2024/06/18 18:45:54 node0 send vote request to node4
+2024/06/18 18:45:54 node0 send vote request to node1
+2024/06/18 18:45:54 node0 send vote request to node2
+2024/06/18 18:45:54 node0 send vote request to node5
+2024/06/18 18:45:54 2024-06-18 18:45:54.289578407 +0800 CST m=+10.318578462 serverId:1 start ElectProcess
+2024/06/18 18:45:54 nodeId:1 role:1 currentTerm:6 votedFor:1 getVote:1
+2024/06/18 18:45:54 node1 send vote request to node6
+2024/06/18 18:45:54 node1 send vote request to node0
+2024/06/18 18:45:54 node1 send vote request to node2
+2024/06/18 18:45:54 node1 send vote request to node3
+2024/06/18 18:45:54 node1 send vote request to node5
+2024/06/18 18:45:54 node1 send vote request to node4
+2024/06/18 18:45:54 2024-06-18 18:45:54.298568968 +0800 CST m=+10.327569053 serverId:6 start ElectProcess
+2024/06/18 18:45:54 nodeId:6 role:1 currentTerm:7 votedFor:6 getVote:1
+2024/06/18 18:45:54 node6 send vote request to node5
+2024/06/18 18:45:54 node5 change to follower
+2024/06/18 18:45:54 node6 send vote request to node2
+2024/06/18 18:45:54 node6 send vote request to node4
+2024/06/18 18:45:54 nodeId:5 role:0 currentTerm:7 votedFor:-1 getVote:1
+2024/06/18 18:45:54 nodeId:5 role:0 currentTerm:7 votedFor:-1 getVote:1
+2024/06/18 18:45:54 vote success:node5 vote to node6
+2024/06/18 18:45:54 nodeId:5 role:0 currentTerm:7 votedFor:6 getVote:1
+2024/06/18 18:45:54 node2 change to follower
+2024/06/18 18:45:54 nodeId:2 role:0 currentTerm:7 votedFor:-1 getVote:1
+2024/06/18 18:45:54 nodeId:2 role:0 currentTerm:7 votedFor:-1 getVote:1
+2024/06/18 18:45:54 vote success:node2 vote to node6
+2024/06/18 18:45:54 nodeId:2 role:0 currentTerm:7 votedFor:6 getVote:1
+2024/06/18 18:45:54 node6 send vote request to node0
+2024/06/18 18:45:54 node6 send vote request to node1
+2024/06/18 18:45:54 node6 send vote request to node3
+2024/06/18 18:45:54 node4 change to follower
+2024/06/18 18:45:54 nodeId:4 role:0 currentTerm:7 votedFor:-1 getVote:4
+2024/06/18 18:45:54 nodeId:4 role:0 currentTerm:7 votedFor:-1 getVote:4
+2024/06/18 18:45:54 vote success:node4 vote to node6
+2024/06/18 18:45:54 nodeId:4 role:0 currentTerm:7 votedFor:6 getVote:4
+2024/06/18 18:45:54 Node6 become leader
+2024/06/18 18:45:54 nodeId:6 role:2 currentTerm:7 votedFor:6 getVote:4
+2024/06/18 18:45:54 node6 send heartbeat to node0
+2024/06/18 18:45:54 node6 send heartbeat to node1
+2024/06/18 18:45:54 node6 send heartbeat to node2
+2024/06/18 18:45:54 node6 send heartbeat to node3
+2024/06/18 18:45:54 node6 send heartbeat to node4
+2024/06/18 18:45:54 node6 send heartbeat to node5
+2024/06/18 18:45:54 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:54 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:54 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:54 node6 send heartbeat to node0
+2024/06/18 18:45:54 node6 send heartbeat to node1
+2024/06/18 18:45:54 node6 send heartbeat to node2
+2024/06/18 18:45:54 node6 send heartbeat to node3
+2024/06/18 18:45:54 node6 send heartbeat to node4
+2024/06/18 18:45:54 node6 send heartbeat to node5
+2024/06/18 18:45:54 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:54 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:54 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:54 node6 send heartbeat to node0
+2024/06/18 18:45:54 node6 send heartbeat to node1
+2024/06/18 18:45:54 node6 send heartbeat to node2
+2024/06/18 18:45:54 node6 send heartbeat to node3
+2024/06/18 18:45:54 node6 send heartbeat to node4
+2024/06/18 18:45:54 node6 send heartbeat to node5
+2024/06/18 18:45:54 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:54 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:54 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:54 node6 send heartbeat to node0
+2024/06/18 18:45:54 node6 send heartbeat to node1
+2024/06/18 18:45:54 node6 send heartbeat to node2
+2024/06/18 18:45:54 node6 send heartbeat to node3
+2024/06/18 18:45:54 node6 send heartbeat to node4
+2024/06/18 18:45:54 node6 send heartbeat to node5
+2024/06/18 18:45:54 2024-06-18 18:45:54.645837278 +0800 CST m=+10.674837343 serverId:1 start ElectProcess
+2024/06/18 18:45:54 nodeId:1 role:1 currentTerm:7 votedFor:1 getVote:1
+2024/06/18 18:45:54 node1 send vote request to node6
+2024/06/18 18:45:54 node1 send vote request to node3
+2024/06/18 18:45:54 node1 send vote request to node4
+2024/06/18 18:45:54 node1 send vote request to node0
+2024/06/18 18:45:54 node1 send vote request to node2
+2024/06/18 18:45:54 Fail:Node7's term is same with Node1's term
+2024/06/18 18:45:54 nodeId:4 role:0 currentTerm:7 votedFor:6 getVote:4
+2024/06/18 18:45:54 node3 change to follower
+2024/06/18 18:45:54 nodeId:3 role:0 currentTerm:7 votedFor:-1 getVote:1
+2024/06/18 18:45:54 nodeId:3 role:0 currentTerm:7 votedFor:-1 getVote:1
+2024/06/18 18:45:54 vote success:node3 vote to node1
+2024/06/18 18:45:54 nodeId:3 role:0 currentTerm:7 votedFor:1 getVote:1
+2024/06/18 18:45:54 Fail:Node7's term is same with Node1's term
+2024/06/18 18:45:54 nodeId:2 role:0 currentTerm:7 votedFor:6 getVote:1
+2024/06/18 18:45:54 node1 send vote request to node5
+2024/06/18 18:45:54 node6 send heartbeat to node0
+2024/06/18 18:45:54 node6 send heartbeat to node1
+2024/06/18 18:45:54 node6 send heartbeat to node2
+2024/06/18 18:45:54 node6 send heartbeat to node3
+2024/06/18 18:45:54 node6 send heartbeat to node4
+2024/06/18 18:45:54 node6 send heartbeat to node5
+2024/06/18 18:45:54 2024-06-18 18:45:54.76997631 +0800 CST m=+10.798976375 serverId:2 start ElectProcess
+2024/06/18 18:45:54 nodeId:2 role:1 currentTerm:8 votedFor:2 getVote:1
+2024/06/18 18:45:54 node2 send vote request to node6
+2024/06/18 18:45:54 node2 send vote request to node3
+2024/06/18 18:45:54 node2 send vote request to node0
+2024/06/18 18:45:54 node2 send vote request to node4
+2024/06/18 18:45:54 node2 send vote request to node1
+2024/06/18 18:45:54 node2 send vote request to node5
+2024/06/18 18:45:54 node3 change to follower
+2024/06/18 18:45:54 nodeId:3 role:0 currentTerm:8 votedFor:-1 getVote:1
+2024/06/18 18:45:54 nodeId:3 role:0 currentTerm:8 votedFor:-1 getVote:1
+2024/06/18 18:45:54 vote success:node3 vote to node2
+2024/06/18 18:45:54 node1 change to follower
+2024/06/18 18:45:54 nodeId:1 role:0 currentTerm:8 votedFor:-1 getVote:2
+2024/06/18 18:45:54 nodeId:1 role:0 currentTerm:8 votedFor:-1 getVote:2
+2024/06/18 18:45:54 vote success:node1 vote to node2
+2024/06/18 18:45:54 nodeId:1 role:0 currentTerm:8 votedFor:2 getVote:2
+2024/06/18 18:45:54 nodeId:3 role:0 currentTerm:8 votedFor:2 getVote:1
+2024/06/18 18:45:54 node4 change to follower
+2024/06/18 18:45:54 nodeId:4 role:0 currentTerm:8 votedFor:-1 getVote:4
+2024/06/18 18:45:54 nodeId:4 role:0 currentTerm:8 votedFor:-1 getVote:4
+2024/06/18 18:45:54 vote success:node4 vote to node2
+2024/06/18 18:45:54 nodeId:4 role:0 currentTerm:8 votedFor:2 getVote:4
+2024/06/18 18:45:54 Node2 become leader
+2024/06/18 18:45:54 nodeId:2 role:2 currentTerm:8 votedFor:2 getVote:4
+2024/06/18 18:45:54 node2 send heartbeat to node0
+2024/06/18 18:45:54 node2 send heartbeat to node1
+2024/06/18 18:45:54 node2 send heartbeat to node3
+2024/06/18 18:45:54 node2 send heartbeat to node4
+2024/06/18 18:45:54 node2 send heartbeat to node5
+2024/06/18 18:45:54 node2 send heartbeat to node6
+2024/06/18 18:45:54 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:54 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:54 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:54 node6 send heartbeat to node0
+2024/06/18 18:45:54 node6 send heartbeat to node1
+2024/06/18 18:45:54 node6 send heartbeat to node2
+2024/06/18 18:45:54 node6 send heartbeat to node3
+2024/06/18 18:45:54 node6 send heartbeat to node4
+2024/06/18 18:45:54 node6 send heartbeat to node5
+2024/06/18 18:45:54 node2 send heartbeat to node0
+2024/06/18 18:45:54 node2 send heartbeat to node1
+2024/06/18 18:45:54 node2 send heartbeat to node3
+2024/06/18 18:45:54 node2 send heartbeat to node4
+2024/06/18 18:45:54 node2 send heartbeat to node5
+2024/06/18 18:45:54 node2 send heartbeat to node6
+2024/06/18 18:45:54 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:54 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:54 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:54 node6 send heartbeat to node0
+2024/06/18 18:45:54 node6 send heartbeat to node1
+2024/06/18 18:45:54 node6 send heartbeat to node2
+2024/06/18 18:45:54 node6 send heartbeat to node3
+2024/06/18 18:45:54 node6 send heartbeat to node4
+2024/06/18 18:45:54 node6 send heartbeat to node5
+2024/06/18 18:45:54 2024-06-18 18:45:54.936095449 +0800 CST m=+10.965095514 serverId:5 start ElectProcess
+2024/06/18 18:45:54 nodeId:5 role:1 currentTerm:8 votedFor:5 getVote:1
+2024/06/18 18:45:54 node5 send vote request to node6
+2024/06/18 18:45:54 node5 send vote request to node2
+2024/06/18 18:45:54 node5 send vote request to node3
+2024/06/18 18:45:54 node5 send vote request to node1
+2024/06/18 18:45:54 node5 send vote request to node0
+2024/06/18 18:45:54 node5 send vote request to node4
+2024/06/18 18:45:54 node2 send heartbeat to node0
+2024/06/18 18:45:54 node2 send heartbeat to node1
+2024/06/18 18:45:54 node2 send heartbeat to node3
+2024/06/18 18:45:54 node2 send heartbeat to node4
+2024/06/18 18:45:54 node2 send heartbeat to node5
+2024/06/18 18:45:54 node2 send heartbeat to node6
+2024/06/18 18:45:54 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:54 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:54 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:55 2024-06-18 18:45:55.01404927 +0800 CST m=+11.043049335 serverId:0 start ElectProcess
+2024/06/18 18:45:55 nodeId:0 role:1 currentTerm:8 votedFor:0 getVote:1
+2024/06/18 18:45:55 node0 send vote request to node6
+2024/06/18 18:45:55 node0 send vote request to node3
+2024/06/18 18:45:55 node0 send vote request to node4
+2024/06/18 18:45:55 node0 send vote request to node2
+2024/06/18 18:45:55 node0 send vote request to node1
+2024/06/18 18:45:55 node0 send vote request to node5
+2024/06/18 18:45:55 node6 send heartbeat to node0
+2024/06/18 18:45:55 node6 send heartbeat to node1
+2024/06/18 18:45:55 node6 send heartbeat to node2
+2024/06/18 18:45:55 node6 send heartbeat to node3
+2024/06/18 18:45:55 node6 send heartbeat to node4
+2024/06/18 18:45:55 node6 send heartbeat to node5
+2024/06/18 18:45:55 node2 send heartbeat to node0
+2024/06/18 18:45:55 node2 send heartbeat to node1
+2024/06/18 18:45:55 node2 send heartbeat to node3
+2024/06/18 18:45:55 node2 send heartbeat to node4
+2024/06/18 18:45:55 node2 send heartbeat to node5
+2024/06/18 18:45:55 node2 send heartbeat to node6
+2024/06/18 18:45:55 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:55 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:55 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:55 node6 send heartbeat to node0
+2024/06/18 18:45:55 node6 send heartbeat to node1
+2024/06/18 18:45:55 node6 send heartbeat to node2
+2024/06/18 18:45:55 node6 send heartbeat to node3
+2024/06/18 18:45:55 node6 send heartbeat to node4
+2024/06/18 18:45:55 node6 send heartbeat to node5
+2024/06/18 18:45:55 node2 send heartbeat to node0
+2024/06/18 18:45:55 node2 send heartbeat to node1
+2024/06/18 18:45:55 node2 send heartbeat to node3
+2024/06/18 18:45:55 node2 send heartbeat to node4
+2024/06/18 18:45:55 node2 send heartbeat to node5
+2024/06/18 18:45:55 node2 send heartbeat to node6
+2024/06/18 18:45:55 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:55 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:55 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:55 node6 send heartbeat to node0
+2024/06/18 18:45:55 node6 send heartbeat to node1
+2024/06/18 18:45:55 node6 send heartbeat to node2
+2024/06/18 18:45:55 node6 send heartbeat to node3
+2024/06/18 18:45:55 node6 send heartbeat to node4
+2024/06/18 18:45:55 node6 send heartbeat to node5
+2024/06/18 18:45:55 node2 send heartbeat to node0
+2024/06/18 18:45:55 node2 send heartbeat to node1
+2024/06/18 18:45:55 node2 send heartbeat to node3
+2024/06/18 18:45:55 node2 send heartbeat to node4
+2024/06/18 18:45:55 node2 send heartbeat to node5
+2024/06/18 18:45:55 node2 send heartbeat to node6
+2024/06/18 18:45:55 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:55 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:55 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:55 node6 send heartbeat to node0
+2024/06/18 18:45:55 node6 send heartbeat to node1
+2024/06/18 18:45:55 node6 send heartbeat to node2
+2024/06/18 18:45:55 node6 send heartbeat to node3
+2024/06/18 18:45:55 node6 send heartbeat to node4
+2024/06/18 18:45:55 node6 send heartbeat to node5
+2024/06/18 18:45:55 2024-06-18 18:45:55.358484213 +0800 CST m=+11.387484278 serverId:0 start ElectProcess
+2024/06/18 18:45:55 nodeId:0 role:1 currentTerm:9 votedFor:0 getVote:1
+2024/06/18 18:45:55 node0 send vote request to node6
+2024/06/18 18:45:55 node0 send vote request to node3
+2024/06/18 18:45:55 node0 send vote request to node1
+2024/06/18 18:45:55 node0 send vote request to node2
+2024/06/18 18:45:55 node0 send vote request to node4
+2024/06/18 18:45:55 node0 send vote request to node5
+2024/06/18 18:45:55 node2 send heartbeat to node0
+2024/06/18 18:45:55 node2 send heartbeat to node1
+2024/06/18 18:45:55 node2 send heartbeat to node3
+2024/06/18 18:45:55 node2 send heartbeat to node4
+2024/06/18 18:45:55 node2 send heartbeat to node5
+2024/06/18 18:45:55 node2 send heartbeat to node6
+2024/06/18 18:45:55 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:55 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:55 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:55 node6 send heartbeat to node0
+2024/06/18 18:45:55 node6 send heartbeat to node1
+2024/06/18 18:45:55 node6 send heartbeat to node2
+2024/06/18 18:45:55 node6 send heartbeat to node3
+2024/06/18 18:45:55 node6 send heartbeat to node4
+2024/06/18 18:45:55 node6 send heartbeat to node5
+2024/06/18 18:45:55 node2 send heartbeat to node0
+2024/06/18 18:45:55 node2 send heartbeat to node1
+2024/06/18 18:45:55 node2 send heartbeat to node3
+2024/06/18 18:45:55 node2 send heartbeat to node4
+2024/06/18 18:45:55 node2 send heartbeat to node5
+2024/06/18 18:45:55 node2 send heartbeat to node6
+2024/06/18 18:45:55 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:55 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:55 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:55 node6 send heartbeat to node0
+2024/06/18 18:45:55 node6 send heartbeat to node1
+2024/06/18 18:45:55 node6 send heartbeat to node2
+2024/06/18 18:45:55 node6 send heartbeat to node3
+2024/06/18 18:45:55 node6 send heartbeat to node4
+2024/06/18 18:45:55 node6 send heartbeat to node5
+2024/06/18 18:45:55 2024-06-18 18:45:55.54254624 +0800 CST m=+11.571546305 serverId:1 start ElectProcess
+2024/06/18 18:45:55 nodeId:1 role:1 currentTerm:9 votedFor:1 getVote:1
+2024/06/18 18:45:55 node1 send vote request to node6
+2024/06/18 18:45:55 node1 send vote request to node4
+2024/06/18 18:45:55 node1 send vote request to node5
+2024/06/18 18:45:55 node1 send vote request to node0
+2024/06/18 18:45:55 node1 send vote request to node2
+2024/06/18 18:45:55 node1 send vote request to node3
+2024/06/18 18:45:55 node2 send heartbeat to node0
+2024/06/18 18:45:55 node2 send heartbeat to node1
+2024/06/18 18:45:55 node2 send heartbeat to node3
+2024/06/18 18:45:55 node2 send heartbeat to node4
+2024/06/18 18:45:55 node2 send heartbeat to node5
+2024/06/18 18:45:55 node2 send heartbeat to node6
+2024/06/18 18:45:55 node6 send heartbeat to node0
+2024/06/18 18:45:55 node6 send heartbeat to node1
+2024/06/18 18:45:55 node6 send heartbeat to node2
+2024/06/18 18:45:55 node6 send heartbeat to node3
+2024/06/18 18:45:55 node6 send heartbeat to node4
+2024/06/18 18:45:55 node6 send heartbeat to node5
+2024/06/18 18:45:55 2024-06-18 18:45:55.678043702 +0800 CST m=+11.707043757 serverId:0 start ElectProcess
+2024/06/18 18:45:55 nodeId:0 role:1 currentTerm:10 votedFor:0 getVote:1
+2024/06/18 18:45:55 node0 send vote request to node6
+2024/06/18 18:45:55 node0 send vote request to node1
+2024/06/18 18:45:55 node0 send vote request to node2
+2024/06/18 18:45:55 node0 send vote request to node3
+2024/06/18 18:45:55 node0 send vote request to node4
+2024/06/18 18:45:55 node0 send vote request to node5
+2024/06/18 18:45:55 node2 send heartbeat to node0
+2024/06/18 18:45:55 node2 send heartbeat to node1
+2024/06/18 18:45:55 node2 send heartbeat to node3
+2024/06/18 18:45:55 node2 send heartbeat to node4
+2024/06/18 18:45:55 node2 send heartbeat to node5
+2024/06/18 18:45:55 node2 send heartbeat to node6
+2024/06/18 18:45:55 node6 send heartbeat to node0
+2024/06/18 18:45:55 node6 send heartbeat to node1
+2024/06/18 18:45:55 node6 send heartbeat to node2
+2024/06/18 18:45:55 node6 send heartbeat to node3
+2024/06/18 18:45:55 node6 send heartbeat to node4
+2024/06/18 18:45:55 node6 send heartbeat to node5
+2024/06/18 18:45:55 node2 send heartbeat to node0
+2024/06/18 18:45:55 node2 send heartbeat to node1
+2024/06/18 18:45:55 node2 send heartbeat to node3
+2024/06/18 18:45:55 node2 send heartbeat to node4
+2024/06/18 18:45:55 node2 send heartbeat to node5
+2024/06/18 18:45:55 node2 send heartbeat to node6
+2024/06/18 18:45:55 2024-06-18 18:45:55.831161087 +0800 CST m=+11.860161152 serverId:5 start ElectProcess
+2024/06/18 18:45:55 nodeId:5 role:1 currentTerm:9 votedFor:5 getVote:1
+2024/06/18 18:45:55 node5 send vote request to node6
+2024/06/18 18:45:55 node5 send vote request to node2
+2024/06/18 18:45:55 node5 send vote request to node3
+2024/06/18 18:45:55 node5 send vote request to node0
+2024/06/18 18:45:55 node5 send vote request to node1
+2024/06/18 18:45:55 node3 change to follower
+2024/06/18 18:45:55 nodeId:3 role:0 currentTerm:9 votedFor:-1 getVote:1
+2024/06/18 18:45:55 nodeId:3 role:0 currentTerm:9 votedFor:-1 getVote:1
+2024/06/18 18:45:55 vote success:node3 vote to node5
+2024/06/18 18:45:55 nodeId:3 role:0 currentTerm:9 votedFor:5 getVote:1
+2024/06/18 18:45:55 Fail:Node9's term is same with Node5's term
+2024/06/18 18:45:55 nodeId:1 role:1 currentTerm:9 votedFor:1 getVote:1
+2024/06/18 18:45:55 node5 send vote request to node4
+2024/06/18 18:45:55 node4 change to follower
+2024/06/18 18:45:55 nodeId:4 role:0 currentTerm:9 votedFor:-1 getVote:4
+2024/06/18 18:45:55 nodeId:4 role:0 currentTerm:9 votedFor:-1 getVote:4
+2024/06/18 18:45:55 vote success:node4 vote to node5
+2024/06/18 18:45:55 nodeId:4 role:0 currentTerm:9 votedFor:5 getVote:4
+2024/06/18 18:45:55 2024-06-18 18:45:55.840675266 +0800 CST m=+11.869675331 serverId:1 start ElectProcess
+2024/06/18 18:45:55 nodeId:1 role:1 currentTerm:10 votedFor:1 getVote:1
+2024/06/18 18:45:55 node1 send vote request to node6
+2024/06/18 18:45:55 node1 send vote request to node0
+2024/06/18 18:45:55 node1 send vote request to node2
+2024/06/18 18:45:55 node1 send vote request to node3
+2024/06/18 18:45:55 node1 send vote request to node4
+2024/06/18 18:45:55 node3 change to follower
+2024/06/18 18:45:55 nodeId:3 role:0 currentTerm:10 votedFor:-1 getVote:1
+2024/06/18 18:45:55 nodeId:3 role:0 currentTerm:10 votedFor:-1 getVote:1
+2024/06/18 18:45:55 vote success:node3 vote to node1
+2024/06/18 18:45:55 node4 change to follower
+2024/06/18 18:45:55 node1 send vote request to node5
+2024/06/18 18:45:55 node5 change to follower
+2024/06/18 18:45:55 nodeId:5 role:0 currentTerm:10 votedFor:-1 getVote:3
+2024/06/18 18:45:55 nodeId:5 role:0 currentTerm:10 votedFor:-1 getVote:3
+2024/06/18 18:45:55 vote success:node5 vote to node1
+2024/06/18 18:45:55 nodeId:3 role:0 currentTerm:10 votedFor:1 getVote:1
+2024/06/18 18:45:55 nodeId:4 role:0 currentTerm:10 votedFor:-1 getVote:4
+2024/06/18 18:45:55 nodeId:4 role:0 currentTerm:10 votedFor:-1 getVote:4
+2024/06/18 18:45:55 vote success:node4 vote to node1
+2024/06/18 18:45:55 nodeId:4 role:0 currentTerm:10 votedFor:1 getVote:4
+2024/06/18 18:45:55 nodeId:5 role:0 currentTerm:10 votedFor:1 getVote:3
+2024/06/18 18:45:55 Node1 become leader
+2024/06/18 18:45:55 nodeId:1 role:2 currentTerm:10 votedFor:1 getVote:4
+2024/06/18 18:45:55 node1 send heartbeat to node0
+2024/06/18 18:45:55 node1 send heartbeat to node2
+2024/06/18 18:45:55 node1 send heartbeat to node3
+2024/06/18 18:45:55 node1 send heartbeat to node4
+2024/06/18 18:45:55 node1 send heartbeat to node5
+2024/06/18 18:45:55 node1 send heartbeat to node6
+2024/06/18 18:45:55 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:55 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:55 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:55 node6 send heartbeat to node0
+2024/06/18 18:45:55 node6 send heartbeat to node1
+2024/06/18 18:45:55 node6 send heartbeat to node2
+2024/06/18 18:45:55 node6 send heartbeat to node3
+2024/06/18 18:45:55 node6 send heartbeat to node4
+2024/06/18 18:45:55 node6 send heartbeat to node5
+2024/06/18 18:45:55 node2 send heartbeat to node0
+2024/06/18 18:45:55 node2 send heartbeat to node1
+2024/06/18 18:45:55 node2 send heartbeat to node3
+2024/06/18 18:45:55 node2 send heartbeat to node4
+2024/06/18 18:45:55 node2 send heartbeat to node5
+2024/06/18 18:45:55 node2 send heartbeat to node6
+2024/06/18 18:45:55 node1 send heartbeat to node0
+2024/06/18 18:45:55 node1 send heartbeat to node2
+2024/06/18 18:45:55 node1 send heartbeat to node3
+2024/06/18 18:45:55 node1 send heartbeat to node4
+2024/06/18 18:45:55 node1 send heartbeat to node5
+2024/06/18 18:45:55 node1 send heartbeat to node6
+2024/06/18 18:45:55 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:55 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:55 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:55 node6 send heartbeat to node0
+2024/06/18 18:45:55 node6 send heartbeat to node1
+2024/06/18 18:45:55 node6 send heartbeat to node2
+2024/06/18 18:45:55 node6 send heartbeat to node3
+2024/06/18 18:45:55 node6 send heartbeat to node4
+2024/06/18 18:45:55 node6 send heartbeat to node5
+2024/06/18 18:45:55 node2 send heartbeat to node0
+2024/06/18 18:45:55 node2 send heartbeat to node1
+2024/06/18 18:45:55 node2 send heartbeat to node3
+2024/06/18 18:45:55 node2 send heartbeat to node4
+2024/06/18 18:45:55 node2 send heartbeat to node5
+2024/06/18 18:45:55 node2 send heartbeat to node6
+2024/06/18 18:45:56 node1 send heartbeat to node0
+2024/06/18 18:45:56 node1 send heartbeat to node2
+2024/06/18 18:45:56 node1 send heartbeat to node3
+2024/06/18 18:45:56 node1 send heartbeat to node4
+2024/06/18 18:45:56 node1 send heartbeat to node5
+2024/06/18 18:45:56 node1 send heartbeat to node6
+2024/06/18 18:45:56 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:56 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:56 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:56 node6 send heartbeat to node0
+2024/06/18 18:45:56 node6 send heartbeat to node1
+2024/06/18 18:45:56 node6 send heartbeat to node2
+2024/06/18 18:45:56 node6 send heartbeat to node3
+2024/06/18 18:45:56 node6 send heartbeat to node4
+2024/06/18 18:45:56 node6 send heartbeat to node5
+2024/06/18 18:45:56 node2 send heartbeat to node0
+2024/06/18 18:45:56 node2 send heartbeat to node1
+2024/06/18 18:45:56 node2 send heartbeat to node3
+2024/06/18 18:45:56 node2 send heartbeat to node4
+2024/06/18 18:45:56 node2 send heartbeat to node5
+2024/06/18 18:45:56 node2 send heartbeat to node6
+2024/06/18 18:45:56 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:56 node1 send heartbeat to node0
+2024/06/18 18:45:56 node1 send heartbeat to node2
+2024/06/18 18:45:56 node1 send heartbeat to node3
+2024/06/18 18:45:56 node1 send heartbeat to node4
+2024/06/18 18:45:56 node1 send heartbeat to node5
+2024/06/18 18:45:56 node1 send heartbeat to node6
+2024/06/18 18:45:56 2024-06-18 18:45:56.212299426 +0800 CST m=+12.241299492 serverId:2 start ElectProcess
+2024/06/18 18:45:56 nodeId:2 role:1 currentTerm:11 votedFor:2 getVote:1
+2024/06/18 18:45:56 node2 send vote request to node6
+2024/06/18 18:45:56 node2 send vote request to node4
+2024/06/18 18:45:56 node2 send vote request to node3
+2024/06/18 18:45:56 node2 send vote request to node5
+2024/06/18 18:45:56 node2 send vote request to node0
+2024/06/18 18:45:56 node2 send vote request to node1
+2024/06/18 18:45:56 node3 change to follower
+2024/06/18 18:45:56 nodeId:3 role:0 currentTerm:11 votedFor:-1 getVote:1
+2024/06/18 18:45:56 nodeId:3 role:0 currentTerm:11 votedFor:-1 getVote:1
+2024/06/18 18:45:56 vote success:node3 vote to node2
+2024/06/18 18:45:56 nodeId:3 role:0 currentTerm:11 votedFor:2 getVote:1
+2024/06/18 18:45:56 node6 change to follower
+2024/06/18 18:45:56 nodeId:6 role:0 currentTerm:11 votedFor:-1 getVote:4
+2024/06/18 18:45:56 nodeId:6 role:0 currentTerm:11 votedFor:-1 getVote:4
+2024/06/18 18:45:56 vote success:node6 vote to node2
+2024/06/18 18:45:56 nodeId:6 role:0 currentTerm:11 votedFor:2 getVote:4
+2024/06/18 18:45:56 node0 change to follower
+2024/06/18 18:45:56 nodeId:0 role:0 currentTerm:11 votedFor:-1 getVote:1
+2024/06/18 18:45:56 nodeId:0 role:0 currentTerm:11 votedFor:-1 getVote:1
+2024/06/18 18:45:56 vote success:node0 vote to node2
+2024/06/18 18:45:56 nodeId:0 role:0 currentTerm:11 votedFor:2 getVote:1
+2024/06/18 18:45:56 node5 change to follower
+2024/06/18 18:45:56 nodeId:5 role:0 currentTerm:11 votedFor:-1 getVote:3
+2024/06/18 18:45:56 nodeId:5 role:0 currentTerm:11 votedFor:-1 getVote:3
+2024/06/18 18:45:56 vote success:node5 vote to node2
+2024/06/18 18:45:56 nodeId:5 role:0 currentTerm:11 votedFor:2 getVote:3
+2024/06/18 18:45:56 Node2 become leader
+2024/06/18 18:45:56 nodeId:2 role:2 currentTerm:11 votedFor:2 getVote:4
+2024/06/18 18:45:56 node2 send heartbeat to node0
+2024/06/18 18:45:56 node2 send heartbeat to node1
+2024/06/18 18:45:56 node2 send heartbeat to node3
+2024/06/18 18:45:56 node2 send heartbeat to node4
+2024/06/18 18:45:56 node2 send heartbeat to node5
+2024/06/18 18:45:56 node2 send heartbeat to node6
+2024/06/18 18:45:56 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:56 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:56 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:56 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:56 node1 send heartbeat to node0
+2024/06/18 18:45:56 node1 send heartbeat to node2
+2024/06/18 18:45:56 node1 send heartbeat to node3
+2024/06/18 18:45:56 node1 send heartbeat to node4
+2024/06/18 18:45:56 node1 send heartbeat to node5
+2024/06/18 18:45:56 node1 send heartbeat to node6
+2024/06/18 18:45:56 node2 send heartbeat to node0
+2024/06/18 18:45:56 node2 send heartbeat to node1
+2024/06/18 18:45:56 node2 send heartbeat to node3
+2024/06/18 18:45:56 node2 send heartbeat to node4
+2024/06/18 18:45:56 node2 send heartbeat to node5
+2024/06/18 18:45:56 node2 send heartbeat to node6
+2024/06/18 18:45:56 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:56 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:56 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:56 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:56 node1 send heartbeat to node0
+2024/06/18 18:45:56 node1 send heartbeat to node2
+2024/06/18 18:45:56 node1 send heartbeat to node3
+2024/06/18 18:45:56 node1 send heartbeat to node4
+2024/06/18 18:45:56 node1 send heartbeat to node5
+2024/06/18 18:45:56 node1 send heartbeat to node6
+2024/06/18 18:45:56 node2 send heartbeat to node0
+2024/06/18 18:45:56 node2 send heartbeat to node1
+2024/06/18 18:45:56 node2 send heartbeat to node3
+2024/06/18 18:45:56 node2 send heartbeat to node4
+2024/06/18 18:45:56 node2 send heartbeat to node5
+2024/06/18 18:45:56 node2 send heartbeat to node6
+2024/06/18 18:45:56 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:56 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:56 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:56 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:56 node1 send heartbeat to node0
+2024/06/18 18:45:56 node1 send heartbeat to node2
+2024/06/18 18:45:56 node1 send heartbeat to node3
+2024/06/18 18:45:56 node1 send heartbeat to node4
+2024/06/18 18:45:56 node1 send heartbeat to node5
+2024/06/18 18:45:56 node1 send heartbeat to node6
+2024/06/18 18:45:56 node2 send heartbeat to node0
+2024/06/18 18:45:56 node2 send heartbeat to node1
+2024/06/18 18:45:56 node2 send heartbeat to node3
+2024/06/18 18:45:56 node2 send heartbeat to node4
+2024/06/18 18:45:56 node2 send heartbeat to node5
+2024/06/18 18:45:56 node2 send heartbeat to node6
+2024/06/18 18:45:56 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:56 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:56 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:56 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:56 node1 send heartbeat to node0
+2024/06/18 18:45:56 node1 send heartbeat to node2
+2024/06/18 18:45:56 node1 send heartbeat to node3
+2024/06/18 18:45:56 node1 send heartbeat to node4
+2024/06/18 18:45:56 node1 send heartbeat to node5
+2024/06/18 18:45:56 node1 send heartbeat to node6
+2024/06/18 18:45:56 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:56 node2 send heartbeat to node0
+2024/06/18 18:45:56 node2 send heartbeat to node1
+2024/06/18 18:45:56 node2 send heartbeat to node3
+2024/06/18 18:45:56 node2 send heartbeat to node4
+2024/06/18 18:45:56 node2 send heartbeat to node5
+2024/06/18 18:45:56 node2 send heartbeat to node6
+2024/06/18 18:45:56 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:56 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:56 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:56 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:56 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:56 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:56 node2 send heartbeat to node0
+2024/06/18 18:45:56 node2 send heartbeat to node1
+2024/06/18 18:45:56 node2 send heartbeat to node3
+2024/06/18 18:45:56 node2 send heartbeat to node4
+2024/06/18 18:45:56 node2 send heartbeat to node5
+2024/06/18 18:45:56 node2 send heartbeat to node6
+2024/06/18 18:45:56 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:56 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:56 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:56 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:56 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:56 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:56 node2 send heartbeat to node0
+2024/06/18 18:45:56 node2 send heartbeat to node1
+2024/06/18 18:45:56 node2 send heartbeat to node3
+2024/06/18 18:45:56 node2 send heartbeat to node4
+2024/06/18 18:45:56 node2 send heartbeat to node5
+2024/06/18 18:45:56 node2 send heartbeat to node6
+2024/06/18 18:45:56 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:56 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:56 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:56 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:56 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:56 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:56 node2 send heartbeat to node0
+2024/06/18 18:45:56 node2 send heartbeat to node1
+2024/06/18 18:45:56 node2 send heartbeat to node3
+2024/06/18 18:45:56 node2 send heartbeat to node4
+2024/06/18 18:45:56 node2 send heartbeat to node5
+2024/06/18 18:45:56 node2 send heartbeat to node6
+2024/06/18 18:45:56 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:56 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:56 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:56 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:56 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:56 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:57 node2 send heartbeat to node0
+2024/06/18 18:45:57 node2 send heartbeat to node1
+2024/06/18 18:45:57 node2 send heartbeat to node3
+2024/06/18 18:45:57 node2 send heartbeat to node4
+2024/06/18 18:45:57 node2 send heartbeat to node5
+2024/06/18 18:45:57 node2 send heartbeat to node6
+2024/06/18 18:45:57 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:57 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:57 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:57 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:57 args.PrevLogIndex:0 len(rf.log):1
+2024/06/18 18:45:57 args.PrevLogIndex:0 len(rf.log):1

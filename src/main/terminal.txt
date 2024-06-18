@@ -1,0 +1,3256 @@
+2024/04/18 23:05:10 start
+2024/04/18 23:05:10 init MapPhase
+2024/04/18 23:05:10 task:{../pg-being_ernest.txt 0 {0 0 <nil>} 0}
+2024/04/18 23:05:10 task:{../pg-dorian_gray.txt 1 {0 0 <nil>} 0}
+2024/04/18 23:05:10 task:{../pg-frankenstein.txt 2 {0 0 <nil>} 0}
+2024/04/18 23:05:10 task:{../pg-grimm.txt 3 {0 0 <nil>} 0}
+2024/04/18 23:05:10 task:{../pg-huckleberry_finn.txt 4 {0 0 <nil>} 0}
+2024/04/18 23:05:10 task:{../pg-metamorphosis.txt 5 {0 0 <nil>} 0}
+2024/04/18 23:05:10 task:{../pg-sherlock_holmes.txt 6 {0 0 <nil>} 0}
+2024/04/18 23:05:10 task:{../pg-tom_sawyer.txt 7 {0 0 <nil>} 0}
+2024/04/18 23:05:11 work71884 JobRequest Send
+2024/04/18 23:05:11 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:11 c.Schedulephase:MapPhase
+2024/04/18 23:05:11 start changPhase
+2024/04/18 23:05:11 select task {../pg-being_ernest.txt 0 {0 0 <nil>} 0}
+2024/04/18 23:05:11 Break change phase ../pg-being_ernest.txt
+2024/04/18 23:05:11 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-being_ernest.txt,Id:0,NReduce:10} to worker 
+2024/04/18 23:05:11 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:11 c.Schedulephase:MapPhase
+2024/04/18 23:05:11 start changPhase
+2024/04/18 23:05:11 select task {../pg-dorian_gray.txt 1 {0 0 <nil>} 0}
+2024/04/18 23:05:11 Break change phase ../pg-dorian_gray.txt
+2024/04/18 23:05:11 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-dorian_gray.txt,Id:1,NReduce:10} to worker 
+2024/04/18 23:05:11 work91919 JobRequest Send
+2024/04/18 23:05:11 work91919 JobHeartbeat Finish
+2024/04/18 23:05:11 work71884 JobHeartbeat Finish
+2024/04/18 23:05:11 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:11 c.Schedulephase:MapPhase
+2024/04/18 23:05:11 start changPhase
+2024/04/18 23:05:11 select task {../pg-frankenstein.txt 2 {0 0 <nil>} 0}
+2024/04/18 23:05:11 Break change phase ../pg-frankenstein.txt
+2024/04/18 23:05:11 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-frankenstein.txt,Id:2,NReduce:10} to worker 
+2024/04/18 23:05:11 work38462 JobRequest Send
+2024/04/18 23:05:11 work38462 JobHeartbeat Finish
+2024/04/18 23:05:11 Worker71884: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-being_ernest.txt,Id:0,NReduce:10} 
+2024/04/18 23:05:11 Worker91919: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-dorian_gray.txt,Id:1,NReduce:10} 
+2024/04/18 23:05:11 Map job 0
+2024/04/18 23:05:11 Map job 1
+2024/04/18 23:05:11 Worker38462: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-frankenstein.txt,Id:2,NReduce:10} 
+2024/04/18 23:05:11 Map job 2
+2024/04/18 23:05:11 intermediates' len:10
+2024/04/18 23:05:11 worker create a temp file: mr-0-9
+2024/04/18 23:05:11 worker create a temp file: mr-0-3
+2024/04/18 23:05:11 worker create a temp file: mr-0-1
+2024/04/18 23:05:11 worker create a temp file: mr-0-2
+2024/04/18 23:05:11 worker create a temp file: mr-0-7
+2024/04/18 23:05:11 worker create a temp file: mr-0-0
+2024/04/18 23:05:11 worker create a temp file: mr-0-4
+2024/04/18 23:05:11 worker create a temp file: mr-0-5
+2024/04/18 23:05:11 worker create a temp file: mr-0-6
+2024/04/18 23:05:11 worker create a temp file: mr-0-8
+2024/04/18 23:05:11 msg:{Id:0,SchedulePhase:MapPhase}
+2024/04/18 23:05:11 Coordinator: Worker has executed task {Id:0,SchedulePhase:MapPhase} 
+2024/04/18 23:05:11 Report Finish
+2024/04/18 23:05:11 work71884 JobRequest Send
+2024/04/18 23:05:11 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:11 c.Schedulephase:MapPhase
+2024/04/18 23:05:11 start changPhase
+2024/04/18 23:05:11 select task {../pg-grimm.txt 3 {0 0 <nil>} 0}
+2024/04/18 23:05:11 Break change phase ../pg-grimm.txt
+2024/04/18 23:05:11 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-grimm.txt,Id:3,NReduce:10} to worker 
+2024/04/18 23:05:11 work71884 JobHeartbeat Finish
+2024/04/18 23:05:11 Worker71884: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-grimm.txt,Id:3,NReduce:10} 
+2024/04/18 23:05:11 Map job 3
+2024/04/18 23:05:11 intermediates' len:10
+2024/04/18 23:05:11 worker create a temp file: mr-2-9
+2024/04/18 23:05:11 worker create a temp file: mr-2-4
+2024/04/18 23:05:11 worker create a temp file: mr-2-1
+2024/04/18 23:05:11 worker create a temp file: mr-2-2
+2024/04/18 23:05:11 worker create a temp file: mr-2-3
+2024/04/18 23:05:11 worker create a temp file: mr-2-0
+2024/04/18 23:05:11 worker create a temp file: mr-2-6
+2024/04/18 23:05:11 intermediates' len:10
+2024/04/18 23:05:11 worker create a temp file: mr-1-9
+2024/04/18 23:05:11 worker create a temp file: mr-2-7
+2024/04/18 23:05:11 worker create a temp file: mr-1-4
+2024/04/18 23:05:11 worker create a temp file: mr-1-6
+2024/04/18 23:05:11 worker create a temp file: mr-1-7
+2024/04/18 23:05:11 worker create a temp file: mr-2-5
+2024/04/18 23:05:11 worker create a temp file: mr-1-1
+2024/04/18 23:05:11 worker create a temp file: mr-1-8
+2024/04/18 23:05:11 worker create a temp file: mr-2-8
+2024/04/18 23:05:11 worker create a temp file: mr-1-2
+2024/04/18 23:05:11 worker create a temp file: mr-1-0
+2024/04/18 23:05:11 worker create a temp file: mr-1-3
+2024/04/18 23:05:11 worker create a temp file: mr-1-5
+2024/04/18 23:05:11 msg:{Id:2,SchedulePhase:MapPhase}
+2024/04/18 23:05:11 Coordinator: Worker has executed task {Id:2,SchedulePhase:MapPhase} 
+2024/04/18 23:05:11 msg:{Id:1,SchedulePhase:MapPhase}
+2024/04/18 23:05:11 Coordinator: Worker has executed task {Id:1,SchedulePhase:MapPhase} 
+2024/04/18 23:05:11 Report Finish
+2024/04/18 23:05:11 Report Finish
+2024/04/18 23:05:11 work91919 JobRequest Send
+2024/04/18 23:05:11 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:11 c.Schedulephase:MapPhase
+2024/04/18 23:05:11 start changPhase
+2024/04/18 23:05:11 select task {../pg-huckleberry_finn.txt 4 {0 0 <nil>} 0}
+2024/04/18 23:05:11 Break change phase ../pg-huckleberry_finn.txt
+2024/04/18 23:05:11 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-huckleberry_finn.txt,Id:4,NReduce:10} to worker 
+2024/04/18 23:05:11 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:11 c.Schedulephase:MapPhase
+2024/04/18 23:05:11 start changPhase
+2024/04/18 23:05:11 select task {../pg-metamorphosis.txt 5 {0 0 <nil>} 0}
+2024/04/18 23:05:11 Break change phase ../pg-metamorphosis.txt
+2024/04/18 23:05:11 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-metamorphosis.txt,Id:5,NReduce:10} to worker 
+2024/04/18 23:05:11 work38462 JobRequest Send
+2024/04/18 23:05:11 work38462 JobHeartbeat Finish
+2024/04/18 23:05:11 work91919 JobHeartbeat Finish
+2024/04/18 23:05:11 Worker38462: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-metamorphosis.txt,Id:5,NReduce:10} 
+2024/04/18 23:05:11 Map job 5
+2024/04/18 23:05:11 Worker91919: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-huckleberry_finn.txt,Id:4,NReduce:10} 
+2024/04/18 23:05:11 Map job 4
+2024/04/18 23:05:11 intermediates' len:10
+2024/04/18 23:05:11 worker create a temp file: mr-5-9
+2024/04/18 23:05:11 worker create a temp file: mr-5-7
+2024/04/18 23:05:11 worker create a temp file: mr-5-4
+2024/04/18 23:05:11 worker create a temp file: mr-5-8
+2024/04/18 23:05:11 worker create a temp file: mr-5-6
+2024/04/18 23:05:11 worker create a temp file: mr-5-0
+2024/04/18 23:05:11 worker create a temp file: mr-5-3
+2024/04/18 23:05:11 worker create a temp file: mr-5-1
+2024/04/18 23:05:11 worker create a temp file: mr-5-2
+2024/04/18 23:05:11 worker create a temp file: mr-5-5
+2024/04/18 23:05:11 msg:{Id:5,SchedulePhase:MapPhase}
+2024/04/18 23:05:11 Coordinator: Worker has executed task {Id:5,SchedulePhase:MapPhase} 
+2024/04/18 23:05:11 Report Finish
+2024/04/18 23:05:11 work38462 JobRequest Send
+2024/04/18 23:05:11 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:11 c.Schedulephase:MapPhase
+2024/04/18 23:05:11 start changPhase
+2024/04/18 23:05:11 select task {../pg-sherlock_holmes.txt 6 {0 0 <nil>} 0}
+2024/04/18 23:05:11 Break change phase ../pg-sherlock_holmes.txt
+2024/04/18 23:05:11 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-sherlock_holmes.txt,Id:6,NReduce:10} to worker 
+2024/04/18 23:05:11 work38462 JobHeartbeat Finish
+2024/04/18 23:05:11 Worker38462: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-sherlock_holmes.txt,Id:6,NReduce:10} 
+2024/04/18 23:05:11 Map job 6
+2024/04/18 23:05:11 intermediates' len:10
+2024/04/18 23:05:11 worker create a temp file: mr-3-9
+2024/04/18 23:05:11 worker create a temp file: mr-3-4
+2024/04/18 23:05:11 worker create a temp file: mr-3-6
+2024/04/18 23:05:11 worker create a temp file: mr-3-1
+2024/04/18 23:05:11 worker create a temp file: mr-3-5
+2024/04/18 23:05:11 worker create a temp file: mr-3-7
+2024/04/18 23:05:11 worker create a temp file: mr-3-2
+2024/04/18 23:05:11 worker create a temp file: mr-3-8
+2024/04/18 23:05:11 worker create a temp file: mr-3-3
+2024/04/18 23:05:11 worker create a temp file: mr-3-0
+2024/04/18 23:05:11 msg:{Id:3,SchedulePhase:MapPhase}
+2024/04/18 23:05:11 Coordinator: Worker has executed task {Id:3,SchedulePhase:MapPhase} 
+2024/04/18 23:05:11 Report Finish
+2024/04/18 23:05:11 work71884 JobRequest Send
+2024/04/18 23:05:11 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:11 c.Schedulephase:MapPhase
+2024/04/18 23:05:11 start changPhase
+2024/04/18 23:05:11 select task {../pg-tom_sawyer.txt 7 {0 0 <nil>} 0}
+2024/04/18 23:05:11 Break change phase ../pg-tom_sawyer.txt
+2024/04/18 23:05:11 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-tom_sawyer.txt,Id:7,NReduce:10} to worker 
+2024/04/18 23:05:11 work71884 JobHeartbeat Finish
+2024/04/18 23:05:11 Worker71884: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-tom_sawyer.txt,Id:7,NReduce:10} 
+2024/04/18 23:05:11 Map job 7
+2024/04/18 23:05:11 intermediates' len:10
+2024/04/18 23:05:11 worker create a temp file: mr-4-9
+2024/04/18 23:05:11 worker create a temp file: mr-4-0
+2024/04/18 23:05:11 worker create a temp file: mr-4-4
+2024/04/18 23:05:11 worker create a temp file: mr-4-6
+2024/04/18 23:05:11 worker create a temp file: mr-4-5
+2024/04/18 23:05:11 worker create a temp file: mr-4-2
+2024/04/18 23:05:11 worker create a temp file: mr-4-1
+2024/04/18 23:05:11 worker create a temp file: mr-4-7
+2024/04/18 23:05:11 worker create a temp file: mr-4-8
+2024/04/18 23:05:11 worker create a temp file: mr-4-3
+2024/04/18 23:05:11 msg:{Id:4,SchedulePhase:MapPhase}
+2024/04/18 23:05:11 Coordinator: Worker has executed task {Id:4,SchedulePhase:MapPhase} 
+2024/04/18 23:05:11 Report Finish
+2024/04/18 23:05:11 work91919 JobRequest Send
+2024/04/18 23:05:11 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:11 c.Schedulephase:MapPhase
+2024/04/18 23:05:11 start changPhase
+2024/04/18 23:05:11 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:05:11 work91919 JobHeartbeat Finish
+2024/04/18 23:05:11 Worker91919: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:05:11 Wait job 0
+2024/04/18 23:05:11 intermediates' len:10
+2024/04/18 23:05:11 worker create a temp file: mr-7-9
+2024/04/18 23:05:11 worker create a temp file: mr-7-3
+2024/04/18 23:05:11 worker create a temp file: mr-7-1
+2024/04/18 23:05:11 worker create a temp file: mr-7-0
+2024/04/18 23:05:11 worker create a temp file: mr-7-4
+2024/04/18 23:05:11 worker create a temp file: mr-7-6
+2024/04/18 23:05:11 worker create a temp file: mr-7-8
+2024/04/18 23:05:11 worker create a temp file: mr-7-7
+2024/04/18 23:05:11 worker create a temp file: mr-7-5
+2024/04/18 23:05:11 intermediates' len:10
+2024/04/18 23:05:11 worker create a temp file: mr-7-2
+2024/04/18 23:05:11 worker create a temp file: mr-6-9
+2024/04/18 23:05:11 worker create a temp file: mr-6-3
+2024/04/18 23:05:11 worker create a temp file: mr-6-6
+2024/04/18 23:05:11 worker create a temp file: mr-6-0
+2024/04/18 23:05:11 worker create a temp file: mr-6-7
+2024/04/18 23:05:11 worker create a temp file: mr-6-4
+2024/04/18 23:05:11 worker create a temp file: mr-6-5
+2024/04/18 23:05:11 worker create a temp file: mr-6-2
+2024/04/18 23:05:11 worker create a temp file: mr-6-8
+2024/04/18 23:05:11 worker create a temp file: mr-6-1
+2024/04/18 23:05:11 msg:{Id:7,SchedulePhase:MapPhase}
+2024/04/18 23:05:11 Coordinator: Worker has executed task {Id:7,SchedulePhase:MapPhase} 
+2024/04/18 23:05:11 Report Finish
+2024/04/18 23:05:11 work71884 JobRequest Send
+2024/04/18 23:05:11 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:11 c.Schedulephase:MapPhase
+2024/04/18 23:05:11 start changPhase
+2024/04/18 23:05:11 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:05:11 work71884 JobHeartbeat Finish
+2024/04/18 23:05:11 Worker71884: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:05:11 Wait job 0
+2024/04/18 23:05:11 msg:{Id:6,SchedulePhase:MapPhase}
+2024/04/18 23:05:11 Coordinator: Worker has executed task {Id:6,SchedulePhase:MapPhase} 
+2024/04/18 23:05:11 Report Finish
+2024/04/18 23:05:11 work38462 JobRequest Send
+2024/04/18 23:05:11 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:11 c.Schedulephase:MapPhase
+2024/04/18 23:05:11 start changPhase
+2024/04/18 23:05:11 init ReducePhase
+2024/04/18 23:05:11 task:{ 0 {0 0 <nil>} 0}
+2024/04/18 23:05:11 task:{ 1 {0 0 <nil>} 0}
+2024/04/18 23:05:11 task:{ 2 {0 0 <nil>} 0}
+2024/04/18 23:05:11 task:{ 3 {0 0 <nil>} 0}
+2024/04/18 23:05:11 task:{ 4 {0 0 <nil>} 0}
+2024/04/18 23:05:11 task:{ 5 {0 0 <nil>} 0}
+2024/04/18 23:05:11 task:{ 6 {0 0 <nil>} 0}
+2024/04/18 23:05:11 task:{ 7 {0 0 <nil>} 0}
+2024/04/18 23:05:11 task:{ 8 {0 0 <nil>} 0}
+2024/04/18 23:05:11 task:{ 9 {0 0 <nil>} 0}
+2024/04/18 23:05:11 start changPhase
+2024/04/18 23:05:11 select task { 0 {0 0 <nil>} 0}
+2024/04/18 23:05:11 Break change phase 
+2024/04/18 23:05:11 Coordinator: MapPhase finished, start ReducePhase 
+2024/04/18 23:05:11 Coordinator: assigned a task {JobType:ReduceJob,Id:0,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:11 work38462 JobHeartbeat Finish
+2024/04/18 23:05:11 Worker38462: get coordinator's heartbeat {JobType:ReduceJob,Id:0,NMap:8,NReduce:10} 
+2024/04/18 23:05:11 Reduce job 0
+2024/04/18 23:05:11 msg:{Id:0,SchedulePhase:ReducePhase}
+2024/04/18 23:05:11 Coordinator: Worker has executed task {Id:0,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:11 Report Finish
+2024/04/18 23:05:11 work38462 JobRequest Send
+2024/04/18 23:05:11 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:11 c.Schedulephase:ReducePhase
+2024/04/18 23:05:11 start changPhase
+2024/04/18 23:05:11 select task { 1 {0 0 <nil>} 0}
+2024/04/18 23:05:11 Break change phase 
+2024/04/18 23:05:11 Coordinator: assigned a task {JobType:ReduceJob,Id:1,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:11 work38462 JobHeartbeat Finish
+2024/04/18 23:05:11 Worker38462: get coordinator's heartbeat {JobType:ReduceJob,Id:1,NMap:8,NReduce:10} 
+2024/04/18 23:05:11 Reduce job 1
+2024/04/18 23:05:11 msg:{Id:1,SchedulePhase:ReducePhase}
+2024/04/18 23:05:11 Coordinator: Worker has executed task {Id:1,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:11 Report Finish
+2024/04/18 23:05:11 work38462 JobRequest Send
+2024/04/18 23:05:11 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:11 c.Schedulephase:ReducePhase
+2024/04/18 23:05:11 start changPhase
+2024/04/18 23:05:11 select task { 2 {0 0 <nil>} 0}
+2024/04/18 23:05:11 Break change phase 
+2024/04/18 23:05:11 Coordinator: assigned a task {JobType:ReduceJob,Id:2,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:11 work38462 JobHeartbeat Finish
+2024/04/18 23:05:11 Worker38462: get coordinator's heartbeat {JobType:ReduceJob,Id:2,NMap:8,NReduce:10} 
+2024/04/18 23:05:11 Reduce job 2
+2024/04/18 23:05:11 msg:{Id:2,SchedulePhase:ReducePhase}
+2024/04/18 23:05:11 Coordinator: Worker has executed task {Id:2,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:11 Report Finish
+2024/04/18 23:05:11 work38462 JobRequest Send
+2024/04/18 23:05:11 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:11 c.Schedulephase:ReducePhase
+2024/04/18 23:05:11 start changPhase
+2024/04/18 23:05:11 select task { 3 {0 0 <nil>} 0}
+2024/04/18 23:05:11 Break change phase 
+2024/04/18 23:05:11 Coordinator: assigned a task {JobType:ReduceJob,Id:3,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:11 work38462 JobHeartbeat Finish
+2024/04/18 23:05:11 Worker38462: get coordinator's heartbeat {JobType:ReduceJob,Id:3,NMap:8,NReduce:10} 
+2024/04/18 23:05:11 Reduce job 3
+2024/04/18 23:05:11 msg:{Id:3,SchedulePhase:ReducePhase}
+2024/04/18 23:05:11 Coordinator: Worker has executed task {Id:3,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:11 Report Finish
+2024/04/18 23:05:11 work38462 JobRequest Send
+2024/04/18 23:05:11 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:11 c.Schedulephase:ReducePhase
+2024/04/18 23:05:11 start changPhase
+2024/04/18 23:05:11 select task { 4 {0 0 <nil>} 0}
+2024/04/18 23:05:11 Break change phase 
+2024/04/18 23:05:11 Coordinator: assigned a task {JobType:ReduceJob,Id:4,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:11 work38462 JobHeartbeat Finish
+2024/04/18 23:05:11 Worker38462: get coordinator's heartbeat {JobType:ReduceJob,Id:4,NMap:8,NReduce:10} 
+2024/04/18 23:05:11 Reduce job 4
+2024/04/18 23:05:11 msg:{Id:4,SchedulePhase:ReducePhase}
+2024/04/18 23:05:11 Coordinator: Worker has executed task {Id:4,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:11 Report Finish
+2024/04/18 23:05:11 work38462 JobRequest Send
+2024/04/18 23:05:11 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:11 c.Schedulephase:ReducePhase
+2024/04/18 23:05:11 start changPhase
+2024/04/18 23:05:11 select task { 5 {0 0 <nil>} 0}
+2024/04/18 23:05:11 Break change phase 
+2024/04/18 23:05:11 Coordinator: assigned a task {JobType:ReduceJob,Id:5,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:11 work38462 JobHeartbeat Finish
+2024/04/18 23:05:11 Worker38462: get coordinator's heartbeat {JobType:ReduceJob,Id:5,NMap:8,NReduce:10} 
+2024/04/18 23:05:11 Reduce job 5
+2024/04/18 23:05:11 msg:{Id:5,SchedulePhase:ReducePhase}
+2024/04/18 23:05:11 Coordinator: Worker has executed task {Id:5,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:11 Report Finish
+2024/04/18 23:05:11 work38462 JobRequest Send
+2024/04/18 23:05:11 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:11 c.Schedulephase:ReducePhase
+2024/04/18 23:05:11 start changPhase
+2024/04/18 23:05:11 select task { 6 {0 0 <nil>} 0}
+2024/04/18 23:05:11 Break change phase 
+2024/04/18 23:05:11 Coordinator: assigned a task {JobType:ReduceJob,Id:6,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:11 work38462 JobHeartbeat Finish
+2024/04/18 23:05:11 Worker38462: get coordinator's heartbeat {JobType:ReduceJob,Id:6,NMap:8,NReduce:10} 
+2024/04/18 23:05:11 Reduce job 6
+2024/04/18 23:05:11 msg:{Id:6,SchedulePhase:ReducePhase}
+2024/04/18 23:05:11 Coordinator: Worker has executed task {Id:6,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:11 Report Finish
+2024/04/18 23:05:11 work38462 JobRequest Send
+2024/04/18 23:05:11 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:11 c.Schedulephase:ReducePhase
+2024/04/18 23:05:11 start changPhase
+2024/04/18 23:05:11 select task { 7 {0 0 <nil>} 0}
+2024/04/18 23:05:11 Break change phase 
+2024/04/18 23:05:11 Coordinator: assigned a task {JobType:ReduceJob,Id:7,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:11 work38462 JobHeartbeat Finish
+2024/04/18 23:05:11 Worker38462: get coordinator's heartbeat {JobType:ReduceJob,Id:7,NMap:8,NReduce:10} 
+2024/04/18 23:05:11 Reduce job 7
+2024/04/18 23:05:11 msg:{Id:7,SchedulePhase:ReducePhase}
+2024/04/18 23:05:11 Coordinator: Worker has executed task {Id:7,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:11 Report Finish
+2024/04/18 23:05:11 work38462 JobRequest Send
+2024/04/18 23:05:11 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:11 c.Schedulephase:ReducePhase
+2024/04/18 23:05:11 start changPhase
+2024/04/18 23:05:11 select task { 8 {0 0 <nil>} 0}
+2024/04/18 23:05:11 Break change phase 
+2024/04/18 23:05:11 Coordinator: assigned a task {JobType:ReduceJob,Id:8,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:11 work38462 JobHeartbeat Finish
+2024/04/18 23:05:11 Worker38462: get coordinator's heartbeat {JobType:ReduceJob,Id:8,NMap:8,NReduce:10} 
+2024/04/18 23:05:11 Reduce job 8
+2024/04/18 23:05:11 msg:{Id:8,SchedulePhase:ReducePhase}
+2024/04/18 23:05:11 Coordinator: Worker has executed task {Id:8,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:11 Report Finish
+2024/04/18 23:05:11 work38462 JobRequest Send
+2024/04/18 23:05:11 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:11 c.Schedulephase:ReducePhase
+2024/04/18 23:05:11 start changPhase
+2024/04/18 23:05:11 select task { 9 {0 0 <nil>} 0}
+2024/04/18 23:05:11 Break change phase 
+2024/04/18 23:05:11 Coordinator: assigned a task {JobType:ReduceJob,Id:9,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:11 work38462 JobHeartbeat Finish
+2024/04/18 23:05:11 Worker38462: get coordinator's heartbeat {JobType:ReduceJob,Id:9,NMap:8,NReduce:10} 
+2024/04/18 23:05:11 Reduce job 9
+2024/04/18 23:05:11 msg:{Id:9,SchedulePhase:ReducePhase}
+2024/04/18 23:05:11 Coordinator: Worker has executed task {Id:9,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:11 Report Finish
+2024/04/18 23:05:11 work38462 JobRequest Send
+2024/04/18 23:05:11 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:11 c.Schedulephase:ReducePhase
+2024/04/18 23:05:11 start changPhase
+2024/04/18 23:05:11 init CompletePhase
+2024/04/18 23:05:11 task:{ 0 {13943262685816819674 1076682962 0xaede00} 2}
+2024/04/18 23:05:11 task:{ 1 {13943262685839017119 1098880407 0xaede00} 2}
+2024/04/18 23:05:11 task:{ 2 {13943262685861618914 1121482202 0xaede00} 2}
+2024/04/18 23:05:11 task:{ 3 {13943262685911372145 1171235433 0xaede00} 2}
+2024/04/18 23:05:11 task:{ 4 {13943262685935367390 1195230678 0xaede00} 2}
+2024/04/18 23:05:11 task:{ 5 {13943262685976928459 1236791747 0xaede00} 2}
+2024/04/18 23:05:11 task:{ 6 {13943262685999065677 1258928965 0xaede00} 2}
+2024/04/18 23:05:11 task:{ 7 {13943262686053842607 1313705895 0xaede00} 2}
+2024/04/18 23:05:11 task:{ 8 {13943262686086544952 1346408230 0xaede00} 2}
+2024/04/18 23:05:11 task:{ 9 {13943262686131527159 1391390447 0xaede00} 2}
+2024/04/18 23:05:11 Coordinator: ReducePhase finished, Congratulations 
+2024/04/18 23:05:11 Coordinator: assigned a task {JobType:CompleteJob} to worker 
+2024/04/18 23:05:11 work38462 JobHeartbeat Finish
+2024/04/18 23:05:11 Worker38462: get coordinator's heartbeat {JobType:CompleteJob} 
+2024/04/18 23:05:12 work91919 JobRequest Send
+2024/04/18 23:05:12 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:12 c.Schedulephase:CompletePhase
+2024/04/18 23:05:12 Coordinator: assigned a task {JobType:CompleteJob} to worker 
+2024/04/18 23:05:12 work91919 JobHeartbeat Finish
+2024/04/18 23:05:12 Worker91919: get coordinator's heartbeat {JobType:CompleteJob} 
+2024/04/18 23:05:12 work71884 JobRequest Send
+2024/04/18 23:05:12 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:12 c.Schedulephase:CompletePhase
+2024/04/18 23:05:12 Coordinator: assigned a task {JobType:CompleteJob} to worker 
+2024/04/18 23:05:12 work71884 JobHeartbeat Finish
+2024/04/18 23:05:12 Worker71884: get coordinator's heartbeat {JobType:CompleteJob} 
+2024/04/18 23:05:12 start
+2024/04/18 23:05:12 init MapPhase
+2024/04/18 23:05:12 task:{../pg-being_ernest.txt 0 {0 0 <nil>} 0}
+2024/04/18 23:05:12 task:{../pg-dorian_gray.txt 1 {0 0 <nil>} 0}
+2024/04/18 23:05:12 task:{../pg-frankenstein.txt 2 {0 0 <nil>} 0}
+2024/04/18 23:05:12 task:{../pg-grimm.txt 3 {0 0 <nil>} 0}
+2024/04/18 23:05:12 task:{../pg-huckleberry_finn.txt 4 {0 0 <nil>} 0}
+2024/04/18 23:05:12 task:{../pg-metamorphosis.txt 5 {0 0 <nil>} 0}
+2024/04/18 23:05:12 task:{../pg-sherlock_holmes.txt 6 {0 0 <nil>} 0}
+2024/04/18 23:05:12 task:{../pg-tom_sawyer.txt 7 {0 0 <nil>} 0}
+2024/04/18 23:05:13 work22750 JobRequest Send
+2024/04/18 23:05:13 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:13 c.Schedulephase:MapPhase
+2024/04/18 23:05:13 start changPhase
+2024/04/18 23:05:13 select task {../pg-being_ernest.txt 0 {0 0 <nil>} 0}
+2024/04/18 23:05:13 Break change phase ../pg-being_ernest.txt
+2024/04/18 23:05:13 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-being_ernest.txt,Id:0,NReduce:10} to worker 
+2024/04/18 23:05:13 work22750 JobHeartbeat Finish
+2024/04/18 23:05:13 work76315 JobRequest Send
+2024/04/18 23:05:13 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:13 c.Schedulephase:MapPhase
+2024/04/18 23:05:13 start changPhase
+2024/04/18 23:05:13 select task {../pg-dorian_gray.txt 1 {0 0 <nil>} 0}
+2024/04/18 23:05:13 Break change phase ../pg-dorian_gray.txt
+2024/04/18 23:05:13 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-dorian_gray.txt,Id:1,NReduce:10} to worker 
+2024/04/18 23:05:13 work76315 JobHeartbeat Finish
+2024/04/18 23:05:13 Worker22750: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-being_ernest.txt,Id:0,NReduce:10} 
+2024/04/18 23:05:13 Map job 0
+2024/04/18 23:05:13 Worker76315: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-dorian_gray.txt,Id:1,NReduce:10} 
+2024/04/18 23:05:13 Map job 1
+2024/04/18 23:05:13 intermediates' len:10
+2024/04/18 23:05:13 worker create a temp file: mr-0-9
+2024/04/18 23:05:13 worker create a temp file: mr-0-4
+2024/04/18 23:05:13 worker create a temp file: mr-0-6
+2024/04/18 23:05:13 worker create a temp file: mr-0-5
+2024/04/18 23:05:13 worker create a temp file: mr-0-7
+2024/04/18 23:05:13 worker create a temp file: mr-0-1
+2024/04/18 23:05:13 worker create a temp file: mr-0-2
+2024/04/18 23:05:13 worker create a temp file: mr-0-8
+2024/04/18 23:05:13 worker create a temp file: mr-0-3
+2024/04/18 23:05:13 worker create a temp file: mr-0-0
+2024/04/18 23:05:13 msg:{Id:0,SchedulePhase:MapPhase}
+2024/04/18 23:05:13 Coordinator: Worker has executed task {Id:0,SchedulePhase:MapPhase} 
+2024/04/18 23:05:13 Report Finish
+2024/04/18 23:05:13 work22750 JobRequest Send
+2024/04/18 23:05:13 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:13 c.Schedulephase:MapPhase
+2024/04/18 23:05:13 start changPhase
+2024/04/18 23:05:13 select task {../pg-frankenstein.txt 2 {0 0 <nil>} 0}
+2024/04/18 23:05:13 Break change phase ../pg-frankenstein.txt
+2024/04/18 23:05:13 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-frankenstein.txt,Id:2,NReduce:10} to worker 
+2024/04/18 23:05:13 work22750 JobHeartbeat Finish
+2024/04/18 23:05:13 Worker22750: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-frankenstein.txt,Id:2,NReduce:10} 
+2024/04/18 23:05:13 Map job 2
+2024/04/18 23:05:13 intermediates' len:10
+2024/04/18 23:05:13 worker create a temp file: mr-1-9
+2024/04/18 23:05:13 worker create a temp file: mr-1-4
+2024/04/18 23:05:13 worker create a temp file: mr-1-1
+2024/04/18 23:05:13 worker create a temp file: mr-1-5
+2024/04/18 23:05:13 worker create a temp file: mr-1-8
+2024/04/18 23:05:13 worker create a temp file: mr-1-6
+2024/04/18 23:05:13 worker create a temp file: mr-1-0
+2024/04/18 23:05:13 worker create a temp file: mr-1-2
+2024/04/18 23:05:13 worker create a temp file: mr-1-7
+2024/04/18 23:05:13 worker create a temp file: mr-1-3
+2024/04/18 23:05:13 msg:{Id:1,SchedulePhase:MapPhase}
+2024/04/18 23:05:13 Coordinator: Worker has executed task {Id:1,SchedulePhase:MapPhase} 
+2024/04/18 23:05:13 Report Finish
+2024/04/18 23:05:13 work76315 JobRequest Send
+2024/04/18 23:05:13 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:13 c.Schedulephase:MapPhase
+2024/04/18 23:05:13 start changPhase
+2024/04/18 23:05:13 select task {../pg-grimm.txt 3 {0 0 <nil>} 0}
+2024/04/18 23:05:13 Break change phase ../pg-grimm.txt
+2024/04/18 23:05:13 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-grimm.txt,Id:3,NReduce:10} to worker 
+2024/04/18 23:05:13 work76315 JobHeartbeat Finish
+2024/04/18 23:05:13 Worker76315: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-grimm.txt,Id:3,NReduce:10} 
+2024/04/18 23:05:13 Map job 3
+2024/04/18 23:05:13 intermediates' len:10
+2024/04/18 23:05:13 worker create a temp file: mr-2-9
+2024/04/18 23:05:13 worker create a temp file: mr-2-3
+2024/04/18 23:05:13 worker create a temp file: mr-2-5
+2024/04/18 23:05:13 worker create a temp file: mr-2-1
+2024/04/18 23:05:13 worker create a temp file: mr-2-7
+2024/04/18 23:05:13 worker create a temp file: mr-2-0
+2024/04/18 23:05:13 worker create a temp file: mr-2-2
+2024/04/18 23:05:13 worker create a temp file: mr-2-6
+2024/04/18 23:05:13 worker create a temp file: mr-2-4
+2024/04/18 23:05:13 worker create a temp file: mr-2-8
+2024/04/18 23:05:13 msg:{Id:2,SchedulePhase:MapPhase}
+2024/04/18 23:05:13 Coordinator: Worker has executed task {Id:2,SchedulePhase:MapPhase} 
+2024/04/18 23:05:13 Report Finish
+2024/04/18 23:05:13 work22750 JobRequest Send
+2024/04/18 23:05:13 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:13 c.Schedulephase:MapPhase
+2024/04/18 23:05:13 start changPhase
+2024/04/18 23:05:13 select task {../pg-huckleberry_finn.txt 4 {0 0 <nil>} 0}
+2024/04/18 23:05:13 Break change phase ../pg-huckleberry_finn.txt
+2024/04/18 23:05:13 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-huckleberry_finn.txt,Id:4,NReduce:10} to worker 
+2024/04/18 23:05:13 work22750 JobHeartbeat Finish
+2024/04/18 23:05:13 Worker22750: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-huckleberry_finn.txt,Id:4,NReduce:10} 
+2024/04/18 23:05:13 Map job 4
+2024/04/18 23:05:13 intermediates' len:10
+2024/04/18 23:05:13 worker create a temp file: mr-3-9
+2024/04/18 23:05:13 worker create a temp file: mr-3-3
+2024/04/18 23:05:13 worker create a temp file: mr-3-1
+2024/04/18 23:05:13 worker create a temp file: mr-3-0
+2024/04/18 23:05:13 worker create a temp file: mr-3-2
+2024/04/18 23:05:13 worker create a temp file: mr-3-6
+2024/04/18 23:05:13 worker create a temp file: mr-3-4
+2024/04/18 23:05:13 worker create a temp file: mr-3-7
+2024/04/18 23:05:13 worker create a temp file: mr-3-8
+2024/04/18 23:05:13 worker create a temp file: mr-3-5
+2024/04/18 23:05:13 msg:{Id:3,SchedulePhase:MapPhase}
+2024/04/18 23:05:13 Coordinator: Worker has executed task {Id:3,SchedulePhase:MapPhase} 
+2024/04/18 23:05:13 Report Finish
+2024/04/18 23:05:13 work76315 JobRequest Send
+2024/04/18 23:05:13 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:13 c.Schedulephase:MapPhase
+2024/04/18 23:05:13 start changPhase
+2024/04/18 23:05:13 select task {../pg-metamorphosis.txt 5 {0 0 <nil>} 0}
+2024/04/18 23:05:13 Break change phase ../pg-metamorphosis.txt
+2024/04/18 23:05:13 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-metamorphosis.txt,Id:5,NReduce:10} to worker 
+2024/04/18 23:05:13 work76315 JobHeartbeat Finish
+2024/04/18 23:05:13 Worker76315: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-metamorphosis.txt,Id:5,NReduce:10} 
+2024/04/18 23:05:13 Map job 5
+2024/04/18 23:05:13 intermediates' len:10
+2024/04/18 23:05:13 worker create a temp file: mr-5-9
+2024/04/18 23:05:13 worker create a temp file: mr-5-4
+2024/04/18 23:05:13 worker create a temp file: mr-5-6
+2024/04/18 23:05:13 worker create a temp file: mr-5-8
+2024/04/18 23:05:13 worker create a temp file: mr-5-1
+2024/04/18 23:05:13 worker create a temp file: mr-5-5
+2024/04/18 23:05:13 worker create a temp file: mr-5-7
+2024/04/18 23:05:13 worker create a temp file: mr-5-0
+2024/04/18 23:05:13 worker create a temp file: mr-5-2
+2024/04/18 23:05:13 worker create a temp file: mr-5-3
+2024/04/18 23:05:13 msg:{Id:5,SchedulePhase:MapPhase}
+2024/04/18 23:05:13 Coordinator: Worker has executed task {Id:5,SchedulePhase:MapPhase} 
+2024/04/18 23:05:13 Report Finish
+2024/04/18 23:05:13 work76315 JobRequest Send
+2024/04/18 23:05:13 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:13 c.Schedulephase:MapPhase
+2024/04/18 23:05:13 start changPhase
+2024/04/18 23:05:13 select task {../pg-sherlock_holmes.txt 6 {0 0 <nil>} 0}
+2024/04/18 23:05:13 Break change phase ../pg-sherlock_holmes.txt
+2024/04/18 23:05:13 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-sherlock_holmes.txt,Id:6,NReduce:10} to worker 
+2024/04/18 23:05:13 work76315 JobHeartbeat Finish
+2024/04/18 23:05:13 Worker76315: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-sherlock_holmes.txt,Id:6,NReduce:10} 
+2024/04/18 23:05:13 Map job 6
+2024/04/18 23:05:13 intermediates' len:10
+2024/04/18 23:05:13 worker create a temp file: mr-4-9
+2024/04/18 23:05:13 worker create a temp file: mr-4-4
+2024/04/18 23:05:13 worker create a temp file: mr-4-1
+2024/04/18 23:05:13 worker create a temp file: mr-4-0
+2024/04/18 23:05:13 worker create a temp file: mr-4-2
+2024/04/18 23:05:13 worker create a temp file: mr-4-7
+2024/04/18 23:05:13 worker create a temp file: mr-4-5
+2024/04/18 23:05:13 worker create a temp file: mr-4-3
+2024/04/18 23:05:13 worker create a temp file: mr-4-6
+2024/04/18 23:05:13 worker create a temp file: mr-4-8
+2024/04/18 23:05:13 msg:{Id:4,SchedulePhase:MapPhase}
+2024/04/18 23:05:13 Coordinator: Worker has executed task {Id:4,SchedulePhase:MapPhase} 
+2024/04/18 23:05:13 Report Finish
+2024/04/18 23:05:13 work22750 JobRequest Send
+2024/04/18 23:05:13 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:13 c.Schedulephase:MapPhase
+2024/04/18 23:05:13 start changPhase
+2024/04/18 23:05:13 select task {../pg-tom_sawyer.txt 7 {0 0 <nil>} 0}
+2024/04/18 23:05:13 Break change phase ../pg-tom_sawyer.txt
+2024/04/18 23:05:13 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-tom_sawyer.txt,Id:7,NReduce:10} to worker 
+2024/04/18 23:05:13 work22750 JobHeartbeat Finish
+2024/04/18 23:05:13 Worker22750: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-tom_sawyer.txt,Id:7,NReduce:10} 
+2024/04/18 23:05:13 Map job 7
+2024/04/18 23:05:13 intermediates' len:10
+2024/04/18 23:05:13 worker create a temp file: mr-6-9
+2024/04/18 23:05:13 worker create a temp file: mr-6-3
+2024/04/18 23:05:13 worker create a temp file: mr-6-1
+2024/04/18 23:05:13 worker create a temp file: mr-6-6
+2024/04/18 23:05:13 worker create a temp file: mr-6-0
+2024/04/18 23:05:13 worker create a temp file: mr-6-4
+2024/04/18 23:05:13 worker create a temp file: mr-6-7
+2024/04/18 23:05:13 worker create a temp file: mr-6-5
+2024/04/18 23:05:13 worker create a temp file: mr-6-8
+2024/04/18 23:05:13 worker create a temp file: mr-6-2
+2024/04/18 23:05:13 msg:{Id:6,SchedulePhase:MapPhase}
+2024/04/18 23:05:13 Coordinator: Worker has executed task {Id:6,SchedulePhase:MapPhase} 
+2024/04/18 23:05:13 Report Finish
+2024/04/18 23:05:13 intermediates' len:10
+2024/04/18 23:05:13 worker create a temp file: mr-7-9
+2024/04/18 23:05:13 worker create a temp file: mr-7-1
+2024/04/18 23:05:13 worker create a temp file: mr-7-7
+2024/04/18 23:05:13 work76315 JobRequest Send
+2024/04/18 23:05:13 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:13 c.Schedulephase:MapPhase
+2024/04/18 23:05:13 start changPhase
+2024/04/18 23:05:13 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:05:13 worker create a temp file: mr-7-5
+2024/04/18 23:05:13 work76315 JobHeartbeat Finish
+2024/04/18 23:05:13 worker create a temp file: mr-7-8
+2024/04/18 23:05:13 worker create a temp file: mr-7-6
+2024/04/18 23:05:13 Worker76315: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:05:13 Wait job 0
+2024/04/18 23:05:13 worker create a temp file: mr-7-3
+2024/04/18 23:05:13 worker create a temp file: mr-7-4
+2024/04/18 23:05:13 worker create a temp file: mr-7-0
+2024/04/18 23:05:13 worker create a temp file: mr-7-2
+2024/04/18 23:05:13 msg:{Id:7,SchedulePhase:MapPhase}
+2024/04/18 23:05:13 Coordinator: Worker has executed task {Id:7,SchedulePhase:MapPhase} 
+2024/04/18 23:05:13 Report Finish
+2024/04/18 23:05:13 work22750 JobRequest Send
+2024/04/18 23:05:13 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:13 c.Schedulephase:MapPhase
+2024/04/18 23:05:13 start changPhase
+2024/04/18 23:05:13 init ReducePhase
+2024/04/18 23:05:13 task:{ 0 {0 0 <nil>} 0}
+2024/04/18 23:05:13 task:{ 1 {0 0 <nil>} 0}
+2024/04/18 23:05:13 task:{ 2 {0 0 <nil>} 0}
+2024/04/18 23:05:13 task:{ 3 {0 0 <nil>} 0}
+2024/04/18 23:05:13 task:{ 4 {0 0 <nil>} 0}
+2024/04/18 23:05:13 task:{ 5 {0 0 <nil>} 0}
+2024/04/18 23:05:13 task:{ 6 {0 0 <nil>} 0}
+2024/04/18 23:05:13 task:{ 7 {0 0 <nil>} 0}
+2024/04/18 23:05:13 task:{ 8 {0 0 <nil>} 0}
+2024/04/18 23:05:13 task:{ 9 {0 0 <nil>} 0}
+2024/04/18 23:05:13 start changPhase
+2024/04/18 23:05:13 select task { 0 {0 0 <nil>} 0}
+2024/04/18 23:05:13 Break change phase 
+2024/04/18 23:05:13 Coordinator: MapPhase finished, start ReducePhase 
+2024/04/18 23:05:13 Coordinator: assigned a task {JobType:ReduceJob,Id:0,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:13 work22750 JobHeartbeat Finish
+2024/04/18 23:05:13 Worker22750: get coordinator's heartbeat {JobType:ReduceJob,Id:0,NMap:8,NReduce:10} 
+2024/04/18 23:05:13 Reduce job 0
+2024/04/18 23:05:13 msg:{Id:0,SchedulePhase:ReducePhase}
+2024/04/18 23:05:13 Coordinator: Worker has executed task {Id:0,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:13 Report Finish
+2024/04/18 23:05:13 work22750 JobRequest Send
+2024/04/18 23:05:13 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:13 c.Schedulephase:ReducePhase
+2024/04/18 23:05:13 start changPhase
+2024/04/18 23:05:13 select task { 1 {0 0 <nil>} 0}
+2024/04/18 23:05:13 Break change phase 
+2024/04/18 23:05:13 Coordinator: assigned a task {JobType:ReduceJob,Id:1,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:13 work22750 JobHeartbeat Finish
+2024/04/18 23:05:13 Worker22750: get coordinator's heartbeat {JobType:ReduceJob,Id:1,NMap:8,NReduce:10} 
+2024/04/18 23:05:13 Reduce job 1
+2024/04/18 23:05:13 msg:{Id:1,SchedulePhase:ReducePhase}
+2024/04/18 23:05:13 Coordinator: Worker has executed task {Id:1,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:13 Report Finish
+2024/04/18 23:05:13 work22750 JobRequest Send
+2024/04/18 23:05:13 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:13 c.Schedulephase:ReducePhase
+2024/04/18 23:05:13 start changPhase
+2024/04/18 23:05:13 select task { 2 {0 0 <nil>} 0}
+2024/04/18 23:05:13 Break change phase 
+2024/04/18 23:05:13 Coordinator: assigned a task {JobType:ReduceJob,Id:2,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:13 work22750 JobHeartbeat Finish
+2024/04/18 23:05:13 Worker22750: get coordinator's heartbeat {JobType:ReduceJob,Id:2,NMap:8,NReduce:10} 
+2024/04/18 23:05:13 Reduce job 2
+2024/04/18 23:05:13 msg:{Id:2,SchedulePhase:ReducePhase}
+2024/04/18 23:05:13 Coordinator: Worker has executed task {Id:2,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:13 Report Finish
+2024/04/18 23:05:13 work22750 JobRequest Send
+2024/04/18 23:05:13 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:13 c.Schedulephase:ReducePhase
+2024/04/18 23:05:13 start changPhase
+2024/04/18 23:05:13 select task { 3 {0 0 <nil>} 0}
+2024/04/18 23:05:13 Break change phase 
+2024/04/18 23:05:13 Coordinator: assigned a task {JobType:ReduceJob,Id:3,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:13 work22750 JobHeartbeat Finish
+2024/04/18 23:05:13 Worker22750: get coordinator's heartbeat {JobType:ReduceJob,Id:3,NMap:8,NReduce:10} 
+2024/04/18 23:05:13 Reduce job 3
+2024/04/18 23:05:13 msg:{Id:3,SchedulePhase:ReducePhase}
+2024/04/18 23:05:13 Coordinator: Worker has executed task {Id:3,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:13 Report Finish
+2024/04/18 23:05:13 work22750 JobRequest Send
+2024/04/18 23:05:13 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:13 c.Schedulephase:ReducePhase
+2024/04/18 23:05:13 start changPhase
+2024/04/18 23:05:13 select task { 4 {0 0 <nil>} 0}
+2024/04/18 23:05:13 Break change phase 
+2024/04/18 23:05:13 Coordinator: assigned a task {JobType:ReduceJob,Id:4,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:13 work22750 JobHeartbeat Finish
+2024/04/18 23:05:13 Worker22750: get coordinator's heartbeat {JobType:ReduceJob,Id:4,NMap:8,NReduce:10} 
+2024/04/18 23:05:13 Reduce job 4
+2024/04/18 23:05:13 msg:{Id:4,SchedulePhase:ReducePhase}
+2024/04/18 23:05:13 Coordinator: Worker has executed task {Id:4,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:13 Report Finish
+2024/04/18 23:05:13 work22750 JobRequest Send
+2024/04/18 23:05:13 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:13 c.Schedulephase:ReducePhase
+2024/04/18 23:05:13 start changPhase
+2024/04/18 23:05:13 select task { 5 {0 0 <nil>} 0}
+2024/04/18 23:05:13 Break change phase 
+2024/04/18 23:05:13 Coordinator: assigned a task {JobType:ReduceJob,Id:5,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:13 work22750 JobHeartbeat Finish
+2024/04/18 23:05:13 Worker22750: get coordinator's heartbeat {JobType:ReduceJob,Id:5,NMap:8,NReduce:10} 
+2024/04/18 23:05:13 Reduce job 5
+2024/04/18 23:05:13 msg:{Id:5,SchedulePhase:ReducePhase}
+2024/04/18 23:05:13 Coordinator: Worker has executed task {Id:5,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:13 Report Finish
+2024/04/18 23:05:13 work22750 JobRequest Send
+2024/04/18 23:05:13 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:13 c.Schedulephase:ReducePhase
+2024/04/18 23:05:13 start changPhase
+2024/04/18 23:05:13 select task { 6 {0 0 <nil>} 0}
+2024/04/18 23:05:13 Break change phase 
+2024/04/18 23:05:13 Coordinator: assigned a task {JobType:ReduceJob,Id:6,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:13 work22750 JobHeartbeat Finish
+2024/04/18 23:05:13 Worker22750: get coordinator's heartbeat {JobType:ReduceJob,Id:6,NMap:8,NReduce:10} 
+2024/04/18 23:05:13 Reduce job 6
+2024/04/18 23:05:13 msg:{Id:6,SchedulePhase:ReducePhase}
+2024/04/18 23:05:13 Coordinator: Worker has executed task {Id:6,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:13 Report Finish
+2024/04/18 23:05:13 work22750 JobRequest Send
+2024/04/18 23:05:13 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:13 c.Schedulephase:ReducePhase
+2024/04/18 23:05:13 start changPhase
+2024/04/18 23:05:13 select task { 7 {0 0 <nil>} 0}
+2024/04/18 23:05:13 Break change phase 
+2024/04/18 23:05:13 Coordinator: assigned a task {JobType:ReduceJob,Id:7,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:13 work22750 JobHeartbeat Finish
+2024/04/18 23:05:13 Worker22750: get coordinator's heartbeat {JobType:ReduceJob,Id:7,NMap:8,NReduce:10} 
+2024/04/18 23:05:13 Reduce job 7
+2024/04/18 23:05:13 msg:{Id:7,SchedulePhase:ReducePhase}
+2024/04/18 23:05:13 Coordinator: Worker has executed task {Id:7,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:13 Report Finish
+2024/04/18 23:05:13 work22750 JobRequest Send
+2024/04/18 23:05:13 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:13 c.Schedulephase:ReducePhase
+2024/04/18 23:05:13 start changPhase
+2024/04/18 23:05:13 select task { 8 {0 0 <nil>} 0}
+2024/04/18 23:05:13 Break change phase 
+2024/04/18 23:05:13 Coordinator: assigned a task {JobType:ReduceJob,Id:8,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:13 work22750 JobHeartbeat Finish
+2024/04/18 23:05:13 Worker22750: get coordinator's heartbeat {JobType:ReduceJob,Id:8,NMap:8,NReduce:10} 
+2024/04/18 23:05:13 Reduce job 8
+2024/04/18 23:05:13 msg:{Id:8,SchedulePhase:ReducePhase}
+2024/04/18 23:05:13 Coordinator: Worker has executed task {Id:8,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:13 Report Finish
+2024/04/18 23:05:13 work22750 JobRequest Send
+2024/04/18 23:05:13 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:13 c.Schedulephase:ReducePhase
+2024/04/18 23:05:13 start changPhase
+2024/04/18 23:05:13 select task { 9 {0 0 <nil>} 0}
+2024/04/18 23:05:13 Break change phase 
+2024/04/18 23:05:13 Coordinator: assigned a task {JobType:ReduceJob,Id:9,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:13 work22750 JobHeartbeat Finish
+2024/04/18 23:05:13 Worker22750: get coordinator's heartbeat {JobType:ReduceJob,Id:9,NMap:8,NReduce:10} 
+2024/04/18 23:05:13 Reduce job 9
+2024/04/18 23:05:13 msg:{Id:9,SchedulePhase:ReducePhase}
+2024/04/18 23:05:13 Coordinator: Worker has executed task {Id:9,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:13 Report Finish
+2024/04/18 23:05:13 work22750 JobRequest Send
+2024/04/18 23:05:13 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:13 c.Schedulephase:ReducePhase
+2024/04/18 23:05:13 start changPhase
+2024/04/18 23:05:13 init CompletePhase
+2024/04/18 23:05:13 task:{ 0 {13943262688495894441 1045288298 0xaede00} 2}
+2024/04/18 23:05:13 task:{ 1 {13943262688501302587 1050696454 0xaede00} 2}
+2024/04/18 23:05:13 task:{ 2 {13943262688506488442 1055882309 0xaede00} 2}
+2024/04/18 23:05:13 task:{ 3 {13943262688511388387 1060782254 0xaede00} 2}
+2024/04/18 23:05:13 task:{ 4 {13943262688516647286 1066041133 0xaede00} 2}
+2024/04/18 23:05:13 task:{ 5 {13943262688521431243 1070825090 0xaede00} 2}
+2024/04/18 23:05:13 task:{ 6 {13943262688525982489 1075376336 0xaede00} 2}
+2024/04/18 23:05:13 task:{ 7 {13943262688530626297 1080020154 0xaede00} 2}
+2024/04/18 23:05:13 task:{ 8 {13943262688535482005 1084875872 0xaede00} 2}
+2024/04/18 23:05:13 task:{ 9 {13943262688540380505 1089774362 0xaede00} 2}
+2024/04/18 23:05:13 Coordinator: ReducePhase finished, Congratulations 
+2024/04/18 23:05:13 Coordinator: assigned a task {JobType:CompleteJob} to worker 
+2024/04/18 23:05:13 work22750 JobHeartbeat Finish
+2024/04/18 23:05:13 Worker22750: get coordinator's heartbeat {JobType:CompleteJob} 
+2024/04/18 23:05:14 work76315 JobRequest Send
+2024/04/18 23:05:14 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:14 c.Schedulephase:CompletePhase
+2024/04/18 23:05:14 Coordinator: assigned a task {JobType:CompleteJob} to worker 
+2024/04/18 23:05:14 work76315 JobHeartbeat Finish
+2024/04/18 23:05:14 Worker76315: get coordinator's heartbeat {JobType:CompleteJob} 
+2024/04/18 23:05:14 start
+2024/04/18 23:05:14 init MapPhase
+2024/04/18 23:05:14 task:{../pg-being_ernest.txt 0 {0 0 <nil>} 0}
+2024/04/18 23:05:14 task:{../pg-dorian_gray.txt 1 {0 0 <nil>} 0}
+2024/04/18 23:05:14 task:{../pg-frankenstein.txt 2 {0 0 <nil>} 0}
+2024/04/18 23:05:14 task:{../pg-grimm.txt 3 {0 0 <nil>} 0}
+2024/04/18 23:05:14 task:{../pg-huckleberry_finn.txt 4 {0 0 <nil>} 0}
+2024/04/18 23:05:14 task:{../pg-metamorphosis.txt 5 {0 0 <nil>} 0}
+2024/04/18 23:05:14 task:{../pg-sherlock_holmes.txt 6 {0 0 <nil>} 0}
+2024/04/18 23:05:14 task:{../pg-tom_sawyer.txt 7 {0 0 <nil>} 0}
+2024/04/18 23:05:15 work79097 JobRequest Send
+2024/04/18 23:05:15 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:15 c.Schedulephase:MapPhase
+2024/04/18 23:05:15 start changPhase
+2024/04/18 23:05:15 select task {../pg-being_ernest.txt 0 {0 0 <nil>} 0}
+2024/04/18 23:05:15 Break change phase ../pg-being_ernest.txt
+2024/04/18 23:05:15 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-being_ernest.txt,Id:0,NReduce:10} to worker 
+2024/04/18 23:05:15 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:15 c.Schedulephase:MapPhase
+2024/04/18 23:05:15 start changPhase
+2024/04/18 23:05:15 select task {../pg-dorian_gray.txt 1 {0 0 <nil>} 0}
+2024/04/18 23:05:15 Break change phase ../pg-dorian_gray.txt
+2024/04/18 23:05:15 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-dorian_gray.txt,Id:1,NReduce:10} to worker 
+2024/04/18 23:05:15 work99851 JobRequest Send
+2024/04/18 23:05:15 work99851 JobHeartbeat Finish
+2024/04/18 23:05:15 work79097 JobHeartbeat Finish
+2024/04/18 23:05:15 Worker99851: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-dorian_gray.txt,Id:1,NReduce:10} 
+2024/04/18 23:05:15 Map job 1
+2024/04/18 23:05:15 Worker79097: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-being_ernest.txt,Id:0,NReduce:10} 
+2024/04/18 23:05:15 Map job 0
+2024/04/18 23:05:16 intermediates' len:10
+2024/04/18 23:05:16 worker create a temp file: mr-0-9
+2024/04/18 23:05:16 worker create a temp file: mr-0-4
+2024/04/18 23:05:16 worker create a temp file: mr-0-7
+2024/04/18 23:05:16 worker create a temp file: mr-0-8
+2024/04/18 23:05:16 worker create a temp file: mr-0-1
+2024/04/18 23:05:16 worker create a temp file: mr-0-0
+2024/04/18 23:05:16 worker create a temp file: mr-0-2
+2024/04/18 23:05:16 worker create a temp file: mr-0-6
+2024/04/18 23:05:16 worker create a temp file: mr-0-3
+2024/04/18 23:05:16 worker create a temp file: mr-0-5
+2024/04/18 23:05:16 msg:{Id:0,SchedulePhase:MapPhase}
+2024/04/18 23:05:16 Coordinator: Worker has executed task {Id:0,SchedulePhase:MapPhase} 
+2024/04/18 23:05:16 Report Finish
+2024/04/18 23:05:16 intermediates' len:10
+2024/04/18 23:05:16 work79097 JobRequest Send
+2024/04/18 23:05:16 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:16 c.Schedulephase:MapPhase
+2024/04/18 23:05:16 start changPhase
+2024/04/18 23:05:16 worker create a temp file: mr-1-9
+2024/04/18 23:05:16 select task {../pg-frankenstein.txt 2 {0 0 <nil>} 0}
+2024/04/18 23:05:16 Break change phase ../pg-frankenstein.txt
+2024/04/18 23:05:16 worker create a temp file: mr-1-3
+2024/04/18 23:05:16 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-frankenstein.txt,Id:2,NReduce:10} to worker 
+2024/04/18 23:05:16 work79097 JobHeartbeat Finish
+2024/04/18 23:05:16 worker create a temp file: mr-1-1
+2024/04/18 23:05:16 worker create a temp file: mr-1-2
+2024/04/18 23:05:16 worker create a temp file: mr-1-7
+2024/04/18 23:05:16 worker create a temp file: mr-1-4
+2024/04/18 23:05:16 worker create a temp file: mr-1-6
+2024/04/18 23:05:16 worker create a temp file: mr-1-0
+2024/04/18 23:05:16 worker create a temp file: mr-1-8
+2024/04/18 23:05:16 Worker79097: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-frankenstein.txt,Id:2,NReduce:10} 
+2024/04/18 23:05:16 worker create a temp file: mr-1-5
+2024/04/18 23:05:16 Map job 2
+2024/04/18 23:05:16 msg:{Id:1,SchedulePhase:MapPhase}
+2024/04/18 23:05:16 Coordinator: Worker has executed task {Id:1,SchedulePhase:MapPhase} 
+2024/04/18 23:05:16 Report Finish
+2024/04/18 23:05:16 work99851 JobRequest Send
+2024/04/18 23:05:16 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:16 c.Schedulephase:MapPhase
+2024/04/18 23:05:16 start changPhase
+2024/04/18 23:05:16 select task {../pg-grimm.txt 3 {0 0 <nil>} 0}
+2024/04/18 23:05:16 Break change phase ../pg-grimm.txt
+2024/04/18 23:05:16 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-grimm.txt,Id:3,NReduce:10} to worker 
+2024/04/18 23:05:16 work99851 JobHeartbeat Finish
+2024/04/18 23:05:16 Worker99851: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-grimm.txt,Id:3,NReduce:10} 
+2024/04/18 23:05:16 Map job 3
+2024/04/18 23:05:17 intermediates' len:10
+2024/04/18 23:05:17 worker create a temp file: mr-2-9
+2024/04/18 23:05:17 worker create a temp file: mr-2-1
+2024/04/18 23:05:17 worker create a temp file: mr-2-6
+2024/04/18 23:05:17 worker create a temp file: mr-2-0
+2024/04/18 23:05:17 worker create a temp file: mr-2-5
+2024/04/18 23:05:17 worker create a temp file: mr-2-8
+2024/04/18 23:05:17 worker create a temp file: mr-2-3
+2024/04/18 23:05:17 intermediates' len:10
+2024/04/18 23:05:17 worker create a temp file: mr-2-7
+2024/04/18 23:05:17 worker create a temp file: mr-3-9
+2024/04/18 23:05:17 worker create a temp file: mr-2-4
+2024/04/18 23:05:17 worker create a temp file: mr-3-4
+2024/04/18 23:05:17 worker create a temp file: mr-2-2
+2024/04/18 23:05:17 worker create a temp file: mr-3-7
+2024/04/18 23:05:17 worker create a temp file: mr-3-6
+2024/04/18 23:05:17 worker create a temp file: mr-3-8
+2024/04/18 23:05:17 worker create a temp file: mr-3-2
+2024/04/18 23:05:17 worker create a temp file: mr-3-1
+2024/04/18 23:05:17 worker create a temp file: mr-3-0
+2024/04/18 23:05:17 worker create a temp file: mr-3-5
+2024/04/18 23:05:17 worker create a temp file: mr-3-3
+2024/04/18 23:05:17 msg:{Id:2,SchedulePhase:MapPhase}
+2024/04/18 23:05:17 Coordinator: Worker has executed task {Id:2,SchedulePhase:MapPhase} 
+2024/04/18 23:05:17 Report Finish
+2024/04/18 23:05:17 msg:{Id:3,SchedulePhase:MapPhase}
+2024/04/18 23:05:17 Coordinator: Worker has executed task {Id:3,SchedulePhase:MapPhase} 
+2024/04/18 23:05:17 Report Finish
+2024/04/18 23:05:17 work99851 JobRequest Send
+2024/04/18 23:05:17 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:17 c.Schedulephase:MapPhase
+2024/04/18 23:05:17 start changPhase
+2024/04/18 23:05:17 select task {../pg-huckleberry_finn.txt 4 {0 0 <nil>} 0}
+2024/04/18 23:05:17 Break change phase ../pg-huckleberry_finn.txt
+2024/04/18 23:05:17 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-huckleberry_finn.txt,Id:4,NReduce:10} to worker 
+2024/04/18 23:05:17 work99851 JobHeartbeat Finish
+2024/04/18 23:05:17 work79097 JobRequest Send
+2024/04/18 23:05:17 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:17 c.Schedulephase:MapPhase
+2024/04/18 23:05:17 start changPhase
+2024/04/18 23:05:17 select task {../pg-metamorphosis.txt 5 {0 0 <nil>} 0}
+2024/04/18 23:05:17 Break change phase ../pg-metamorphosis.txt
+2024/04/18 23:05:17 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-metamorphosis.txt,Id:5,NReduce:10} to worker 
+2024/04/18 23:05:17 work79097 JobHeartbeat Finish
+2024/04/18 23:05:17 Worker99851: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-huckleberry_finn.txt,Id:4,NReduce:10} 
+2024/04/18 23:05:17 Map job 4
+2024/04/18 23:05:17 Worker79097: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-metamorphosis.txt,Id:5,NReduce:10} 
+2024/04/18 23:05:17 Map job 5
+2024/04/18 23:05:18 intermediates' len:10
+2024/04/18 23:05:18 worker create a temp file: mr-5-9
+2024/04/18 23:05:18 worker create a temp file: mr-5-1
+2024/04/18 23:05:18 worker create a temp file: mr-5-5
+2024/04/18 23:05:18 worker create a temp file: mr-5-3
+2024/04/18 23:05:18 worker create a temp file: mr-5-0
+2024/04/18 23:05:18 worker create a temp file: mr-5-7
+2024/04/18 23:05:18 worker create a temp file: mr-5-2
+2024/04/18 23:05:18 worker create a temp file: mr-5-4
+2024/04/18 23:05:18 worker create a temp file: mr-5-6
+2024/04/18 23:05:18 intermediates' len:10
+2024/04/18 23:05:18 worker create a temp file: mr-5-8
+2024/04/18 23:05:18 worker create a temp file: mr-4-9
+2024/04/18 23:05:18 worker create a temp file: mr-4-4
+2024/04/18 23:05:18 worker create a temp file: mr-4-6
+2024/04/18 23:05:18 worker create a temp file: mr-4-8
+2024/04/18 23:05:18 worker create a temp file: mr-4-7
+2024/04/18 23:05:18 worker create a temp file: mr-4-5
+2024/04/18 23:05:18 worker create a temp file: mr-4-1
+2024/04/18 23:05:18 worker create a temp file: mr-4-3
+2024/04/18 23:05:18 worker create a temp file: mr-4-0
+2024/04/18 23:05:18 worker create a temp file: mr-4-2
+2024/04/18 23:05:18 msg:{Id:5,SchedulePhase:MapPhase}
+2024/04/18 23:05:18 Coordinator: Worker has executed task {Id:5,SchedulePhase:MapPhase} 
+2024/04/18 23:05:18 Report Finish
+2024/04/18 23:05:18 msg:{Id:4,SchedulePhase:MapPhase}
+2024/04/18 23:05:18 Coordinator: Worker has executed task {Id:4,SchedulePhase:MapPhase} 
+2024/04/18 23:05:18 Report Finish
+2024/04/18 23:05:18 work79097 JobRequest Send
+2024/04/18 23:05:18 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:18 c.Schedulephase:MapPhase
+2024/04/18 23:05:18 start changPhase
+2024/04/18 23:05:18 select task {../pg-sherlock_holmes.txt 6 {0 0 <nil>} 0}
+2024/04/18 23:05:18 Break change phase ../pg-sherlock_holmes.txt
+2024/04/18 23:05:18 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-sherlock_holmes.txt,Id:6,NReduce:10} to worker 
+2024/04/18 23:05:18 work79097 JobHeartbeat Finish
+2024/04/18 23:05:18 work99851 JobRequest Send
+2024/04/18 23:05:18 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:18 c.Schedulephase:MapPhase
+2024/04/18 23:05:18 start changPhase
+2024/04/18 23:05:18 select task {../pg-tom_sawyer.txt 7 {0 0 <nil>} 0}
+2024/04/18 23:05:18 Break change phase ../pg-tom_sawyer.txt
+2024/04/18 23:05:18 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-tom_sawyer.txt,Id:7,NReduce:10} to worker 
+2024/04/18 23:05:18 work99851 JobHeartbeat Finish
+2024/04/18 23:05:18 Worker99851: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-tom_sawyer.txt,Id:7,NReduce:10} 
+2024/04/18 23:05:18 Map job 7
+2024/04/18 23:05:18 Worker79097: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-sherlock_holmes.txt,Id:6,NReduce:10} 
+2024/04/18 23:05:18 Map job 6
+2024/04/18 23:05:19 intermediates' len:10
+2024/04/18 23:05:19 worker create a temp file: mr-7-9
+2024/04/18 23:05:19 worker create a temp file: mr-7-4
+2024/04/18 23:05:19 worker create a temp file: mr-7-1
+2024/04/18 23:05:19 worker create a temp file: mr-7-5
+2024/04/18 23:05:19 worker create a temp file: mr-7-7
+2024/04/18 23:05:19 worker create a temp file: mr-7-0
+2024/04/18 23:05:19 worker create a temp file: mr-7-3
+2024/04/18 23:05:19 worker create a temp file: mr-7-8
+2024/04/18 23:05:19 worker create a temp file: mr-7-2
+2024/04/18 23:05:19 worker create a temp file: mr-7-6
+2024/04/18 23:05:19 msg:{Id:7,SchedulePhase:MapPhase}
+2024/04/18 23:05:19 Coordinator: Worker has executed task {Id:7,SchedulePhase:MapPhase} 
+2024/04/18 23:05:19 intermediates' len:10
+2024/04/18 23:05:19 Report Finish
+2024/04/18 23:05:19 worker create a temp file: mr-6-0
+2024/04/18 23:05:19 worker create a temp file: mr-6-4
+2024/04/18 23:05:19 worker create a temp file: mr-6-9
+2024/04/18 23:05:19 worker create a temp file: mr-6-6
+2024/04/18 23:05:19 worker create a temp file: mr-6-7
+2024/04/18 23:05:19 worker create a temp file: mr-6-8
+2024/04/18 23:05:19 worker create a temp file: mr-6-1
+2024/04/18 23:05:19 worker create a temp file: mr-6-2
+2024/04/18 23:05:19 worker create a temp file: mr-6-3
+2024/04/18 23:05:19 worker create a temp file: mr-6-5
+2024/04/18 23:05:19 msg:{Id:6,SchedulePhase:MapPhase}
+2024/04/18 23:05:19 Coordinator: Worker has executed task {Id:6,SchedulePhase:MapPhase} 
+2024/04/18 23:05:19 Report Finish
+2024/04/18 23:05:19 work99851 JobRequest Send
+2024/04/18 23:05:19 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:19 c.Schedulephase:MapPhase
+2024/04/18 23:05:19 start changPhase
+2024/04/18 23:05:19 init ReducePhase
+2024/04/18 23:05:19 task:{ 0 {0 0 <nil>} 0}
+2024/04/18 23:05:19 task:{ 1 {0 0 <nil>} 0}
+2024/04/18 23:05:19 task:{ 2 {0 0 <nil>} 0}
+2024/04/18 23:05:19 task:{ 3 {0 0 <nil>} 0}
+2024/04/18 23:05:19 task:{ 4 {0 0 <nil>} 0}
+2024/04/18 23:05:19 task:{ 5 {0 0 <nil>} 0}
+2024/04/18 23:05:19 task:{ 6 {0 0 <nil>} 0}
+2024/04/18 23:05:19 task:{ 7 {0 0 <nil>} 0}
+2024/04/18 23:05:19 task:{ 8 {0 0 <nil>} 0}
+2024/04/18 23:05:19 task:{ 9 {0 0 <nil>} 0}
+2024/04/18 23:05:19 start changPhase
+2024/04/18 23:05:19 select task { 0 {0 0 <nil>} 0}
+2024/04/18 23:05:19 Break change phase 
+2024/04/18 23:05:19 Coordinator: MapPhase finished, start ReducePhase 
+2024/04/18 23:05:19 Coordinator: assigned a task {JobType:ReduceJob,Id:0,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:19 work99851 JobHeartbeat Finish
+2024/04/18 23:05:19 work79097 JobRequest Send
+2024/04/18 23:05:19 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:19 c.Schedulephase:ReducePhase
+2024/04/18 23:05:19 start changPhase
+2024/04/18 23:05:19 select task { 1 {0 0 <nil>} 0}
+2024/04/18 23:05:19 Break change phase 
+2024/04/18 23:05:19 Coordinator: assigned a task {JobType:ReduceJob,Id:1,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:19 work79097 JobHeartbeat Finish
+2024/04/18 23:05:19 Worker99851: get coordinator's heartbeat {JobType:ReduceJob,Id:0,NMap:8,NReduce:10} 
+2024/04/18 23:05:19 Reduce job 0
+2024/04/18 23:05:19 Worker79097: get coordinator's heartbeat {JobType:ReduceJob,Id:1,NMap:8,NReduce:10} 
+2024/04/18 23:05:19 Reduce job 1
+2024/04/18 23:05:19 msg:{Id:0,SchedulePhase:ReducePhase}
+2024/04/18 23:05:19 Coordinator: Worker has executed task {Id:0,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:19 Report Finish
+2024/04/18 23:05:19 msg:{Id:1,SchedulePhase:ReducePhase}
+2024/04/18 23:05:19 Coordinator: Worker has executed task {Id:1,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:19 Report Finish
+2024/04/18 23:05:19 work99851 JobRequest Send
+2024/04/18 23:05:19 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:19 c.Schedulephase:ReducePhase
+2024/04/18 23:05:19 start changPhase
+2024/04/18 23:05:19 select task { 2 {0 0 <nil>} 0}
+2024/04/18 23:05:19 Break change phase 
+2024/04/18 23:05:19 Coordinator: assigned a task {JobType:ReduceJob,Id:2,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:19 work99851 JobHeartbeat Finish
+2024/04/18 23:05:19 work79097 JobRequest Send
+2024/04/18 23:05:19 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:19 c.Schedulephase:ReducePhase
+2024/04/18 23:05:19 start changPhase
+2024/04/18 23:05:19 select task { 3 {0 0 <nil>} 0}
+2024/04/18 23:05:19 Break change phase 
+2024/04/18 23:05:19 Coordinator: assigned a task {JobType:ReduceJob,Id:3,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:19 work79097 JobHeartbeat Finish
+2024/04/18 23:05:19 Worker99851: get coordinator's heartbeat {JobType:ReduceJob,Id:2,NMap:8,NReduce:10} 
+2024/04/18 23:05:19 Reduce job 2
+2024/04/18 23:05:19 Worker79097: get coordinator's heartbeat {JobType:ReduceJob,Id:3,NMap:8,NReduce:10} 
+2024/04/18 23:05:19 Reduce job 3
+2024/04/18 23:05:19 msg:{Id:3,SchedulePhase:ReducePhase}
+2024/04/18 23:05:19 Coordinator: Worker has executed task {Id:3,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:19 msg:{Id:2,SchedulePhase:ReducePhase}
+2024/04/18 23:05:19 Coordinator: Worker has executed task {Id:2,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:19 Report Finish
+2024/04/18 23:05:19 Report Finish
+2024/04/18 23:05:19 work99851 JobRequest Send
+2024/04/18 23:05:19 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:19 c.Schedulephase:ReducePhase
+2024/04/18 23:05:19 start changPhase
+2024/04/18 23:05:19 select task { 4 {0 0 <nil>} 0}
+2024/04/18 23:05:19 Break change phase 
+2024/04/18 23:05:19 Coordinator: assigned a task {JobType:ReduceJob,Id:4,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:19 work99851 JobHeartbeat Finish
+2024/04/18 23:05:19 work79097 JobRequest Send
+2024/04/18 23:05:19 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:19 c.Schedulephase:ReducePhase
+2024/04/18 23:05:19 start changPhase
+2024/04/18 23:05:19 select task { 5 {0 0 <nil>} 0}
+2024/04/18 23:05:19 Break change phase 
+2024/04/18 23:05:19 Coordinator: assigned a task {JobType:ReduceJob,Id:5,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:19 work79097 JobHeartbeat Finish
+2024/04/18 23:05:19 Worker99851: get coordinator's heartbeat {JobType:ReduceJob,Id:4,NMap:8,NReduce:10} 
+2024/04/18 23:05:19 Reduce job 4
+2024/04/18 23:05:19 Worker79097: get coordinator's heartbeat {JobType:ReduceJob,Id:5,NMap:8,NReduce:10} 
+2024/04/18 23:05:19 Reduce job 5
+2024/04/18 23:05:19 msg:{Id:5,SchedulePhase:ReducePhase}
+2024/04/18 23:05:19 Coordinator: Worker has executed task {Id:5,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:19 Report Finish
+2024/04/18 23:05:19 msg:{Id:4,SchedulePhase:ReducePhase}
+2024/04/18 23:05:19 Coordinator: Worker has executed task {Id:4,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:19 Report Finish
+2024/04/18 23:05:19 work79097 JobRequest Send
+2024/04/18 23:05:19 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:19 c.Schedulephase:ReducePhase
+2024/04/18 23:05:19 start changPhase
+2024/04/18 23:05:19 select task { 6 {0 0 <nil>} 0}
+2024/04/18 23:05:19 Break change phase 
+2024/04/18 23:05:19 Coordinator: assigned a task {JobType:ReduceJob,Id:6,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:19 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:19 c.Schedulephase:ReducePhase
+2024/04/18 23:05:19 start changPhase
+2024/04/18 23:05:19 select task { 7 {0 0 <nil>} 0}
+2024/04/18 23:05:19 Break change phase 
+2024/04/18 23:05:19 Coordinator: assigned a task {JobType:ReduceJob,Id:7,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:19 work99851 JobRequest Send
+2024/04/18 23:05:19 work99851 JobHeartbeat Finish
+2024/04/18 23:05:19 work79097 JobHeartbeat Finish
+2024/04/18 23:05:19 Worker99851: get coordinator's heartbeat {JobType:ReduceJob,Id:7,NMap:8,NReduce:10} 
+2024/04/18 23:05:19 Reduce job 7
+2024/04/18 23:05:19 Worker79097: get coordinator's heartbeat {JobType:ReduceJob,Id:6,NMap:8,NReduce:10} 
+2024/04/18 23:05:19 Reduce job 6
+2024/04/18 23:05:19 msg:{Id:6,SchedulePhase:ReducePhase}
+2024/04/18 23:05:19 Coordinator: Worker has executed task {Id:6,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:19 Report Finish
+2024/04/18 23:05:19 msg:{Id:7,SchedulePhase:ReducePhase}
+2024/04/18 23:05:19 Coordinator: Worker has executed task {Id:7,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:19 Report Finish
+2024/04/18 23:05:19 work79097 JobRequest Send
+2024/04/18 23:05:19 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:19 c.Schedulephase:ReducePhase
+2024/04/18 23:05:19 start changPhase
+2024/04/18 23:05:19 select task { 8 {0 0 <nil>} 0}
+2024/04/18 23:05:19 Break change phase 
+2024/04/18 23:05:19 Coordinator: assigned a task {JobType:ReduceJob,Id:8,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:19 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:19 c.Schedulephase:ReducePhase
+2024/04/18 23:05:19 start changPhase
+2024/04/18 23:05:19 select task { 9 {0 0 <nil>} 0}
+2024/04/18 23:05:19 Break change phase 
+2024/04/18 23:05:19 Coordinator: assigned a task {JobType:ReduceJob,Id:9,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:19 work99851 JobRequest Send
+2024/04/18 23:05:19 work99851 JobHeartbeat Finish
+2024/04/18 23:05:19 work79097 JobHeartbeat Finish
+2024/04/18 23:05:19 Worker99851: get coordinator's heartbeat {JobType:ReduceJob,Id:9,NMap:8,NReduce:10} 
+2024/04/18 23:05:19 Reduce job 9
+2024/04/18 23:05:19 Worker79097: get coordinator's heartbeat {JobType:ReduceJob,Id:8,NMap:8,NReduce:10} 
+2024/04/18 23:05:19 Reduce job 8
+2024/04/18 23:05:19 msg:{Id:9,SchedulePhase:ReducePhase}
+2024/04/18 23:05:19 Coordinator: Worker has executed task {Id:9,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:19 Report Finish
+2024/04/18 23:05:19 msg:{Id:8,SchedulePhase:ReducePhase}
+2024/04/18 23:05:19 Coordinator: Worker has executed task {Id:8,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:19 Report Finish
+2024/04/18 23:05:19 work99851 JobRequest Send
+2024/04/18 23:05:19 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:19 c.Schedulephase:ReducePhase
+2024/04/18 23:05:19 start changPhase
+2024/04/18 23:05:19 init CompletePhase
+2024/04/18 23:05:19 task:{ 0 {13943262695012558139 5019066672 0xaede00} 2}
+2024/04/18 23:05:19 task:{ 1 {13943262695012746063 5019254606 0xaede00} 2}
+2024/04/18 23:05:19 task:{ 2 {13943262695013422112 5019930655 0xaede00} 2}
+2024/04/18 23:05:19 task:{ 3 {13943262695013493241 5020001784 0xaede00} 2}
+2024/04/18 23:05:19 task:{ 4 {13943262695014232994 5020741537 0xaede00} 2}
+2024/04/18 23:05:19 task:{ 5 {13943262695014293281 5020801824 0xaede00} 2}
+2024/04/18 23:05:19 task:{ 6 {13943262695015053344 5021561887 0xaede00} 2}
+2024/04/18 23:05:19 task:{ 7 {13943262695015073293 5021581836 0xaede00} 2}
+2024/04/18 23:05:19 task:{ 8 {13943262695015955883 5022464436 0xaede00} 2}
+2024/04/18 23:05:19 task:{ 9 {13943262695015981663 5022490216 0xaede00} 2}
+2024/04/18 23:05:19 Coordinator: ReducePhase finished, Congratulations 
+2024/04/18 23:05:19 Coordinator: assigned a task {JobType:CompleteJob} to worker 
+2024/04/18 23:05:19 work99851 JobHeartbeat Finish
+2024/04/18 23:05:19 work79097 JobRequest Send
+2024/04/18 23:05:19 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:19 c.Schedulephase:CompletePhase
+2024/04/18 23:05:19 Coordinator: assigned a task {JobType:CompleteJob} to worker 
+2024/04/18 23:05:19 work79097 JobHeartbeat Finish
+2024/04/18 23:05:19 Worker99851: get coordinator's heartbeat {JobType:CompleteJob} 
+2024/04/18 23:05:19 Worker79097: get coordinator's heartbeat {JobType:CompleteJob} 
+2024/04/18 23:05:20 start
+2024/04/18 23:05:20 init MapPhase
+2024/04/18 23:05:20 task:{../pg-being_ernest.txt 0 {0 0 <nil>} 0}
+2024/04/18 23:05:20 task:{../pg-dorian_gray.txt 1 {0 0 <nil>} 0}
+2024/04/18 23:05:20 task:{../pg-frankenstein.txt 2 {0 0 <nil>} 0}
+2024/04/18 23:05:20 task:{../pg-grimm.txt 3 {0 0 <nil>} 0}
+2024/04/18 23:05:20 task:{../pg-huckleberry_finn.txt 4 {0 0 <nil>} 0}
+2024/04/18 23:05:20 task:{../pg-metamorphosis.txt 5 {0 0 <nil>} 0}
+2024/04/18 23:05:20 task:{../pg-sherlock_holmes.txt 6 {0 0 <nil>} 0}
+2024/04/18 23:05:20 task:{../pg-tom_sawyer.txt 7 {0 0 <nil>} 0}
+2024/04/18 23:05:21 work4400 JobRequest Send
+2024/04/18 23:05:21 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:21 c.Schedulephase:MapPhase
+2024/04/18 23:05:21 start changPhase
+2024/04/18 23:05:21 select task {../pg-being_ernest.txt 0 {0 0 <nil>} 0}
+2024/04/18 23:05:21 Break change phase ../pg-being_ernest.txt
+2024/04/18 23:05:21 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-being_ernest.txt,Id:0,NReduce:10} to worker 
+2024/04/18 23:05:21 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:21 c.Schedulephase:MapPhase
+2024/04/18 23:05:21 start changPhase
+2024/04/18 23:05:21 select task {../pg-dorian_gray.txt 1 {0 0 <nil>} 0}
+2024/04/18 23:05:21 Break change phase ../pg-dorian_gray.txt
+2024/04/18 23:05:21 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-dorian_gray.txt,Id:1,NReduce:10} to worker 
+2024/04/18 23:05:21 work42588 JobRequest Send
+2024/04/18 23:05:21 work4400 JobHeartbeat Finish
+2024/04/18 23:05:21 work42588 JobHeartbeat Finish
+2024/04/18 23:05:21 Worker4400: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-being_ernest.txt,Id:0,NReduce:10} 
+2024/04/18 23:05:21 Map job 0
+2024/04/18 23:05:21 Worker42588: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-dorian_gray.txt,Id:1,NReduce:10} 
+2024/04/18 23:05:21 Map job 1
+2024/04/18 23:05:21 intermediates' len:10
+2024/04/18 23:05:21 worker create a temp file: mr-0-1
+2024/04/18 23:05:21 worker create a temp file: mr-0-9
+2024/04/18 23:05:21 worker create a temp file: mr-0-6
+2024/04/18 23:05:21 worker create a temp file: mr-0-7
+2024/04/18 23:05:21 worker create a temp file: mr-0-8
+2024/04/18 23:05:21 worker create a temp file: mr-0-5
+2024/04/18 23:05:21 worker create a temp file: mr-0-4
+2024/04/18 23:05:21 worker create a temp file: mr-0-3
+2024/04/18 23:05:21 worker create a temp file: mr-0-2
+2024/04/18 23:05:21 worker create a temp file: mr-0-0
+2024/04/18 23:05:21 msg:{Id:0,SchedulePhase:MapPhase}
+2024/04/18 23:05:21 Coordinator: Worker has executed task {Id:0,SchedulePhase:MapPhase} 
+2024/04/18 23:05:21 Report Finish
+2024/04/18 23:05:21 work4400 JobRequest Send
+2024/04/18 23:05:21 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:21 c.Schedulephase:MapPhase
+2024/04/18 23:05:21 start changPhase
+2024/04/18 23:05:21 select task {../pg-frankenstein.txt 2 {0 0 <nil>} 0}
+2024/04/18 23:05:21 Break change phase ../pg-frankenstein.txt
+2024/04/18 23:05:21 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-frankenstein.txt,Id:2,NReduce:10} to worker 
+2024/04/18 23:05:21 work4400 JobHeartbeat Finish
+2024/04/18 23:05:21 Worker4400: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-frankenstein.txt,Id:2,NReduce:10} 
+2024/04/18 23:05:21 Map job 2
+2024/04/18 23:05:21 intermediates' len:10
+2024/04/18 23:05:21 worker create a temp file: mr-1-9
+2024/04/18 23:05:21 worker create a temp file: mr-1-1
+2024/04/18 23:05:21 worker create a temp file: mr-1-4
+2024/04/18 23:05:21 worker create a temp file: mr-1-2
+2024/04/18 23:05:21 worker create a temp file: mr-1-7
+2024/04/18 23:05:21 worker create a temp file: mr-1-5
+2024/04/18 23:05:21 worker create a temp file: mr-1-3
+2024/04/18 23:05:21 worker create a temp file: mr-1-8
+2024/04/18 23:05:21 worker create a temp file: mr-1-0
+2024/04/18 23:05:21 worker create a temp file: mr-1-6
+2024/04/18 23:05:21 intermediates' len:10
+2024/04/18 23:05:21 worker create a temp file: mr-2-9
+2024/04/18 23:05:21 worker create a temp file: mr-2-4
+2024/04/18 23:05:21 worker create a temp file: mr-2-6
+2024/04/18 23:05:21 worker create a temp file: mr-2-5
+2024/04/18 23:05:21 worker create a temp file: mr-2-8
+2024/04/18 23:05:21 worker create a temp file: mr-2-7
+2024/04/18 23:05:21 worker create a temp file: mr-2-1
+2024/04/18 23:05:21 worker create a temp file: mr-2-3
+2024/04/18 23:05:21 worker create a temp file: mr-2-0
+2024/04/18 23:05:21 worker create a temp file: mr-2-2
+2024/04/18 23:05:21 msg:{Id:1,SchedulePhase:MapPhase}
+2024/04/18 23:05:21 Coordinator: Worker has executed task {Id:1,SchedulePhase:MapPhase} 
+2024/04/18 23:05:21 Report Finish
+2024/04/18 23:05:21 msg:{Id:2,SchedulePhase:MapPhase}
+2024/04/18 23:05:21 Coordinator: Worker has executed task {Id:2,SchedulePhase:MapPhase} 
+2024/04/18 23:05:21 Report Finish
+2024/04/18 23:05:21 work42588 JobRequest Send
+2024/04/18 23:05:21 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:21 c.Schedulephase:MapPhase
+2024/04/18 23:05:21 start changPhase
+2024/04/18 23:05:21 select task {../pg-grimm.txt 3 {0 0 <nil>} 0}
+2024/04/18 23:05:21 Break change phase ../pg-grimm.txt
+2024/04/18 23:05:21 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-grimm.txt,Id:3,NReduce:10} to worker 
+2024/04/18 23:05:21 work42588 JobHeartbeat Finish
+2024/04/18 23:05:21 Worker42588: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-grimm.txt,Id:3,NReduce:10} 
+2024/04/18 23:05:21 Map job 3
+2024/04/18 23:05:21 work4400 JobRequest Send
+2024/04/18 23:05:21 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:21 c.Schedulephase:MapPhase
+2024/04/18 23:05:21 start changPhase
+2024/04/18 23:05:21 select task {../pg-huckleberry_finn.txt 4 {0 0 <nil>} 0}
+2024/04/18 23:05:21 Break change phase ../pg-huckleberry_finn.txt
+2024/04/18 23:05:21 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-huckleberry_finn.txt,Id:4,NReduce:10} to worker 
+2024/04/18 23:05:21 work4400 JobHeartbeat Finish
+2024/04/18 23:05:21 Worker4400: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-huckleberry_finn.txt,Id:4,NReduce:10} 
+2024/04/18 23:05:21 Map job 4
+2024/04/18 23:05:21 intermediates' len:10
+2024/04/18 23:05:21 worker create a temp file: mr-3-9
+2024/04/18 23:05:21 worker create a temp file: mr-3-0
+2024/04/18 23:05:21 worker create a temp file: mr-3-4
+2024/04/18 23:05:21 worker create a temp file: mr-3-3
+2024/04/18 23:05:21 worker create a temp file: mr-3-5
+2024/04/18 23:05:21 worker create a temp file: mr-3-2
+2024/04/18 23:05:21 intermediates' len:10
+2024/04/18 23:05:21 worker create a temp file: mr-4-9
+2024/04/18 23:05:21 worker create a temp file: mr-4-4
+2024/04/18 23:05:21 worker create a temp file: mr-4-1
+2024/04/18 23:05:21 worker create a temp file: mr-4-5
+2024/04/18 23:05:21 worker create a temp file: mr-3-6
+2024/04/18 23:05:21 worker create a temp file: mr-3-7
+2024/04/18 23:05:21 worker create a temp file: mr-3-8
+2024/04/18 23:05:21 worker create a temp file: mr-4-2
+2024/04/18 23:05:21 worker create a temp file: mr-3-1
+2024/04/18 23:05:21 worker create a temp file: mr-4-7
+2024/04/18 23:05:21 worker create a temp file: mr-4-6
+2024/04/18 23:05:21 worker create a temp file: mr-4-8
+2024/04/18 23:05:21 worker create a temp file: mr-4-3
+2024/04/18 23:05:21 worker create a temp file: mr-4-0
+2024/04/18 23:05:21 msg:{Id:3,SchedulePhase:MapPhase}
+2024/04/18 23:05:21 Coordinator: Worker has executed task {Id:3,SchedulePhase:MapPhase} 
+2024/04/18 23:05:21 Report Finish
+2024/04/18 23:05:21 msg:{Id:4,SchedulePhase:MapPhase}
+2024/04/18 23:05:21 Coordinator: Worker has executed task {Id:4,SchedulePhase:MapPhase} 
+2024/04/18 23:05:21 Report Finish
+2024/04/18 23:05:21 work42588 JobRequest Send
+2024/04/18 23:05:21 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:21 c.Schedulephase:MapPhase
+2024/04/18 23:05:21 start changPhase
+2024/04/18 23:05:21 select task {../pg-metamorphosis.txt 5 {0 0 <nil>} 0}
+2024/04/18 23:05:21 Break change phase ../pg-metamorphosis.txt
+2024/04/18 23:05:21 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-metamorphosis.txt,Id:5,NReduce:10} to worker 
+2024/04/18 23:05:21 work42588 JobHeartbeat Finish
+2024/04/18 23:05:21 work4400 JobRequest Send
+2024/04/18 23:05:21 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:21 c.Schedulephase:MapPhase
+2024/04/18 23:05:21 start changPhase
+2024/04/18 23:05:21 select task {../pg-sherlock_holmes.txt 6 {0 0 <nil>} 0}
+2024/04/18 23:05:21 Break change phase ../pg-sherlock_holmes.txt
+2024/04/18 23:05:21 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-sherlock_holmes.txt,Id:6,NReduce:10} to worker 
+2024/04/18 23:05:21 work4400 JobHeartbeat Finish
+2024/04/18 23:05:21 Worker42588: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-metamorphosis.txt,Id:5,NReduce:10} 
+2024/04/18 23:05:21 Map job 5
+2024/04/18 23:05:21 intermediates' len:10
+2024/04/18 23:05:21 Worker4400: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-sherlock_holmes.txt,Id:6,NReduce:10} 
+2024/04/18 23:05:21 Map job 6
+2024/04/18 23:05:21 worker create a temp file: mr-5-9
+2024/04/18 23:05:21 worker create a temp file: mr-5-4
+2024/04/18 23:05:21 worker create a temp file: mr-5-6
+2024/04/18 23:05:21 worker create a temp file: mr-5-7
+2024/04/18 23:05:21 worker create a temp file: mr-5-1
+2024/04/18 23:05:21 worker create a temp file: mr-5-8
+2024/04/18 23:05:21 worker create a temp file: mr-5-5
+2024/04/18 23:05:21 worker create a temp file: mr-5-3
+2024/04/18 23:05:21 worker create a temp file: mr-5-2
+2024/04/18 23:05:21 worker create a temp file: mr-5-0
+2024/04/18 23:05:21 msg:{Id:5,SchedulePhase:MapPhase}
+2024/04/18 23:05:21 Coordinator: Worker has executed task {Id:5,SchedulePhase:MapPhase} 
+2024/04/18 23:05:21 Report Finish
+2024/04/18 23:05:21 intermediates' len:10
+2024/04/18 23:05:21 worker create a temp file: mr-6-9
+2024/04/18 23:05:21 worker create a temp file: mr-6-3
+2024/04/18 23:05:21 worker create a temp file: mr-6-6
+2024/04/18 23:05:21 worker create a temp file: mr-6-7
+2024/04/18 23:05:21 worker create a temp file: mr-6-8
+2024/04/18 23:05:21 worker create a temp file: mr-6-4
+2024/04/18 23:05:21 work42588 JobRequest Send
+2024/04/18 23:05:21 worker create a temp file: mr-6-5
+2024/04/18 23:05:21 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:21 c.Schedulephase:MapPhase
+2024/04/18 23:05:21 start changPhase
+2024/04/18 23:05:21 select task {../pg-tom_sawyer.txt 7 {0 0 <nil>} 0}
+2024/04/18 23:05:21 Break change phase ../pg-tom_sawyer.txt
+2024/04/18 23:05:21 worker create a temp file: mr-6-0
+2024/04/18 23:05:21 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-tom_sawyer.txt,Id:7,NReduce:10} to worker 
+2024/04/18 23:05:21 worker create a temp file: mr-6-2
+2024/04/18 23:05:21 work42588 JobHeartbeat Finish
+2024/04/18 23:05:21 worker create a temp file: mr-6-1
+2024/04/18 23:05:21 Worker42588: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-tom_sawyer.txt,Id:7,NReduce:10} 
+2024/04/18 23:05:21 Map job 7
+2024/04/18 23:05:21 msg:{Id:6,SchedulePhase:MapPhase}
+2024/04/18 23:05:21 Coordinator: Worker has executed task {Id:6,SchedulePhase:MapPhase} 
+2024/04/18 23:05:21 Report Finish
+2024/04/18 23:05:21 work4400 JobRequest Send
+2024/04/18 23:05:21 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:21 c.Schedulephase:MapPhase
+2024/04/18 23:05:21 start changPhase
+2024/04/18 23:05:21 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:05:21 work4400 JobHeartbeat Finish
+2024/04/18 23:05:21 intermediates' len:10
+2024/04/18 23:05:21 Worker4400: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:05:21 Wait job 0
+2024/04/18 23:05:21 worker create a temp file: mr-7-9
+2024/04/18 23:05:21 worker create a temp file: mr-7-4
+2024/04/18 23:05:21 worker create a temp file: mr-7-6
+2024/04/18 23:05:21 worker create a temp file: mr-7-5
+2024/04/18 23:05:21 worker create a temp file: mr-7-7
+2024/04/18 23:05:21 worker create a temp file: mr-7-1
+2024/04/18 23:05:21 worker create a temp file: mr-7-2
+2024/04/18 23:05:21 worker create a temp file: mr-7-8
+2024/04/18 23:05:21 worker create a temp file: mr-7-3
+2024/04/18 23:05:21 worker create a temp file: mr-7-0
+2024/04/18 23:05:21 msg:{Id:7,SchedulePhase:MapPhase}
+2024/04/18 23:05:21 Coordinator: Worker has executed task {Id:7,SchedulePhase:MapPhase} 
+2024/04/18 23:05:21 Report Finish
+2024/04/18 23:05:21 work42588 JobRequest Send
+2024/04/18 23:05:21 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:21 c.Schedulephase:MapPhase
+2024/04/18 23:05:21 start changPhase
+2024/04/18 23:05:21 init ReducePhase
+2024/04/18 23:05:21 task:{ 0 {0 0 <nil>} 0}
+2024/04/18 23:05:21 task:{ 1 {0 0 <nil>} 0}
+2024/04/18 23:05:21 task:{ 2 {0 0 <nil>} 0}
+2024/04/18 23:05:21 task:{ 3 {0 0 <nil>} 0}
+2024/04/18 23:05:21 task:{ 4 {0 0 <nil>} 0}
+2024/04/18 23:05:21 task:{ 5 {0 0 <nil>} 0}
+2024/04/18 23:05:21 task:{ 6 {0 0 <nil>} 0}
+2024/04/18 23:05:21 task:{ 7 {0 0 <nil>} 0}
+2024/04/18 23:05:21 task:{ 8 {0 0 <nil>} 0}
+2024/04/18 23:05:21 task:{ 9 {0 0 <nil>} 0}
+2024/04/18 23:05:21 start changPhase
+2024/04/18 23:05:21 select task { 0 {0 0 <nil>} 0}
+2024/04/18 23:05:21 Break change phase 
+2024/04/18 23:05:21 Coordinator: MapPhase finished, start ReducePhase 
+2024/04/18 23:05:21 Coordinator: assigned a task {JobType:ReduceJob,Id:0,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:21 work42588 JobHeartbeat Finish
+2024/04/18 23:05:21 Worker42588: get coordinator's heartbeat {JobType:ReduceJob,Id:0,NMap:8,NReduce:10} 
+2024/04/18 23:05:21 Reduce job 0
+2024/04/18 23:05:22 work4400 JobRequest Send
+2024/04/18 23:05:22 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:22 c.Schedulephase:ReducePhase
+2024/04/18 23:05:22 start changPhase
+2024/04/18 23:05:22 select task { 1 {0 0 <nil>} 0}
+2024/04/18 23:05:22 Break change phase 
+2024/04/18 23:05:22 Coordinator: assigned a task {JobType:ReduceJob,Id:1,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:22 work4400 JobHeartbeat Finish
+2024/04/18 23:05:22 Worker4400: get coordinator's heartbeat {JobType:ReduceJob,Id:1,NMap:8,NReduce:10} 
+2024/04/18 23:05:22 Reduce job 1
+2024/04/18 23:05:22 msg:{Id:0,SchedulePhase:ReducePhase}
+2024/04/18 23:05:22 Coordinator: Worker has executed task {Id:0,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:22 Report Finish
+2024/04/18 23:05:22 work42588 JobRequest Send
+2024/04/18 23:05:22 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:22 c.Schedulephase:ReducePhase
+2024/04/18 23:05:22 start changPhase
+2024/04/18 23:05:22 select task { 2 {0 0 <nil>} 0}
+2024/04/18 23:05:22 Break change phase 
+2024/04/18 23:05:22 Coordinator: assigned a task {JobType:ReduceJob,Id:2,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:22 work42588 JobHeartbeat Finish
+2024/04/18 23:05:22 Worker42588: get coordinator's heartbeat {JobType:ReduceJob,Id:2,NMap:8,NReduce:10} 
+2024/04/18 23:05:22 Reduce job 2
+2024/04/18 23:05:23 msg:{Id:1,SchedulePhase:ReducePhase}
+2024/04/18 23:05:23 Coordinator: Worker has executed task {Id:1,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:23 Report Finish
+2024/04/18 23:05:23 work4400 JobRequest Send
+2024/04/18 23:05:23 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:23 c.Schedulephase:ReducePhase
+2024/04/18 23:05:23 start changPhase
+2024/04/18 23:05:23 select task { 3 {0 0 <nil>} 0}
+2024/04/18 23:05:23 Break change phase 
+2024/04/18 23:05:23 Coordinator: assigned a task {JobType:ReduceJob,Id:3,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:23 work4400 JobHeartbeat Finish
+2024/04/18 23:05:23 Worker4400: get coordinator's heartbeat {JobType:ReduceJob,Id:3,NMap:8,NReduce:10} 
+2024/04/18 23:05:23 Reduce job 3
+2024/04/18 23:05:23 msg:{Id:2,SchedulePhase:ReducePhase}
+2024/04/18 23:05:23 Coordinator: Worker has executed task {Id:2,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:23 Report Finish
+2024/04/18 23:05:23 work42588 JobRequest Send
+2024/04/18 23:05:23 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:23 c.Schedulephase:ReducePhase
+2024/04/18 23:05:23 start changPhase
+2024/04/18 23:05:23 select task { 4 {0 0 <nil>} 0}
+2024/04/18 23:05:23 Break change phase 
+2024/04/18 23:05:23 Coordinator: assigned a task {JobType:ReduceJob,Id:4,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:23 work42588 JobHeartbeat Finish
+2024/04/18 23:05:23 Worker42588: get coordinator's heartbeat {JobType:ReduceJob,Id:4,NMap:8,NReduce:10} 
+2024/04/18 23:05:23 Reduce job 4
+2024/04/18 23:05:25 msg:{Id:3,SchedulePhase:ReducePhase}
+2024/04/18 23:05:25 Coordinator: Worker has executed task {Id:3,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:25 Report Finish
+2024/04/18 23:05:25 work4400 JobRequest Send
+2024/04/18 23:05:25 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:25 c.Schedulephase:ReducePhase
+2024/04/18 23:05:25 start changPhase
+2024/04/18 23:05:25 select task { 5 {0 0 <nil>} 0}
+2024/04/18 23:05:25 Break change phase 
+2024/04/18 23:05:25 Coordinator: assigned a task {JobType:ReduceJob,Id:5,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:25 work4400 JobHeartbeat Finish
+2024/04/18 23:05:25 Worker4400: get coordinator's heartbeat {JobType:ReduceJob,Id:5,NMap:8,NReduce:10} 
+2024/04/18 23:05:25 Reduce job 5
+2024/04/18 23:05:25 msg:{Id:4,SchedulePhase:ReducePhase}
+2024/04/18 23:05:25 Coordinator: Worker has executed task {Id:4,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:25 Report Finish
+2024/04/18 23:05:25 work42588 JobRequest Send
+2024/04/18 23:05:25 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:25 c.Schedulephase:ReducePhase
+2024/04/18 23:05:25 start changPhase
+2024/04/18 23:05:25 select task { 6 {0 0 <nil>} 0}
+2024/04/18 23:05:25 Break change phase 
+2024/04/18 23:05:25 Coordinator: assigned a task {JobType:ReduceJob,Id:6,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:25 work42588 JobHeartbeat Finish
+2024/04/18 23:05:25 Worker42588: get coordinator's heartbeat {JobType:ReduceJob,Id:6,NMap:8,NReduce:10} 
+2024/04/18 23:05:25 Reduce job 6
+2024/04/18 23:05:26 msg:{Id:5,SchedulePhase:ReducePhase}
+2024/04/18 23:05:26 Coordinator: Worker has executed task {Id:5,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:26 Report Finish
+2024/04/18 23:05:26 msg:{Id:6,SchedulePhase:ReducePhase}
+2024/04/18 23:05:26 Coordinator: Worker has executed task {Id:6,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:26 Report Finish
+2024/04/18 23:05:26 work4400 JobRequest Send
+2024/04/18 23:05:26 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:26 c.Schedulephase:ReducePhase
+2024/04/18 23:05:26 start changPhase
+2024/04/18 23:05:26 select task { 7 {0 0 <nil>} 0}
+2024/04/18 23:05:26 Break change phase 
+2024/04/18 23:05:26 Coordinator: assigned a task {JobType:ReduceJob,Id:7,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:26 work4400 JobHeartbeat Finish
+2024/04/18 23:05:26 work42588 JobRequest Send
+2024/04/18 23:05:26 Worker4400: get coordinator's heartbeat {JobType:ReduceJob,Id:7,NMap:8,NReduce:10} 
+2024/04/18 23:05:26 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:26 Reduce job 7
+2024/04/18 23:05:26 c.Schedulephase:ReducePhase
+2024/04/18 23:05:26 start changPhase
+2024/04/18 23:05:26 select task { 8 {0 0 <nil>} 0}
+2024/04/18 23:05:26 Break change phase 
+2024/04/18 23:05:26 Coordinator: assigned a task {JobType:ReduceJob,Id:8,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:26 work42588 JobHeartbeat Finish
+2024/04/18 23:05:26 Worker42588: get coordinator's heartbeat {JobType:ReduceJob,Id:8,NMap:8,NReduce:10} 
+2024/04/18 23:05:26 Reduce job 8
+2024/04/18 23:05:26 msg:{Id:7,SchedulePhase:ReducePhase}
+2024/04/18 23:05:26 Coordinator: Worker has executed task {Id:7,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:26 Report Finish
+2024/04/18 23:05:26 msg:{Id:8,SchedulePhase:ReducePhase}
+2024/04/18 23:05:26 Coordinator: Worker has executed task {Id:8,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:26 Report Finish
+2024/04/18 23:05:26 work4400 JobRequest Send
+2024/04/18 23:05:26 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:26 c.Schedulephase:ReducePhase
+2024/04/18 23:05:26 start changPhase
+2024/04/18 23:05:26 select task { 9 {0 0 <nil>} 0}
+2024/04/18 23:05:26 Break change phase 
+2024/04/18 23:05:26 Coordinator: assigned a task {JobType:ReduceJob,Id:9,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:26 work4400 JobHeartbeat Finish
+2024/04/18 23:05:26 Worker4400: get coordinator's heartbeat {JobType:ReduceJob,Id:9,NMap:8,NReduce:10} 
+2024/04/18 23:05:26 work42588 JobRequest Send
+2024/04/18 23:05:26 Reduce job 9
+2024/04/18 23:05:26 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:26 c.Schedulephase:ReducePhase
+2024/04/18 23:05:26 start changPhase
+2024/04/18 23:05:26 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:05:26 work42588 JobHeartbeat Finish
+2024/04/18 23:05:26 Worker42588: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:05:26 Wait job 0
+2024/04/18 23:05:27 msg:{Id:9,SchedulePhase:ReducePhase}
+2024/04/18 23:05:27 Coordinator: Worker has executed task {Id:9,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:27 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:27 c.Schedulephase:ReducePhase
+2024/04/18 23:05:27 start changPhase
+2024/04/18 23:05:27 init CompletePhase
+2024/04/18 23:05:27 task:{ 0 {13943262697184618399 1015099562 0xaede00} 2}
+2024/04/18 23:05:27 task:{ 1 {13943262698258201151 2014940500 0xaede00} 2}
+2024/04/18 23:05:27 task:{ 2 {13943262698260499824 2017239173 0xaede00} 2}
+2024/04/18 23:05:27 task:{ 3 {13943262699333811627 3016809152 0xaede00} 2}
+2024/04/18 23:05:27 task:{ 4 {13943262699335782144 3018779659 0xaede00} 2}
+2024/04/18 23:05:27 task:{ 5 {13943262701483680902 5019194779 0xaede00} 2}
+2024/04/18 23:05:27 task:{ 6 {13943262701484673215 5020187082 0xaede00} 2}
+2024/04/18 23:05:27 task:{ 7 {13943262702559967700 6021739743 0xaede00} 2}
+2024/04/18 23:05:27 task:{ 8 {13943262702560159420 6021931463 0xaede00} 2}
+2024/04/18 23:05:27 task:{ 9 {13943262702560900446 6022672489 0xaede00} 2}
+2024/04/18 23:05:27 Coordinator: ReducePhase finished, Congratulations 
+2024/04/18 23:05:27 Coordinator: assigned a task {JobType:CompleteJob} to worker 
+2024/04/18 23:05:27 Report Finish
+2024/04/18 23:05:27 work42588 JobRequest Send
+2024/04/18 23:05:27 work42588 JobHeartbeat Finish
+2024/04/18 23:05:27 Worker42588: get coordinator's heartbeat {JobType:CompleteJob} 
+2024/04/18 23:05:27 work4400 JobRequest Send
+2024/04/18 23:05:27 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:27 c.Schedulephase:CompletePhase
+2024/04/18 23:05:27 Coordinator: assigned a task {JobType:CompleteJob} to worker 
+2024/04/18 23:05:27 work4400 JobHeartbeat Finish
+2024/04/18 23:05:27 Worker4400: get coordinator's heartbeat {JobType:CompleteJob} 
+2024/04/18 23:05:28 start
+2024/04/18 23:05:28 init MapPhase
+2024/04/18 23:05:28 task:{../pg-being_ernest.txt 0 {0 0 <nil>} 0}
+2024/04/18 23:05:28 task:{../pg-dorian_gray.txt 1 {0 0 <nil>} 0}
+2024/04/18 23:05:28 task:{../pg-frankenstein.txt 2 {0 0 <nil>} 0}
+2024/04/18 23:05:28 task:{../pg-grimm.txt 3 {0 0 <nil>} 0}
+2024/04/18 23:05:28 task:{../pg-huckleberry_finn.txt 4 {0 0 <nil>} 0}
+2024/04/18 23:05:28 task:{../pg-metamorphosis.txt 5 {0 0 <nil>} 0}
+2024/04/18 23:05:28 task:{../pg-sherlock_holmes.txt 6 {0 0 <nil>} 0}
+2024/04/18 23:05:28 task:{../pg-tom_sawyer.txt 7 {0 0 <nil>} 0}
+2024/04/18 23:05:29 work37673 JobRequest Send
+2024/04/18 23:05:29 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:29 c.Schedulephase:MapPhase
+2024/04/18 23:05:29 start changPhase
+2024/04/18 23:05:29 select task {../pg-being_ernest.txt 0 {0 0 <nil>} 0}
+2024/04/18 23:05:29 Break change phase ../pg-being_ernest.txt
+2024/04/18 23:05:29 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-being_ernest.txt,Id:0,NReduce:10} to worker 
+2024/04/18 23:05:29 work37673 JobHeartbeat Finish
+2024/04/18 23:05:29 work34649 JobRequest Send
+2024/04/18 23:05:29 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:29 c.Schedulephase:MapPhase
+2024/04/18 23:05:29 start changPhase
+2024/04/18 23:05:29 select task {../pg-dorian_gray.txt 1 {0 0 <nil>} 0}
+2024/04/18 23:05:29 Break change phase ../pg-dorian_gray.txt
+2024/04/18 23:05:29 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-dorian_gray.txt,Id:1,NReduce:10} to worker 
+2024/04/18 23:05:29 work34649 JobHeartbeat Finish
+2024/04/18 23:05:29 Worker37673: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-being_ernest.txt,Id:0,NReduce:10} 
+2024/04/18 23:05:29 Map job 0
+2024/04/18 23:05:29 Worker34649: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-dorian_gray.txt,Id:1,NReduce:10} 
+2024/04/18 23:05:29 Map job 1
+2024/04/18 23:05:33 intermediates' len:10
+2024/04/18 23:05:33 worker create a temp file: mr-0-9
+2024/04/18 23:05:33 worker create a temp file: mr-0-3
+2024/04/18 23:05:33 worker create a temp file: mr-0-4
+2024/04/18 23:05:33 worker create a temp file: mr-0-2
+2024/04/18 23:05:33 worker create a temp file: mr-0-6
+2024/04/18 23:05:33 worker create a temp file: mr-0-7
+2024/04/18 23:05:33 worker create a temp file: mr-0-8
+2024/04/18 23:05:33 worker create a temp file: mr-0-0
+2024/04/18 23:05:33 worker create a temp file: mr-0-5
+2024/04/18 23:05:33 worker create a temp file: mr-0-1
+2024/04/18 23:05:33 msg:{Id:0,SchedulePhase:MapPhase}
+2024/04/18 23:05:33 Coordinator: Worker has executed task {Id:0,SchedulePhase:MapPhase} 
+2024/04/18 23:05:33 Report Finish
+2024/04/18 23:05:33 work37673 JobRequest Send
+2024/04/18 23:05:33 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:33 c.Schedulephase:MapPhase
+2024/04/18 23:05:33 start changPhase
+2024/04/18 23:05:33 select task {../pg-frankenstein.txt 2 {0 0 <nil>} 0}
+2024/04/18 23:05:33 Break change phase ../pg-frankenstein.txt
+2024/04/18 23:05:33 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-frankenstein.txt,Id:2,NReduce:10} to worker 
+2024/04/18 23:05:33 work37673 JobHeartbeat Finish
+2024/04/18 23:05:33 Worker37673: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-frankenstein.txt,Id:2,NReduce:10} 
+2024/04/18 23:05:33 Map job 2
+2024/04/18 23:05:33 intermediates' len:10
+2024/04/18 23:05:33 worker create a temp file: mr-1-9
+2024/04/18 23:05:33 worker create a temp file: mr-1-4
+2024/04/18 23:05:33 worker create a temp file: mr-1-7
+2024/04/18 23:05:33 worker create a temp file: mr-1-6
+2024/04/18 23:05:33 worker create a temp file: mr-1-8
+2024/04/18 23:05:33 worker create a temp file: mr-1-2
+2024/04/18 23:05:33 worker create a temp file: mr-1-5
+2024/04/18 23:05:33 worker create a temp file: mr-1-3
+2024/04/18 23:05:33 worker create a temp file: mr-1-1
+2024/04/18 23:05:33 worker create a temp file: mr-1-0
+2024/04/18 23:05:33 msg:{Id:1,SchedulePhase:MapPhase}
+2024/04/18 23:05:33 Coordinator: Worker has executed task {Id:1,SchedulePhase:MapPhase} 
+2024/04/18 23:05:33 Report Finish
+2024/04/18 23:05:33 work34649 JobRequest Send
+2024/04/18 23:05:33 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:33 c.Schedulephase:MapPhase
+2024/04/18 23:05:33 start changPhase
+2024/04/18 23:05:33 select task {../pg-grimm.txt 3 {0 0 <nil>} 0}
+2024/04/18 23:05:33 Break change phase ../pg-grimm.txt
+2024/04/18 23:05:33 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-grimm.txt,Id:3,NReduce:10} to worker 
+2024/04/18 23:05:33 work34649 JobHeartbeat Finish
+2024/04/18 23:05:33 Worker34649: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-grimm.txt,Id:3,NReduce:10} 
+2024/04/18 23:05:33 Map job 3
+2024/04/18 23:05:36 intermediates' len:10
+2024/04/18 23:05:36 worker create a temp file: mr-2-9
+2024/04/18 23:05:36 worker create a temp file: mr-2-3
+2024/04/18 23:05:36 worker create a temp file: mr-2-1
+2024/04/18 23:05:36 worker create a temp file: mr-2-7
+2024/04/18 23:05:36 worker create a temp file: mr-2-2
+2024/04/18 23:05:36 worker create a temp file: mr-2-6
+2024/04/18 23:05:36 worker create a temp file: mr-2-0
+2024/04/18 23:05:36 worker create a temp file: mr-2-8
+2024/04/18 23:05:36 worker create a temp file: mr-2-5
+2024/04/18 23:05:36 worker create a temp file: mr-2-4
+2024/04/18 23:05:36 msg:{Id:2,SchedulePhase:MapPhase}
+2024/04/18 23:05:36 Coordinator: Worker has executed task {Id:2,SchedulePhase:MapPhase} 
+2024/04/18 23:05:36 Report Finish
+2024/04/18 23:05:36 work37673 JobRequest Send
+2024/04/18 23:05:36 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:36 c.Schedulephase:MapPhase
+2024/04/18 23:05:36 start changPhase
+2024/04/18 23:05:36 select task {../pg-huckleberry_finn.txt 4 {0 0 <nil>} 0}
+2024/04/18 23:05:36 Break change phase ../pg-huckleberry_finn.txt
+2024/04/18 23:05:36 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-huckleberry_finn.txt,Id:4,NReduce:10} to worker 
+2024/04/18 23:05:36 work37673 JobHeartbeat Finish
+2024/04/18 23:05:36 Worker37673: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-huckleberry_finn.txt,Id:4,NReduce:10} 
+2024/04/18 23:05:36 Map job 4
+2024/04/18 23:05:36 intermediates' len:10
+2024/04/18 23:05:36 worker create a temp file: mr-3-9
+2024/04/18 23:05:36 worker create a temp file: mr-3-4
+2024/04/18 23:05:36 worker create a temp file: mr-3-2
+2024/04/18 23:05:36 worker create a temp file: mr-3-0
+2024/04/18 23:05:36 worker create a temp file: mr-3-6
+2024/04/18 23:05:36 worker create a temp file: mr-3-1
+2024/04/18 23:05:36 worker create a temp file: mr-3-7
+2024/04/18 23:05:36 worker create a temp file: mr-3-8
+2024/04/18 23:05:36 worker create a temp file: mr-3-5
+2024/04/18 23:05:36 worker create a temp file: mr-3-3
+2024/04/18 23:05:36 msg:{Id:3,SchedulePhase:MapPhase}
+2024/04/18 23:05:36 Coordinator: Worker has executed task {Id:3,SchedulePhase:MapPhase} 
+2024/04/18 23:05:36 Report Finish
+2024/04/18 23:05:36 work34649 JobRequest Send
+2024/04/18 23:05:36 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:36 c.Schedulephase:MapPhase
+2024/04/18 23:05:36 start changPhase
+2024/04/18 23:05:36 select task {../pg-metamorphosis.txt 5 {0 0 <nil>} 0}
+2024/04/18 23:05:36 Break change phase ../pg-metamorphosis.txt
+2024/04/18 23:05:36 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-metamorphosis.txt,Id:5,NReduce:10} to worker 
+2024/04/18 23:05:36 work34649 JobHeartbeat Finish
+2024/04/18 23:05:36 Worker34649: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-metamorphosis.txt,Id:5,NReduce:10} 
+2024/04/18 23:05:36 Map job 5
+2024/04/18 23:05:38 intermediates' len:10
+2024/04/18 23:05:38 worker create a temp file: mr-4-9
+2024/04/18 23:05:38 worker create a temp file: mr-4-6
+2024/04/18 23:05:38 worker create a temp file: mr-4-0
+2024/04/18 23:05:38 worker create a temp file: mr-4-5
+2024/04/18 23:05:38 worker create a temp file: mr-4-4
+2024/04/18 23:05:38 worker create a temp file: mr-4-8
+2024/04/18 23:05:38 worker create a temp file: mr-4-2
+2024/04/18 23:05:38 worker create a temp file: mr-4-7
+2024/04/18 23:05:38 worker create a temp file: mr-4-3
+2024/04/18 23:05:38 worker create a temp file: mr-4-1
+2024/04/18 23:05:38 msg:{Id:4,SchedulePhase:MapPhase}
+2024/04/18 23:05:38 Coordinator: Worker has executed task {Id:4,SchedulePhase:MapPhase} 
+2024/04/18 23:05:38 Report Finish
+2024/04/18 23:05:38 work37673 JobRequest Send
+2024/04/18 23:05:38 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:38 c.Schedulephase:MapPhase
+2024/04/18 23:05:38 start changPhase
+2024/04/18 23:05:38 select task {../pg-sherlock_holmes.txt 6 {0 0 <nil>} 0}
+2024/04/18 23:05:38 Break change phase ../pg-sherlock_holmes.txt
+2024/04/18 23:05:38 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-sherlock_holmes.txt,Id:6,NReduce:10} to worker 
+2024/04/18 23:05:38 work37673 JobHeartbeat Finish
+2024/04/18 23:05:38 Worker37673: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-sherlock_holmes.txt,Id:6,NReduce:10} 
+2024/04/18 23:05:38 Map job 6
+2024/04/18 23:05:39 intermediates' len:10
+2024/04/18 23:05:39 worker create a temp file: mr-5-9
+2024/04/18 23:05:39 worker create a temp file: mr-5-0
+2024/04/18 23:05:39 worker create a temp file: mr-5-5
+2024/04/18 23:05:39 worker create a temp file: mr-5-6
+2024/04/18 23:05:39 worker create a temp file: mr-5-7
+2024/04/18 23:05:39 worker create a temp file: mr-5-4
+2024/04/18 23:05:39 worker create a temp file: mr-5-3
+2024/04/18 23:05:39 worker create a temp file: mr-5-1
+2024/04/18 23:05:39 worker create a temp file: mr-5-8
+2024/04/18 23:05:39 worker create a temp file: mr-5-2
+2024/04/18 23:05:39 msg:{Id:5,SchedulePhase:MapPhase}
+2024/04/18 23:05:39 Coordinator: Worker has executed task {Id:5,SchedulePhase:MapPhase} 
+2024/04/18 23:05:39 Report Finish
+2024/04/18 23:05:39 work34649 JobRequest Send
+2024/04/18 23:05:39 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:39 c.Schedulephase:MapPhase
+2024/04/18 23:05:39 start changPhase
+2024/04/18 23:05:39 select task {../pg-tom_sawyer.txt 7 {0 0 <nil>} 0}
+2024/04/18 23:05:39 Break change phase ../pg-tom_sawyer.txt
+2024/04/18 23:05:39 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-tom_sawyer.txt,Id:7,NReduce:10} to worker 
+2024/04/18 23:05:39 work34649 JobHeartbeat Finish
+2024/04/18 23:05:39 Worker34649: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-tom_sawyer.txt,Id:7,NReduce:10} 
+2024/04/18 23:05:39 Map job 7
+2024/04/18 23:05:41 intermediates' len:10
+2024/04/18 23:05:41 worker create a temp file: mr-6-9
+2024/04/18 23:05:41 worker create a temp file: mr-6-4
+2024/04/18 23:05:41 worker create a temp file: mr-6-5
+2024/04/18 23:05:41 worker create a temp file: mr-6-1
+2024/04/18 23:05:41 worker create a temp file: mr-6-2
+2024/04/18 23:05:41 worker create a temp file: mr-6-8
+2024/04/18 23:05:41 worker create a temp file: mr-6-3
+2024/04/18 23:05:41 worker create a temp file: mr-6-7
+2024/04/18 23:05:41 worker create a temp file: mr-6-0
+2024/04/18 23:05:41 worker create a temp file: mr-6-6
+2024/04/18 23:05:41 msg:{Id:6,SchedulePhase:MapPhase}
+2024/04/18 23:05:41 Coordinator: Worker has executed task {Id:6,SchedulePhase:MapPhase} 
+2024/04/18 23:05:41 Report Finish
+2024/04/18 23:05:41 work37673 JobRequest Send
+2024/04/18 23:05:41 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:41 c.Schedulephase:MapPhase
+2024/04/18 23:05:41 start changPhase
+2024/04/18 23:05:41 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:05:41 work37673 JobHeartbeat Finish
+2024/04/18 23:05:41 Worker37673: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:05:41 Wait job 0
+2024/04/18 23:05:42 work37673 JobRequest Send
+2024/04/18 23:05:42 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:42 c.Schedulephase:MapPhase
+2024/04/18 23:05:42 start changPhase
+2024/04/18 23:05:42 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:05:42 work37673 JobHeartbeat Finish
+2024/04/18 23:05:42 Worker37673: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:05:42 Wait job 0
+2024/04/18 23:05:43 work37673 JobRequest Send
+2024/04/18 23:05:43 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:43 c.Schedulephase:MapPhase
+2024/04/18 23:05:43 start changPhase
+2024/04/18 23:05:43 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:05:43 work37673 JobHeartbeat Finish
+2024/04/18 23:05:43 Worker37673: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:05:43 Wait job 0
+2024/04/18 23:05:43 intermediates' len:10
+2024/04/18 23:05:43 worker create a temp file: mr-7-9
+2024/04/18 23:05:43 worker create a temp file: mr-7-4
+2024/04/18 23:05:43 worker create a temp file: mr-7-1
+2024/04/18 23:05:43 worker create a temp file: mr-7-6
+2024/04/18 23:05:43 worker create a temp file: mr-7-7
+2024/04/18 23:05:43 worker create a temp file: mr-7-2
+2024/04/18 23:05:43 worker create a temp file: mr-7-8
+2024/04/18 23:05:43 worker create a temp file: mr-7-0
+2024/04/18 23:05:43 worker create a temp file: mr-7-3
+2024/04/18 23:05:43 worker create a temp file: mr-7-5
+2024/04/18 23:05:43 msg:{Id:7,SchedulePhase:MapPhase}
+2024/04/18 23:05:43 Coordinator: Worker has executed task {Id:7,SchedulePhase:MapPhase} 
+2024/04/18 23:05:43 Report Finish
+2024/04/18 23:05:43 work34649 JobRequest Send
+2024/04/18 23:05:43 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:43 c.Schedulephase:MapPhase
+2024/04/18 23:05:43 start changPhase
+2024/04/18 23:05:43 init ReducePhase
+2024/04/18 23:05:43 task:{ 0 {0 0 <nil>} 0}
+2024/04/18 23:05:43 task:{ 1 {0 0 <nil>} 0}
+2024/04/18 23:05:43 task:{ 2 {0 0 <nil>} 0}
+2024/04/18 23:05:43 task:{ 3 {0 0 <nil>} 0}
+2024/04/18 23:05:43 task:{ 4 {0 0 <nil>} 0}
+2024/04/18 23:05:43 task:{ 5 {0 0 <nil>} 0}
+2024/04/18 23:05:43 task:{ 6 {0 0 <nil>} 0}
+2024/04/18 23:05:43 task:{ 7 {0 0 <nil>} 0}
+2024/04/18 23:05:43 task:{ 8 {0 0 <nil>} 0}
+2024/04/18 23:05:43 task:{ 9 {0 0 <nil>} 0}
+2024/04/18 23:05:43 start changPhase
+2024/04/18 23:05:43 select task { 0 {0 0 <nil>} 0}
+2024/04/18 23:05:43 Break change phase 
+2024/04/18 23:05:43 Coordinator: MapPhase finished, start ReducePhase 
+2024/04/18 23:05:43 Coordinator: assigned a task {JobType:ReduceJob,Id:0,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:43 work34649 JobHeartbeat Finish
+2024/04/18 23:05:43 Worker34649: get coordinator's heartbeat {JobType:ReduceJob,Id:0,NMap:8,NReduce:10} 
+2024/04/18 23:05:43 Reduce job 0
+2024/04/18 23:05:43 msg:{Id:0,SchedulePhase:ReducePhase}
+2024/04/18 23:05:43 Coordinator: Worker has executed task {Id:0,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:43 Report Finish
+2024/04/18 23:05:43 work34649 JobRequest Send
+2024/04/18 23:05:43 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:43 c.Schedulephase:ReducePhase
+2024/04/18 23:05:43 start changPhase
+2024/04/18 23:05:43 select task { 1 {0 0 <nil>} 0}
+2024/04/18 23:05:43 Break change phase 
+2024/04/18 23:05:43 Coordinator: assigned a task {JobType:ReduceJob,Id:1,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:43 work34649 JobHeartbeat Finish
+2024/04/18 23:05:43 Worker34649: get coordinator's heartbeat {JobType:ReduceJob,Id:1,NMap:8,NReduce:10} 
+2024/04/18 23:05:43 Reduce job 1
+2024/04/18 23:05:43 msg:{Id:1,SchedulePhase:ReducePhase}
+2024/04/18 23:05:43 Coordinator: Worker has executed task {Id:1,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:43 Report Finish
+2024/04/18 23:05:43 work34649 JobRequest Send
+2024/04/18 23:05:43 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:43 c.Schedulephase:ReducePhase
+2024/04/18 23:05:43 start changPhase
+2024/04/18 23:05:43 select task { 2 {0 0 <nil>} 0}
+2024/04/18 23:05:43 Break change phase 
+2024/04/18 23:05:43 Coordinator: assigned a task {JobType:ReduceJob,Id:2,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:43 work34649 JobHeartbeat Finish
+2024/04/18 23:05:43 Worker34649: get coordinator's heartbeat {JobType:ReduceJob,Id:2,NMap:8,NReduce:10} 
+2024/04/18 23:05:43 Reduce job 2
+2024/04/18 23:05:43 msg:{Id:2,SchedulePhase:ReducePhase}
+2024/04/18 23:05:43 Coordinator: Worker has executed task {Id:2,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:43 Report Finish
+2024/04/18 23:05:43 work34649 JobRequest Send
+2024/04/18 23:05:43 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:43 c.Schedulephase:ReducePhase
+2024/04/18 23:05:43 start changPhase
+2024/04/18 23:05:43 select task { 3 {0 0 <nil>} 0}
+2024/04/18 23:05:43 Break change phase 
+2024/04/18 23:05:43 Coordinator: assigned a task {JobType:ReduceJob,Id:3,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:43 work34649 JobHeartbeat Finish
+2024/04/18 23:05:43 Worker34649: get coordinator's heartbeat {JobType:ReduceJob,Id:3,NMap:8,NReduce:10} 
+2024/04/18 23:05:43 Reduce job 3
+2024/04/18 23:05:43 msg:{Id:3,SchedulePhase:ReducePhase}
+2024/04/18 23:05:43 Coordinator: Worker has executed task {Id:3,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:43 Report Finish
+2024/04/18 23:05:43 work34649 JobRequest Send
+2024/04/18 23:05:43 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:43 c.Schedulephase:ReducePhase
+2024/04/18 23:05:43 start changPhase
+2024/04/18 23:05:43 select task { 4 {0 0 <nil>} 0}
+2024/04/18 23:05:43 Break change phase 
+2024/04/18 23:05:43 Coordinator: assigned a task {JobType:ReduceJob,Id:4,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:43 work34649 JobHeartbeat Finish
+2024/04/18 23:05:43 Worker34649: get coordinator's heartbeat {JobType:ReduceJob,Id:4,NMap:8,NReduce:10} 
+2024/04/18 23:05:43 Reduce job 4
+2024/04/18 23:05:43 msg:{Id:4,SchedulePhase:ReducePhase}
+2024/04/18 23:05:43 Coordinator: Worker has executed task {Id:4,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:43 Report Finish
+2024/04/18 23:05:43 work34649 JobRequest Send
+2024/04/18 23:05:43 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:43 c.Schedulephase:ReducePhase
+2024/04/18 23:05:43 start changPhase
+2024/04/18 23:05:43 select task { 5 {0 0 <nil>} 0}
+2024/04/18 23:05:43 Break change phase 
+2024/04/18 23:05:43 Coordinator: assigned a task {JobType:ReduceJob,Id:5,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:43 work34649 JobHeartbeat Finish
+2024/04/18 23:05:43 Worker34649: get coordinator's heartbeat {JobType:ReduceJob,Id:5,NMap:8,NReduce:10} 
+2024/04/18 23:05:43 Reduce job 5
+2024/04/18 23:05:43 msg:{Id:5,SchedulePhase:ReducePhase}
+2024/04/18 23:05:43 Coordinator: Worker has executed task {Id:5,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:43 Report Finish
+2024/04/18 23:05:43 work34649 JobRequest Send
+2024/04/18 23:05:43 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:43 c.Schedulephase:ReducePhase
+2024/04/18 23:05:43 start changPhase
+2024/04/18 23:05:43 select task { 6 {0 0 <nil>} 0}
+2024/04/18 23:05:43 Break change phase 
+2024/04/18 23:05:43 Coordinator: assigned a task {JobType:ReduceJob,Id:6,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:43 work34649 JobHeartbeat Finish
+2024/04/18 23:05:43 Worker34649: get coordinator's heartbeat {JobType:ReduceJob,Id:6,NMap:8,NReduce:10} 
+2024/04/18 23:05:43 Reduce job 6
+2024/04/18 23:05:43 msg:{Id:6,SchedulePhase:ReducePhase}
+2024/04/18 23:05:43 Coordinator: Worker has executed task {Id:6,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:43 Report Finish
+2024/04/18 23:05:43 work34649 JobRequest Send
+2024/04/18 23:05:43 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:43 c.Schedulephase:ReducePhase
+2024/04/18 23:05:43 start changPhase
+2024/04/18 23:05:43 select task { 7 {0 0 <nil>} 0}
+2024/04/18 23:05:43 Break change phase 
+2024/04/18 23:05:43 Coordinator: assigned a task {JobType:ReduceJob,Id:7,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:43 work34649 JobHeartbeat Finish
+2024/04/18 23:05:43 Worker34649: get coordinator's heartbeat {JobType:ReduceJob,Id:7,NMap:8,NReduce:10} 
+2024/04/18 23:05:43 Reduce job 7
+2024/04/18 23:05:43 msg:{Id:7,SchedulePhase:ReducePhase}
+2024/04/18 23:05:43 Coordinator: Worker has executed task {Id:7,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:43 Report Finish
+2024/04/18 23:05:43 work34649 JobRequest Send
+2024/04/18 23:05:43 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:43 c.Schedulephase:ReducePhase
+2024/04/18 23:05:43 start changPhase
+2024/04/18 23:05:43 select task { 8 {0 0 <nil>} 0}
+2024/04/18 23:05:43 Break change phase 
+2024/04/18 23:05:43 Coordinator: assigned a task {JobType:ReduceJob,Id:8,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:43 work34649 JobHeartbeat Finish
+2024/04/18 23:05:43 Worker34649: get coordinator's heartbeat {JobType:ReduceJob,Id:8,NMap:8,NReduce:10} 
+2024/04/18 23:05:43 Reduce job 8
+2024/04/18 23:05:43 msg:{Id:8,SchedulePhase:ReducePhase}
+2024/04/18 23:05:43 Coordinator: Worker has executed task {Id:8,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:43 Report Finish
+2024/04/18 23:05:43 work34649 JobRequest Send
+2024/04/18 23:05:43 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:43 c.Schedulephase:ReducePhase
+2024/04/18 23:05:43 start changPhase
+2024/04/18 23:05:43 select task { 9 {0 0 <nil>} 0}
+2024/04/18 23:05:43 Break change phase 
+2024/04/18 23:05:43 Coordinator: assigned a task {JobType:ReduceJob,Id:9,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:43 work34649 JobHeartbeat Finish
+2024/04/18 23:05:43 Worker34649: get coordinator's heartbeat {JobType:ReduceJob,Id:9,NMap:8,NReduce:10} 
+2024/04/18 23:05:43 Reduce job 9
+2024/04/18 23:05:43 msg:{Id:9,SchedulePhase:ReducePhase}
+2024/04/18 23:05:43 Coordinator: Worker has executed task {Id:9,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:43 Report Finish
+2024/04/18 23:05:43 work34649 JobRequest Send
+2024/04/18 23:05:43 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:43 c.Schedulephase:ReducePhase
+2024/04/18 23:05:43 start changPhase
+2024/04/18 23:05:43 init CompletePhase
+2024/04/18 23:05:43 task:{ 0 {13943262720265977643 14445128995 0xaede00} 2}
+2024/04/18 23:05:43 task:{ 1 {13943262720267030662 14446182024 0xaede00} 2}
+2024/04/18 23:05:43 task:{ 2 {13943262720267855441 14447006813 0xaede00} 2}
+2024/04/18 23:05:43 task:{ 3 {13943262720268943079 14448094441 0xaede00} 2}
+2024/04/18 23:05:43 task:{ 4 {13943262720269759430 14448910792 0xaede00} 2}
+2024/04/18 23:05:43 task:{ 5 {13943262720270644775 14449796137 0xaede00} 2}
+2024/04/18 23:05:43 task:{ 6 {13943262720271451908 14450603270 0xaede00} 2}
+2024/04/18 23:05:43 task:{ 7 {13943262720272165149 14451316511 0xaede00} 2}
+2024/04/18 23:05:43 task:{ 8 {13943262720272952925 14452104288 0xaede00} 2}
+2024/04/18 23:05:43 task:{ 9 {13943262720273621180 14452772542 0xaede00} 2}
+2024/04/18 23:05:43 Coordinator: ReducePhase finished, Congratulations 
+2024/04/18 23:05:43 Coordinator: assigned a task {JobType:CompleteJob} to worker 
+2024/04/18 23:05:43 work34649 JobHeartbeat Finish
+2024/04/18 23:05:43 Worker34649: get coordinator's heartbeat {JobType:CompleteJob} 
+2024/04/18 23:05:43 work75316 JobRequest Send
+2024/04/18 23:05:43 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:43 c.Schedulephase:CompletePhase
+2024/04/18 23:05:43 Coordinator: assigned a task {JobType:CompleteJob} to worker 
+2024/04/18 23:05:43 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:43 c.Schedulephase:CompletePhase
+2024/04/18 23:05:43 Coordinator: assigned a task {JobType:CompleteJob} to worker 
+2024/04/18 23:05:43 work69330 JobRequest Send
+2024/04/18 23:05:43 work69330 JobHeartbeat Finish
+2024/04/18 23:05:43 work75316 JobHeartbeat Finish
+2024/04/18 23:05:43 Worker69330: get coordinator's heartbeat {JobType:CompleteJob} 
+2024/04/18 23:05:43 Worker75316: get coordinator's heartbeat {JobType:CompleteJob} 
+2024/04/18 23:05:44 work37673 JobRequest Send
+2024/04/18 23:05:44 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:44 c.Schedulephase:CompletePhase
+2024/04/18 23:05:44 Coordinator: assigned a task {JobType:CompleteJob} to worker 
+2024/04/18 23:05:44 work37673 JobHeartbeat Finish
+2024/04/18 23:05:44 Worker37673: get coordinator's heartbeat {JobType:CompleteJob} 
+2024/04/18 23:05:44 start
+2024/04/18 23:05:44 init MapPhase
+2024/04/18 23:05:44 task:{../pg-being_ernest.txt 0 {0 0 <nil>} 0}
+2024/04/18 23:05:44 task:{../pg-dorian_gray.txt 1 {0 0 <nil>} 0}
+2024/04/18 23:05:44 task:{../pg-frankenstein.txt 2 {0 0 <nil>} 0}
+2024/04/18 23:05:44 task:{../pg-grimm.txt 3 {0 0 <nil>} 0}
+2024/04/18 23:05:44 task:{../pg-huckleberry_finn.txt 4 {0 0 <nil>} 0}
+2024/04/18 23:05:44 task:{../pg-metamorphosis.txt 5 {0 0 <nil>} 0}
+2024/04/18 23:05:44 task:{../pg-sherlock_holmes.txt 6 {0 0 <nil>} 0}
+2024/04/18 23:05:44 task:{../pg-tom_sawyer.txt 7 {0 0 <nil>} 0}
+2024/04/18 23:05:45 work22434 JobRequest Send
+2024/04/18 23:05:45 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:45 c.Schedulephase:MapPhase
+2024/04/18 23:05:45 start changPhase
+2024/04/18 23:05:45 select task {../pg-being_ernest.txt 0 {0 0 <nil>} 0}
+2024/04/18 23:05:45 Break change phase ../pg-being_ernest.txt
+2024/04/18 23:05:45 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-being_ernest.txt,Id:0,NReduce:10} to worker 
+2024/04/18 23:05:45 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:45 c.Schedulephase:MapPhase
+2024/04/18 23:05:45 start changPhase
+2024/04/18 23:05:45 select task {../pg-dorian_gray.txt 1 {0 0 <nil>} 0}
+2024/04/18 23:05:45 Break change phase ../pg-dorian_gray.txt
+2024/04/18 23:05:45 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-dorian_gray.txt,Id:1,NReduce:10} to worker 
+2024/04/18 23:05:45 work23671 JobRequest Send
+2024/04/18 23:05:45 work23671 JobHeartbeat Finish
+2024/04/18 23:05:45 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:45 c.Schedulephase:MapPhase
+2024/04/18 23:05:45 start changPhase
+2024/04/18 23:05:45 select task {../pg-frankenstein.txt 2 {0 0 <nil>} 0}
+2024/04/18 23:05:45 work22434 JobHeartbeat Finish
+2024/04/18 23:05:45 Break change phase ../pg-frankenstein.txt
+2024/04/18 23:05:45 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-frankenstein.txt,Id:2,NReduce:10} to worker 
+2024/04/18 23:05:45 work70657 JobRequest Send
+2024/04/18 23:05:45 work70657 JobHeartbeat Finish
+2024/04/18 23:05:45 Worker70657: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-frankenstein.txt,Id:2,NReduce:10} 
+2024/04/18 23:05:45 Worker22434: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-being_ernest.txt,Id:0,NReduce:10} 
+2024/04/18 23:05:45 Map job 2
+2024/04/18 23:05:45 Worker23671: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-dorian_gray.txt,Id:1,NReduce:10} 
+2024/04/18 23:05:45 Map job 0
+2024/04/18 23:05:45 Map job 1
+2024/04/18 23:05:45 intermediates' len:10
+2024/04/18 23:05:45 worker create a temp file: mr-0-4
+2024/04/18 23:05:45 worker create a temp file: mr-0-9
+2024/04/18 23:05:45 worker create a temp file: mr-0-3
+2024/04/18 23:05:45 worker create a temp file: mr-0-0
+2024/04/18 23:05:45 worker create a temp file: mr-0-5
+2024/04/18 23:05:45 worker create a temp file: mr-0-1
+2024/04/18 23:05:45 worker create a temp file: mr-0-7
+2024/04/18 23:05:45 worker create a temp file: mr-0-6
+2024/04/18 23:05:45 worker create a temp file: mr-0-8
+2024/04/18 23:05:45 worker create a temp file: mr-0-2
+2024/04/18 23:05:45 msg:{Id:0,SchedulePhase:MapPhase}
+2024/04/18 23:05:45 Coordinator: Worker has executed task {Id:0,SchedulePhase:MapPhase} 
+2024/04/18 23:05:45 Report Finish
+2024/04/18 23:05:45 intermediates' len:10
+2024/04/18 23:05:45 worker create a temp file: mr-2-1
+2024/04/18 23:05:45 worker create a temp file: mr-2-9
+2024/04/18 23:05:45 worker create a temp file: mr-2-3
+2024/04/18 23:05:45 worker create a temp file: mr-2-6
+2024/04/18 23:05:45 worker create a temp file: mr-2-2
+2024/04/18 23:05:45 worker create a temp file: mr-2-7
+2024/04/18 23:05:45 work22434 JobRequest Send
+2024/04/18 23:05:45 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:45 c.Schedulephase:MapPhase
+2024/04/18 23:05:45 start changPhase
+2024/04/18 23:05:45 select task {../pg-grimm.txt 3 {0 0 <nil>} 0}
+2024/04/18 23:05:45 Break change phase ../pg-grimm.txt
+2024/04/18 23:05:45 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-grimm.txt,Id:3,NReduce:10} to worker 
+2024/04/18 23:05:45 work22434 JobHeartbeat Finish
+2024/04/18 23:05:45 Worker22434: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-grimm.txt,Id:3,NReduce:10} 
+2024/04/18 23:05:45 Map job 3
+2024/04/18 23:05:45 worker create a temp file: mr-2-5
+2024/04/18 23:05:45 worker create a temp file: mr-2-0
+2024/04/18 23:05:45 worker create a temp file: mr-2-4
+2024/04/18 23:05:45 worker create a temp file: mr-2-8
+2024/04/18 23:05:45 intermediates' len:10
+2024/04/18 23:05:45 worker create a temp file: mr-1-9
+2024/04/18 23:05:45 worker create a temp file: mr-1-5
+2024/04/18 23:05:45 worker create a temp file: mr-1-2
+2024/04/18 23:05:45 worker create a temp file: mr-1-1
+2024/04/18 23:05:45 worker create a temp file: mr-1-0
+2024/04/18 23:05:45 worker create a temp file: mr-1-7
+2024/04/18 23:05:45 worker create a temp file: mr-1-8
+2024/04/18 23:05:45 worker create a temp file: mr-1-6
+2024/04/18 23:05:45 worker create a temp file: mr-1-3
+2024/04/18 23:05:45 worker create a temp file: mr-1-4
+2024/04/18 23:05:45 msg:{Id:2,SchedulePhase:MapPhase}
+2024/04/18 23:05:45 Coordinator: Worker has executed task {Id:2,SchedulePhase:MapPhase} 
+2024/04/18 23:05:45 Report Finish
+2024/04/18 23:05:45 msg:{Id:1,SchedulePhase:MapPhase}
+2024/04/18 23:05:45 Coordinator: Worker has executed task {Id:1,SchedulePhase:MapPhase} 
+2024/04/18 23:05:45 Report Finish
+2024/04/18 23:05:45 work70657 JobRequest Send
+2024/04/18 23:05:45 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:45 c.Schedulephase:MapPhase
+2024/04/18 23:05:45 start changPhase
+2024/04/18 23:05:45 select task {../pg-huckleberry_finn.txt 4 {0 0 <nil>} 0}
+2024/04/18 23:05:45 Break change phase ../pg-huckleberry_finn.txt
+2024/04/18 23:05:45 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-huckleberry_finn.txt,Id:4,NReduce:10} to worker 
+2024/04/18 23:05:45 work70657 JobHeartbeat Finish
+2024/04/18 23:05:45 Worker70657: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-huckleberry_finn.txt,Id:4,NReduce:10} 
+2024/04/18 23:05:45 Map job 4
+2024/04/18 23:05:45 work23671 JobRequest Send
+2024/04/18 23:05:45 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:45 c.Schedulephase:MapPhase
+2024/04/18 23:05:45 start changPhase
+2024/04/18 23:05:45 select task {../pg-metamorphosis.txt 5 {0 0 <nil>} 0}
+2024/04/18 23:05:45 Break change phase ../pg-metamorphosis.txt
+2024/04/18 23:05:45 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-metamorphosis.txt,Id:5,NReduce:10} to worker 
+2024/04/18 23:05:45 work23671 JobHeartbeat Finish
+2024/04/18 23:05:45 Worker23671: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-metamorphosis.txt,Id:5,NReduce:10} 
+2024/04/18 23:05:45 Map job 5
+2024/04/18 23:05:45 intermediates' len:10
+2024/04/18 23:05:45 intermediates' len:10
+2024/04/18 23:05:45 worker create a temp file: mr-5-9
+2024/04/18 23:05:45 worker create a temp file: mr-5-4
+2024/04/18 23:05:45 worker create a temp file: mr-3-9
+2024/04/18 23:05:45 worker create a temp file: mr-5-1
+2024/04/18 23:05:45 worker create a temp file: mr-5-6
+2024/04/18 23:05:45 worker create a temp file: mr-3-4
+2024/04/18 23:05:45 worker create a temp file: mr-5-5
+2024/04/18 23:05:45 worker create a temp file: mr-3-5
+2024/04/18 23:05:45 worker create a temp file: mr-3-7
+2024/04/18 23:05:45 worker create a temp file: mr-5-2
+2024/04/18 23:05:45 worker create a temp file: mr-5-8
+2024/04/18 23:05:45 worker create a temp file: mr-3-8
+2024/04/18 23:05:45 worker create a temp file: mr-3-1
+2024/04/18 23:05:45 worker create a temp file: mr-5-0
+2024/04/18 23:05:45 worker create a temp file: mr-3-0
+2024/04/18 23:05:45 worker create a temp file: mr-3-6
+2024/04/18 23:05:45 worker create a temp file: mr-5-3
+2024/04/18 23:05:45 worker create a temp file: mr-5-7
+2024/04/18 23:05:45 worker create a temp file: mr-3-2
+2024/04/18 23:05:45 worker create a temp file: mr-3-3
+2024/04/18 23:05:45 msg:{Id:5,SchedulePhase:MapPhase}
+2024/04/18 23:05:45 Coordinator: Worker has executed task {Id:5,SchedulePhase:MapPhase} 
+2024/04/18 23:05:45 msg:{Id:3,SchedulePhase:MapPhase}
+2024/04/18 23:05:45 Coordinator: Worker has executed task {Id:3,SchedulePhase:MapPhase} 
+2024/04/18 23:05:45 Report Finish
+2024/04/18 23:05:45 Report Finish
+2024/04/18 23:05:45 intermediates' len:10
+2024/04/18 23:05:45 worker create a temp file: mr-4-9
+2024/04/18 23:05:45 worker create a temp file: mr-4-3
+2024/04/18 23:05:45 worker create a temp file: mr-4-6
+2024/04/18 23:05:45 worker create a temp file: mr-4-7
+2024/04/18 23:05:45 worker create a temp file: mr-4-8
+2024/04/18 23:05:45 worker create a temp file: mr-4-1
+2024/04/18 23:05:45 worker create a temp file: mr-4-2
+2024/04/18 23:05:45 worker create a temp file: mr-4-5
+2024/04/18 23:05:45 worker create a temp file: mr-4-0
+2024/04/18 23:05:45 work22434 JobRequest Send
+2024/04/18 23:05:45 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:45 c.Schedulephase:MapPhase
+2024/04/18 23:05:45 start changPhase
+2024/04/18 23:05:45 select task {../pg-sherlock_holmes.txt 6 {0 0 <nil>} 0}
+2024/04/18 23:05:45 Break change phase ../pg-sherlock_holmes.txt
+2024/04/18 23:05:45 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-sherlock_holmes.txt,Id:6,NReduce:10} to worker 
+2024/04/18 23:05:45 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:45 c.Schedulephase:MapPhase
+2024/04/18 23:05:45 start changPhase
+2024/04/18 23:05:45 select task {../pg-tom_sawyer.txt 7 {0 0 <nil>} 0}
+2024/04/18 23:05:45 Break change phase ../pg-tom_sawyer.txt
+2024/04/18 23:05:45 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-tom_sawyer.txt,Id:7,NReduce:10} to worker 
+2024/04/18 23:05:45 work23671 JobRequest Send
+2024/04/18 23:05:45 work23671 JobHeartbeat Finish
+2024/04/18 23:05:45 worker create a temp file: mr-4-4
+2024/04/18 23:05:45 work22434 JobHeartbeat Finish
+2024/04/18 23:05:45 Worker22434: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-sherlock_holmes.txt,Id:6,NReduce:10} 
+2024/04/18 23:05:45 Map job 6
+2024/04/18 23:05:45 Worker23671: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-tom_sawyer.txt,Id:7,NReduce:10} 
+2024/04/18 23:05:45 Map job 7
+2024/04/18 23:05:45 msg:{Id:4,SchedulePhase:MapPhase}
+2024/04/18 23:05:45 Coordinator: Worker has executed task {Id:4,SchedulePhase:MapPhase} 
+2024/04/18 23:05:45 Report Finish
+2024/04/18 23:05:45 work70657 JobRequest Send
+2024/04/18 23:05:45 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:45 c.Schedulephase:MapPhase
+2024/04/18 23:05:45 start changPhase
+2024/04/18 23:05:45 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:05:45 work70657 JobHeartbeat Finish
+2024/04/18 23:05:45 intermediates' len:10
+2024/04/18 23:05:45 worker create a temp file: mr-7-9
+2024/04/18 23:05:45 worker create a temp file: mr-7-4
+2024/04/18 23:05:45 worker create a temp file: mr-7-6
+2024/04/18 23:05:45 worker create a temp file: mr-7-5
+2024/04/18 23:05:45 worker create a temp file: mr-7-7
+2024/04/18 23:05:45 intermediates' len:10
+2024/04/18 23:05:45 Worker70657: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:05:45 Wait job 0
+2024/04/18 23:05:45 worker create a temp file: mr-6-9
+2024/04/18 23:05:45 worker create a temp file: mr-7-1
+2024/04/18 23:05:45 worker create a temp file: mr-6-3
+2024/04/18 23:05:45 worker create a temp file: mr-6-6
+2024/04/18 23:05:45 worker create a temp file: mr-7-8
+2024/04/18 23:05:45 worker create a temp file: mr-7-2
+2024/04/18 23:05:45 worker create a temp file: mr-7-3
+2024/04/18 23:05:45 worker create a temp file: mr-7-0
+2024/04/18 23:05:45 worker create a temp file: mr-6-7
+2024/04/18 23:05:45 worker create a temp file: mr-6-8
+2024/04/18 23:05:45 worker create a temp file: mr-6-1
+2024/04/18 23:05:45 worker create a temp file: mr-6-5
+2024/04/18 23:05:45 worker create a temp file: mr-6-2
+2024/04/18 23:05:45 worker create a temp file: mr-6-0
+2024/04/18 23:05:45 worker create a temp file: mr-6-4
+2024/04/18 23:05:45 msg:{Id:7,SchedulePhase:MapPhase}
+2024/04/18 23:05:45 Coordinator: Worker has executed task {Id:7,SchedulePhase:MapPhase} 
+2024/04/18 23:05:45 Report Finish
+2024/04/18 23:05:45 work23671 JobRequest Send
+2024/04/18 23:05:45 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:45 c.Schedulephase:MapPhase
+2024/04/18 23:05:45 start changPhase
+2024/04/18 23:05:45 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:05:45 work23671 JobHeartbeat Finish
+2024/04/18 23:05:45 msg:{Id:6,SchedulePhase:MapPhase}
+2024/04/18 23:05:45 Coordinator: Worker has executed task {Id:6,SchedulePhase:MapPhase} 
+2024/04/18 23:05:45 Report Finish
+2024/04/18 23:05:45 Worker23671: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:05:45 Wait job 0
+2024/04/18 23:05:45 work22434 JobRequest Send
+2024/04/18 23:05:45 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:45 c.Schedulephase:MapPhase
+2024/04/18 23:05:45 start changPhase
+2024/04/18 23:05:45 init ReducePhase
+2024/04/18 23:05:45 task:{ 0 {0 0 <nil>} 0}
+2024/04/18 23:05:45 task:{ 1 {0 0 <nil>} 0}
+2024/04/18 23:05:45 task:{ 2 {0 0 <nil>} 0}
+2024/04/18 23:05:45 task:{ 3 {0 0 <nil>} 0}
+2024/04/18 23:05:45 task:{ 4 {0 0 <nil>} 0}
+2024/04/18 23:05:45 task:{ 5 {0 0 <nil>} 0}
+2024/04/18 23:05:45 task:{ 6 {0 0 <nil>} 0}
+2024/04/18 23:05:45 task:{ 7 {0 0 <nil>} 0}
+2024/04/18 23:05:45 task:{ 8 {0 0 <nil>} 0}
+2024/04/18 23:05:45 task:{ 9 {0 0 <nil>} 0}
+2024/04/18 23:05:45 start changPhase
+2024/04/18 23:05:45 select task { 0 {0 0 <nil>} 0}
+2024/04/18 23:05:45 Break change phase 
+2024/04/18 23:05:45 Coordinator: MapPhase finished, start ReducePhase 
+2024/04/18 23:05:45 Coordinator: assigned a task {JobType:ReduceJob,Id:0,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:45 work22434 JobHeartbeat Finish
+2024/04/18 23:05:45 Worker22434: get coordinator's heartbeat {JobType:ReduceJob,Id:0,NMap:8,NReduce:10} 
+2024/04/18 23:05:45 Reduce job 0
+2024/04/18 23:05:45 msg:{Id:0,SchedulePhase:ReducePhase}
+2024/04/18 23:05:45 Coordinator: Worker has executed task {Id:0,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:45 Report Finish
+2024/04/18 23:05:45 work22434 JobRequest Send
+2024/04/18 23:05:45 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:45 c.Schedulephase:ReducePhase
+2024/04/18 23:05:45 start changPhase
+2024/04/18 23:05:45 select task { 1 {0 0 <nil>} 0}
+2024/04/18 23:05:45 Break change phase 
+2024/04/18 23:05:45 Coordinator: assigned a task {JobType:ReduceJob,Id:1,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:45 work22434 JobHeartbeat Finish
+2024/04/18 23:05:45 Worker22434: get coordinator's heartbeat {JobType:ReduceJob,Id:1,NMap:8,NReduce:10} 
+2024/04/18 23:05:45 Reduce job 1
+2024/04/18 23:05:45 msg:{Id:1,SchedulePhase:ReducePhase}
+2024/04/18 23:05:45 Coordinator: Worker has executed task {Id:1,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:45 Report Finish
+2024/04/18 23:05:45 work22434 JobRequest Send
+2024/04/18 23:05:45 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:45 c.Schedulephase:ReducePhase
+2024/04/18 23:05:45 start changPhase
+2024/04/18 23:05:45 select task { 2 {0 0 <nil>} 0}
+2024/04/18 23:05:45 Break change phase 
+2024/04/18 23:05:45 Coordinator: assigned a task {JobType:ReduceJob,Id:2,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:45 work22434 JobHeartbeat Finish
+2024/04/18 23:05:45 Worker22434: get coordinator's heartbeat {JobType:ReduceJob,Id:2,NMap:8,NReduce:10} 
+2024/04/18 23:05:45 Reduce job 2
+2024/04/18 23:05:46 work70657 JobRequest Send
+2024/04/18 23:05:46 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:46 c.Schedulephase:ReducePhase
+2024/04/18 23:05:46 start changPhase
+2024/04/18 23:05:46 select task { 3 {0 0 <nil>} 0}
+2024/04/18 23:05:46 Break change phase 
+2024/04/18 23:05:46 Coordinator: assigned a task {JobType:ReduceJob,Id:3,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:46 work70657 JobHeartbeat Finish
+2024/04/18 23:05:46 work23671 JobRequest Send
+2024/04/18 23:05:46 Worker70657: get coordinator's heartbeat {JobType:ReduceJob,Id:3,NMap:8,NReduce:10} 
+2024/04/18 23:05:46 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:46 Reduce job 3
+2024/04/18 23:05:46 c.Schedulephase:ReducePhase
+2024/04/18 23:05:46 start changPhase
+2024/04/18 23:05:46 select task { 4 {0 0 <nil>} 0}
+2024/04/18 23:05:46 Break change phase 
+2024/04/18 23:05:46 Coordinator: assigned a task {JobType:ReduceJob,Id:4,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:46 work23671 JobHeartbeat Finish
+2024/04/18 23:05:46 Worker23671: get coordinator's heartbeat {JobType:ReduceJob,Id:4,NMap:8,NReduce:10} 
+2024/04/18 23:05:46 Reduce job 4
+2024/04/18 23:05:46 msg:{Id:3,SchedulePhase:ReducePhase}
+2024/04/18 23:05:46 Coordinator: Worker has executed task {Id:3,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:46 Report Finish
+2024/04/18 23:05:46 msg:{Id:4,SchedulePhase:ReducePhase}
+2024/04/18 23:05:46 Coordinator: Worker has executed task {Id:4,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:46 Report Finish
+2024/04/18 23:05:46 work70657 JobRequest Send
+2024/04/18 23:05:46 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:46 c.Schedulephase:ReducePhase
+2024/04/18 23:05:46 start changPhase
+2024/04/18 23:05:46 select task { 5 {0 0 <nil>} 0}
+2024/04/18 23:05:46 Break change phase 
+2024/04/18 23:05:46 Coordinator: assigned a task {JobType:ReduceJob,Id:5,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:46 work70657 JobHeartbeat Finish
+2024/04/18 23:05:46 Worker70657: get coordinator's heartbeat {JobType:ReduceJob,Id:5,NMap:8,NReduce:10} 
+2024/04/18 23:05:46 Reduce job 5
+2024/04/18 23:05:46 work23671 JobRequest Send
+2024/04/18 23:05:46 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:46 c.Schedulephase:ReducePhase
+2024/04/18 23:05:46 start changPhase
+2024/04/18 23:05:46 select task { 6 {0 0 <nil>} 0}
+2024/04/18 23:05:46 Break change phase 
+2024/04/18 23:05:46 Coordinator: assigned a task {JobType:ReduceJob,Id:6,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:46 work23671 JobHeartbeat Finish
+2024/04/18 23:05:46 Worker23671: get coordinator's heartbeat {JobType:ReduceJob,Id:6,NMap:8,NReduce:10} 
+2024/04/18 23:05:46 Reduce job 6
+2024/04/18 23:05:46 msg:{Id:5,SchedulePhase:ReducePhase}
+2024/04/18 23:05:46 Coordinator: Worker has executed task {Id:5,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:46 Report Finish
+2024/04/18 23:05:46 work70657 JobRequest Send
+2024/04/18 23:05:46 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:46 c.Schedulephase:ReducePhase
+2024/04/18 23:05:46 start changPhase
+2024/04/18 23:05:46 select task { 7 {0 0 <nil>} 0}
+2024/04/18 23:05:46 Break change phase 
+2024/04/18 23:05:46 Coordinator: assigned a task {JobType:ReduceJob,Id:7,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:46 work70657 JobHeartbeat Finish
+2024/04/18 23:05:46 Worker70657: get coordinator's heartbeat {JobType:ReduceJob,Id:7,NMap:8,NReduce:10} 
+2024/04/18 23:05:46 Reduce job 7
+2024/04/18 23:05:46 msg:{Id:7,SchedulePhase:ReducePhase}
+2024/04/18 23:05:46 Coordinator: Worker has executed task {Id:7,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:46 Report Finish
+2024/04/18 23:05:46 work70657 JobRequest Send
+2024/04/18 23:05:46 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:46 c.Schedulephase:ReducePhase
+2024/04/18 23:05:46 start changPhase
+2024/04/18 23:05:46 select task { 8 {0 0 <nil>} 0}
+2024/04/18 23:05:46 Break change phase 
+2024/04/18 23:05:46 Coordinator: assigned a task {JobType:ReduceJob,Id:8,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:46 work70657 JobHeartbeat Finish
+2024/04/18 23:05:46 Worker70657: get coordinator's heartbeat {JobType:ReduceJob,Id:8,NMap:8,NReduce:10} 
+2024/04/18 23:05:46 Reduce job 8
+2024/04/18 23:05:46 msg:{Id:8,SchedulePhase:ReducePhase}
+2024/04/18 23:05:46 Coordinator: Worker has executed task {Id:8,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:46 Report Finish
+2024/04/18 23:05:46 work70657 JobRequest Send
+2024/04/18 23:05:46 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:46 c.Schedulephase:ReducePhase
+2024/04/18 23:05:46 start changPhase
+2024/04/18 23:05:46 select task { 9 {0 0 <nil>} 0}
+2024/04/18 23:05:46 Break change phase 
+2024/04/18 23:05:46 Coordinator: assigned a task {JobType:ReduceJob,Id:9,NMap:8,NReduce:10} to worker 
+2024/04/18 23:05:46 work70657 JobHeartbeat Finish
+2024/04/18 23:05:46 Worker70657: get coordinator's heartbeat {JobType:ReduceJob,Id:9,NMap:8,NReduce:10} 
+2024/04/18 23:05:46 Reduce job 9
+2024/04/18 23:05:46 msg:{Id:9,SchedulePhase:ReducePhase}
+2024/04/18 23:05:46 Coordinator: Worker has executed task {Id:9,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:46 Report Finish
+2024/04/18 23:05:46 work70657 JobRequest Send
+2024/04/18 23:05:46 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:46 c.Schedulephase:ReducePhase
+2024/04/18 23:05:46 start changPhase
+2024/04/18 23:05:46 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:05:46 work70657 JobHeartbeat Finish
+2024/04/18 23:05:46 Worker70657: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:05:46 Wait job 0
+2024/04/18 23:05:47 work70657 JobRequest Send
+2024/04/18 23:05:47 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:47 c.Schedulephase:ReducePhase
+2024/04/18 23:05:47 start changPhase
+2024/04/18 23:05:47 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:05:47 work70657 JobHeartbeat Finish
+2024/04/18 23:05:47 Worker70657: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:05:47 Wait job 0
+2024/04/18 23:05:48 msg:{Id:2,SchedulePhase:ReducePhase}
+2024/04/18 23:05:48 Coordinator: Worker has executed task {Id:2,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:48 Report Finish
+2024/04/18 23:05:48 work22434 JobRequest Send
+2024/04/18 23:05:48 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:48 c.Schedulephase:ReducePhase
+2024/04/18 23:05:48 start changPhase
+2024/04/18 23:05:48 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:05:48 work22434 JobHeartbeat Finish
+2024/04/18 23:05:48 Worker22434: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:05:48 Wait job 0
+2024/04/18 23:05:48 work70657 JobRequest Send
+2024/04/18 23:05:48 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:48 c.Schedulephase:ReducePhase
+2024/04/18 23:05:48 start changPhase
+2024/04/18 23:05:48 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:05:48 work70657 JobHeartbeat Finish
+2024/04/18 23:05:48 Worker70657: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:05:48 Wait job 0
+2024/04/18 23:05:49 msg:{Id:6,SchedulePhase:ReducePhase}
+2024/04/18 23:05:49 Coordinator: Worker has executed task {Id:6,SchedulePhase:ReducePhase} 
+2024/04/18 23:05:49 Report Finish
+2024/04/18 23:05:49 work23671 JobRequest Send
+2024/04/18 23:05:49 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:49 c.Schedulephase:ReducePhase
+2024/04/18 23:05:49 start changPhase
+2024/04/18 23:05:49 init CompletePhase
+2024/04/18 23:05:49 task:{ 0 {13943262722440659682 1012996057 0xaede00} 2}
+2024/04/18 23:05:49 task:{ 1 {13943262722441386401 1013722776 0xaede00} 2}
+2024/04/18 23:05:49 task:{ 2 {13943262722442112477 1014448853 0xaede00} 2}
+2024/04/18 23:05:49 task:{ 3 {13943262723514474367 2013068929 0xaede00} 2}
+2024/04/18 23:05:49 task:{ 4 {13943262723514708581 2013303142 0xaede00} 2}
+2024/04/18 23:05:49 task:{ 5 {13943262723515530673 2014125224 0xaede00} 2}
+2024/04/18 23:05:49 task:{ 6 {13943262723515667468 2014262019 0xaede00} 2}
+2024/04/18 23:05:49 task:{ 7 {13943262723516305174 2014899725 0xaede00} 2}
+2024/04/18 23:05:49 task:{ 8 {13943262723517067892 2015662443 0xaede00} 2}
+2024/04/18 23:05:49 task:{ 9 {13943262723518214383 2016808944 0xaede00} 2}
+2024/04/18 23:05:49 Coordinator: ReducePhase finished, Congratulations 
+2024/04/18 23:05:49 Coordinator: assigned a task {JobType:CompleteJob} to worker 
+2024/04/18 23:05:49 work23671 JobHeartbeat Finish
+2024/04/18 23:05:49 Worker23671: get coordinator's heartbeat {JobType:CompleteJob} 
+2024/04/18 23:05:49 work22434 JobRequest Send
+2024/04/18 23:05:49 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:49 c.Schedulephase:CompletePhase
+2024/04/18 23:05:49 Coordinator: assigned a task {JobType:CompleteJob} to worker 
+2024/04/18 23:05:49 work22434 JobHeartbeat Finish
+2024/04/18 23:05:49 Worker22434: get coordinator's heartbeat {JobType:CompleteJob} 
+2024/04/18 23:05:49 work70657 JobRequest Send
+2024/04/18 23:05:49 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:49 c.Schedulephase:CompletePhase
+2024/04/18 23:05:49 Coordinator: assigned a task {JobType:CompleteJob} to worker 
+2024/04/18 23:05:49 work70657 JobHeartbeat Finish
+2024/04/18 23:05:49 Worker70657: get coordinator's heartbeat {JobType:CompleteJob} 
+2024/04/18 23:05:50 start
+2024/04/18 23:05:50 init MapPhase
+2024/04/18 23:05:50 task:{../pg-being_ernest.txt 0 {0 0 <nil>} 0}
+2024/04/18 23:05:50 task:{../pg-dorian_gray.txt 1 {0 0 <nil>} 0}
+2024/04/18 23:05:50 task:{../pg-frankenstein.txt 2 {0 0 <nil>} 0}
+2024/04/18 23:05:50 task:{../pg-grimm.txt 3 {0 0 <nil>} 0}
+2024/04/18 23:05:50 task:{../pg-huckleberry_finn.txt 4 {0 0 <nil>} 0}
+2024/04/18 23:05:50 task:{../pg-metamorphosis.txt 5 {0 0 <nil>} 0}
+2024/04/18 23:05:50 task:{../pg-sherlock_holmes.txt 6 {0 0 <nil>} 0}
+2024/04/18 23:05:50 task:{../pg-tom_sawyer.txt 7 {0 0 <nil>} 0}
+2024/04/18 23:05:51 work24732 JobRequest Send
+2024/04/18 23:05:51 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:51 c.Schedulephase:MapPhase
+2024/04/18 23:05:51 start changPhase
+2024/04/18 23:05:51 select task {../pg-being_ernest.txt 0 {0 0 <nil>} 0}
+2024/04/18 23:05:51 Break change phase ../pg-being_ernest.txt
+2024/04/18 23:05:51 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-being_ernest.txt,Id:0,NReduce:10} to worker 
+2024/04/18 23:05:51 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:51 c.Schedulephase:MapPhase
+2024/04/18 23:05:51 start changPhase
+2024/04/18 23:05:51 select task {../pg-dorian_gray.txt 1 {0 0 <nil>} 0}
+2024/04/18 23:05:51 Break change phase ../pg-dorian_gray.txt
+2024/04/18 23:05:51 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-dorian_gray.txt,Id:1,NReduce:10} to worker 
+2024/04/18 23:05:51 work29623 JobRequest Send
+2024/04/18 23:05:51 work29623 JobHeartbeat Finish
+2024/04/18 23:05:51 work24732 JobHeartbeat Finish
+2024/04/18 23:05:51 Worker29623: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-dorian_gray.txt,Id:1,NReduce:10} 
+2024/04/18 23:05:51 Map job 1
+2024/04/18 23:05:51 Worker24732: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-being_ernest.txt,Id:0,NReduce:10} 
+2024/04/18 23:05:51 Map job 0
+2024/04/18 23:05:51 work32827 JobRequest Send
+2024/04/18 23:05:51 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:51 c.Schedulephase:MapPhase
+2024/04/18 23:05:51 start changPhase
+2024/04/18 23:05:51 select task {../pg-frankenstein.txt 2 {0 0 <nil>} 0}
+2024/04/18 23:05:51 Break change phase ../pg-frankenstein.txt
+2024/04/18 23:05:51 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-frankenstein.txt,Id:2,NReduce:10} to worker 
+2024/04/18 23:05:51 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:51 c.Schedulephase:MapPhase
+2024/04/18 23:05:51 start changPhase
+2024/04/18 23:05:51 select task {../pg-grimm.txt 3 {0 0 <nil>} 0}
+2024/04/18 23:05:51 Break change phase ../pg-grimm.txt
+2024/04/18 23:05:51 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-grimm.txt,Id:3,NReduce:10} to worker 
+2024/04/18 23:05:51 work25293 JobRequest Send
+2024/04/18 23:05:51 work25293 JobHeartbeat Finish
+2024/04/18 23:05:51 work32827 JobHeartbeat Finish
+2024/04/18 23:05:51 Worker25293: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-grimm.txt,Id:3,NReduce:10} 
+2024/04/18 23:05:51 Map job 3
+2024/04/18 23:05:51 Worker32827: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-frankenstein.txt,Id:2,NReduce:10} 
+2024/04/18 23:05:51 Map job 2
+2024/04/18 23:05:52 work93948 JobRequest Send
+2024/04/18 23:05:52 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:52 c.Schedulephase:MapPhase
+2024/04/18 23:05:52 start changPhase
+2024/04/18 23:05:52 select task {../pg-huckleberry_finn.txt 4 {0 0 <nil>} 0}
+2024/04/18 23:05:52 Break change phase ../pg-huckleberry_finn.txt
+2024/04/18 23:05:52 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-huckleberry_finn.txt,Id:4,NReduce:10} to worker 
+2024/04/18 23:05:52 work93948 JobHeartbeat Finish
+2024/04/18 23:05:52 Worker93948: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-huckleberry_finn.txt,Id:4,NReduce:10} 
+2024/04/18 23:05:52 Map job 4
+2024/04/18 23:05:56 intermediates' len:10
+2024/04/18 23:05:56 worker create a temp file: mr-0-9
+2024/04/18 23:05:56 worker create a temp file: mr-0-5
+2024/04/18 23:05:56 worker create a temp file: mr-0-0
+2024/04/18 23:05:56 worker create a temp file: mr-0-8
+2024/04/18 23:05:56 worker create a temp file: mr-0-4
+2024/04/18 23:05:56 worker create a temp file: mr-0-1
+2024/04/18 23:05:56 worker create a temp file: mr-0-3
+2024/04/18 23:05:56 worker create a temp file: mr-0-6
+2024/04/18 23:05:56 worker create a temp file: mr-0-7
+2024/04/18 23:05:56 worker create a temp file: mr-0-2
+2024/04/18 23:05:56 msg:{Id:0,SchedulePhase:MapPhase}
+2024/04/18 23:05:56 Coordinator: Worker has executed task {Id:0,SchedulePhase:MapPhase} 
+2024/04/18 23:05:56 Report Finish
+2024/04/18 23:05:56 work24732 JobRequest Send
+2024/04/18 23:05:56 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:56 c.Schedulephase:MapPhase
+2024/04/18 23:05:56 start changPhase
+2024/04/18 23:05:56 select task {../pg-metamorphosis.txt 5 {0 0 <nil>} 0}
+2024/04/18 23:05:56 Break change phase ../pg-metamorphosis.txt
+2024/04/18 23:05:56 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-metamorphosis.txt,Id:5,NReduce:10} to worker 
+2024/04/18 23:05:56 work24732 JobHeartbeat Finish
+2024/04/18 23:05:56 Worker24732: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-metamorphosis.txt,Id:5,NReduce:10} 
+2024/04/18 23:05:56 Map job 5
+2024/04/18 23:05:56 intermediates' len:10
+2024/04/18 23:05:56 worker create a temp file: mr-2-9
+2024/04/18 23:05:56 worker create a temp file: mr-2-3
+2024/04/18 23:05:56 worker create a temp file: mr-2-2
+2024/04/18 23:05:56 worker create a temp file: mr-2-7
+2024/04/18 23:05:56 worker create a temp file: mr-2-8
+2024/04/18 23:05:56 worker create a temp file: mr-2-0
+2024/04/18 23:05:56 worker create a temp file: mr-2-6
+2024/04/18 23:05:56 worker create a temp file: mr-2-1
+2024/04/18 23:05:56 worker create a temp file: mr-2-4
+2024/04/18 23:05:56 worker create a temp file: mr-2-5
+2024/04/18 23:05:56 msg:{Id:2,SchedulePhase:MapPhase}
+2024/04/18 23:05:56 Coordinator: Worker has executed task {Id:2,SchedulePhase:MapPhase} 
+2024/04/18 23:05:56 Report Finish
+2024/04/18 23:05:56 work32827 JobRequest Send
+2024/04/18 23:05:56 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:56 c.Schedulephase:MapPhase
+2024/04/18 23:05:56 start changPhase
+2024/04/18 23:05:56 select task {../pg-sherlock_holmes.txt 6 {0 0 <nil>} 0}
+2024/04/18 23:05:56 Break change phase ../pg-sherlock_holmes.txt
+2024/04/18 23:05:56 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-sherlock_holmes.txt,Id:6,NReduce:10} to worker 
+2024/04/18 23:05:56 work32827 JobHeartbeat Finish
+2024/04/18 23:05:56 Worker32827: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-sherlock_holmes.txt,Id:6,NReduce:10} 
+2024/04/18 23:05:56 Map job 6
+2024/04/18 23:05:58 intermediates' len:10
+2024/04/18 23:05:58 worker create a temp file: mr-4-0
+2024/04/18 23:05:58 worker create a temp file: mr-4-9
+2024/04/18 23:05:58 worker create a temp file: mr-4-4
+2024/04/18 23:05:58 worker create a temp file: mr-4-6
+2024/04/18 23:05:58 worker create a temp file: mr-4-7
+2024/04/18 23:05:58 worker create a temp file: mr-4-2
+2024/04/18 23:05:58 worker create a temp file: mr-4-3
+2024/04/18 23:05:58 worker create a temp file: mr-4-8
+2024/04/18 23:05:58 worker create a temp file: mr-4-1
+2024/04/18 23:05:58 worker create a temp file: mr-4-5
+2024/04/18 23:05:58 msg:{Id:4,SchedulePhase:MapPhase}
+2024/04/18 23:05:58 Coordinator: Worker has executed task {Id:4,SchedulePhase:MapPhase} 
+2024/04/18 23:05:58 Report Finish
+2024/04/18 23:05:58 work93948 JobRequest Send
+2024/04/18 23:05:58 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:58 c.Schedulephase:MapPhase
+2024/04/18 23:05:58 start changPhase
+2024/04/18 23:05:58 select task {../pg-tom_sawyer.txt 7 {0 0 <nil>} 0}
+2024/04/18 23:05:58 Break change phase ../pg-tom_sawyer.txt
+2024/04/18 23:05:58 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-tom_sawyer.txt,Id:7,NReduce:10} to worker 
+2024/04/18 23:05:58 work93948 JobHeartbeat Finish
+2024/04/18 23:05:58 Worker93948: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-tom_sawyer.txt,Id:7,NReduce:10} 
+2024/04/18 23:05:58 Map job 7
+2024/04/18 23:05:58 intermediates' len:10
+2024/04/18 23:05:58 worker create a temp file: mr-7-9
+2024/04/18 23:05:58 worker create a temp file: mr-7-4
+2024/04/18 23:05:58 worker create a temp file: mr-7-1
+2024/04/18 23:05:58 worker create a temp file: mr-7-7
+2024/04/18 23:05:58 worker create a temp file: mr-7-2
+2024/04/18 23:05:58 worker create a temp file: mr-7-6
+2024/04/18 23:05:58 worker create a temp file: mr-7-3
+2024/04/18 23:05:58 worker create a temp file: mr-7-5
+2024/04/18 23:05:58 worker create a temp file: mr-7-0
+2024/04/18 23:05:58 worker create a temp file: mr-7-8
+2024/04/18 23:05:58 msg:{Id:7,SchedulePhase:MapPhase}
+2024/04/18 23:05:58 Coordinator: Worker has executed task {Id:7,SchedulePhase:MapPhase} 
+2024/04/18 23:05:58 Report Finish
+2024/04/18 23:05:58 work93948 JobRequest Send
+2024/04/18 23:05:58 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:58 c.Schedulephase:MapPhase
+2024/04/18 23:05:58 start changPhase
+2024/04/18 23:05:58 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:05:58 work93948 JobHeartbeat Finish
+2024/04/18 23:05:58 Worker93948: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:05:58 Wait job 0
+2024/04/18 23:05:59 work93948 JobRequest Send
+2024/04/18 23:05:59 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:05:59 c.Schedulephase:MapPhase
+2024/04/18 23:05:59 start changPhase
+2024/04/18 23:05:59 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:05:59 work93948 JobHeartbeat Finish
+2024/04/18 23:05:59 Worker93948: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:05:59 Wait job 0
+2024/04/18 23:06:00 work93948 JobRequest Send
+2024/04/18 23:06:00 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:00 c.Schedulephase:MapPhase
+2024/04/18 23:06:00 start changPhase
+2024/04/18 23:06:00 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:00 work93948 JobHeartbeat Finish
+2024/04/18 23:06:00 Worker93948: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:00 Wait job 0
+2024/04/18 23:06:00 intermediates' len:10
+2024/04/18 23:06:00 worker create a temp file: mr-3-9
+2024/04/18 23:06:00 worker create a temp file: mr-3-4
+2024/04/18 23:06:00 worker create a temp file: mr-3-5
+2024/04/18 23:06:00 worker create a temp file: mr-3-7
+2024/04/18 23:06:00 worker create a temp file: mr-3-6
+2024/04/18 23:06:00 worker create a temp file: mr-3-2
+2024/04/18 23:06:00 worker create a temp file: mr-3-0
+2024/04/18 23:06:00 worker create a temp file: mr-3-8
+2024/04/18 23:06:00 worker create a temp file: mr-3-3
+2024/04/18 23:06:00 worker create a temp file: mr-3-1
+2024/04/18 23:06:00 msg:{Id:3,SchedulePhase:MapPhase}
+2024/04/18 23:06:00 Coordinator: Worker has executed task {Id:3,SchedulePhase:MapPhase} 
+2024/04/18 23:06:00 Report Finish
+2024/04/18 23:06:00 work25293 JobRequest Send
+2024/04/18 23:06:00 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:00 c.Schedulephase:MapPhase
+2024/04/18 23:06:00 start changPhase
+2024/04/18 23:06:00 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:00 work25293 JobHeartbeat Finish
+2024/04/18 23:06:00 Worker25293: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:00 Wait job 0
+2024/04/18 23:06:01 work93948 JobRequest Send
+2024/04/18 23:06:01 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:01 c.Schedulephase:MapPhase
+2024/04/18 23:06:01 start changPhase
+2024/04/18 23:06:01 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:01 work93948 JobHeartbeat Finish
+2024/04/18 23:06:01 Worker93948: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:01 Wait job 0
+2024/04/18 23:06:01 work25293 JobRequest Send
+2024/04/18 23:06:01 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:01 c.Schedulephase:MapPhase
+2024/04/18 23:06:01 start changPhase
+2024/04/18 23:06:01 Break change phase ../pg-dorian_gray.txt
+2024/04/18 23:06:01 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-dorian_gray.txt,Id:1,NReduce:10} to worker 
+2024/04/18 23:06:01 work25293 JobHeartbeat Finish
+2024/04/18 23:06:01 Worker25293: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-dorian_gray.txt,Id:1,NReduce:10} 
+2024/04/18 23:06:01 Map job 1
+2024/04/18 23:06:02 work93948 JobRequest Send
+2024/04/18 23:06:02 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:02 c.Schedulephase:MapPhase
+2024/04/18 23:06:02 start changPhase
+2024/04/18 23:06:02 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:02 work93948 JobHeartbeat Finish
+2024/04/18 23:06:02 Worker93948: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:02 Wait job 0
+2024/04/18 23:06:02 work44075 JobRequest Send
+2024/04/18 23:06:02 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:02 c.Schedulephase:MapPhase
+2024/04/18 23:06:02 start changPhase
+2024/04/18 23:06:02 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:02 work44075 JobHeartbeat Finish
+2024/04/18 23:06:02 Worker44075: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:02 Wait job 0
+2024/04/18 23:06:03 work93948 JobRequest Send
+2024/04/18 23:06:03 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:03 c.Schedulephase:MapPhase
+2024/04/18 23:06:03 start changPhase
+2024/04/18 23:06:03 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:03 work93948 JobHeartbeat Finish
+2024/04/18 23:06:03 Worker93948: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:03 Wait job 0
+2024/04/18 23:06:03 work44075 JobRequest Send
+2024/04/18 23:06:03 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:03 c.Schedulephase:MapPhase
+2024/04/18 23:06:03 start changPhase
+2024/04/18 23:06:03 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:03 work44075 JobHeartbeat Finish
+2024/04/18 23:06:03 Worker44075: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:03 Wait job 0
+2024/04/18 23:06:03 intermediates' len:10
+2024/04/18 23:06:03 worker create a temp file: mr-6-9
+2024/04/18 23:06:03 worker create a temp file: mr-6-4
+2024/04/18 23:06:03 worker create a temp file: mr-6-1
+2024/04/18 23:06:03 worker create a temp file: mr-6-5
+2024/04/18 23:06:03 worker create a temp file: mr-6-7
+2024/04/18 23:06:03 worker create a temp file: mr-6-3
+2024/04/18 23:06:03 worker create a temp file: mr-6-8
+2024/04/18 23:06:03 worker create a temp file: mr-6-0
+2024/04/18 23:06:03 worker create a temp file: mr-6-6
+2024/04/18 23:06:03 worker create a temp file: mr-6-2
+2024/04/18 23:06:03 msg:{Id:6,SchedulePhase:MapPhase}
+2024/04/18 23:06:03 Coordinator: Worker has executed task {Id:6,SchedulePhase:MapPhase} 
+2024/04/18 23:06:03 Report Finish
+2024/04/18 23:06:03 work32827 JobRequest Send
+2024/04/18 23:06:03 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:03 c.Schedulephase:MapPhase
+2024/04/18 23:06:03 start changPhase
+2024/04/18 23:06:03 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:03 work32827 JobHeartbeat Finish
+2024/04/18 23:06:03 Worker32827: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:03 Wait job 0
+2024/04/18 23:06:04 work93948 JobRequest Send
+2024/04/18 23:06:04 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:04 c.Schedulephase:MapPhase
+2024/04/18 23:06:04 start changPhase
+2024/04/18 23:06:04 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:04 work93948 JobHeartbeat Finish
+2024/04/18 23:06:04 Worker93948: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:04 Wait job 0
+2024/04/18 23:06:04 work44075 JobRequest Send
+2024/04/18 23:06:04 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:04 c.Schedulephase:MapPhase
+2024/04/18 23:06:04 start changPhase
+2024/04/18 23:06:04 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:04 work44075 JobHeartbeat Finish
+2024/04/18 23:06:04 Worker44075: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:04 Wait job 0
+2024/04/18 23:06:04 work32827 JobRequest Send
+2024/04/18 23:06:04 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:04 c.Schedulephase:MapPhase
+2024/04/18 23:06:04 start changPhase
+2024/04/18 23:06:04 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:04 work32827 JobHeartbeat Finish
+2024/04/18 23:06:04 Worker32827: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:04 Wait job 0
+2024/04/18 23:06:05 work93948 JobRequest Send
+2024/04/18 23:06:05 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:05 c.Schedulephase:MapPhase
+2024/04/18 23:06:05 start changPhase
+2024/04/18 23:06:05 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:05 work93948 JobHeartbeat Finish
+2024/04/18 23:06:05 Worker93948: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:05 Wait job 0
+2024/04/18 23:06:05 work44075 JobRequest Send
+2024/04/18 23:06:05 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:05 c.Schedulephase:MapPhase
+2024/04/18 23:06:05 start changPhase
+2024/04/18 23:06:05 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:05 work44075 JobHeartbeat Finish
+2024/04/18 23:06:05 Worker44075: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:05 Wait job 0
+2024/04/18 23:06:05 work32827 JobRequest Send
+2024/04/18 23:06:05 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:05 c.Schedulephase:MapPhase
+2024/04/18 23:06:05 start changPhase
+2024/04/18 23:06:05 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:05 work32827 JobHeartbeat Finish
+2024/04/18 23:06:05 Worker32827: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:05 Wait job 0
+2024/04/18 23:06:06 work93948 JobRequest Send
+2024/04/18 23:06:06 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:06 c.Schedulephase:MapPhase
+2024/04/18 23:06:06 start changPhase
+2024/04/18 23:06:06 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:06 work93948 JobHeartbeat Finish
+2024/04/18 23:06:06 Worker93948: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:06 Wait job 0
+2024/04/18 23:06:06 work44075 JobRequest Send
+2024/04/18 23:06:06 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:06 c.Schedulephase:MapPhase
+2024/04/18 23:06:06 start changPhase
+2024/04/18 23:06:06 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:06 work44075 JobHeartbeat Finish
+2024/04/18 23:06:06 Worker44075: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:06 Wait job 0
+2024/04/18 23:06:06 work32827 JobRequest Send
+2024/04/18 23:06:06 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:06 c.Schedulephase:MapPhase
+2024/04/18 23:06:06 start changPhase
+2024/04/18 23:06:06 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:06 work32827 JobHeartbeat Finish
+2024/04/18 23:06:06 Worker32827: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:06 Wait job 0
+2024/04/18 23:06:07 work93948 JobRequest Send
+2024/04/18 23:06:07 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:07 c.Schedulephase:MapPhase
+2024/04/18 23:06:07 start changPhase
+2024/04/18 23:06:07 Break change phase ../pg-metamorphosis.txt
+2024/04/18 23:06:07 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-metamorphosis.txt,Id:5,NReduce:10} to worker 
+2024/04/18 23:06:07 work93948 JobHeartbeat Finish
+2024/04/18 23:06:07 Worker93948: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-metamorphosis.txt,Id:5,NReduce:10} 
+2024/04/18 23:06:07 Map job 5
+2024/04/18 23:06:07 intermediates' len:10
+2024/04/18 23:06:07 worker create a temp file: mr-5-9
+2024/04/18 23:06:07 worker create a temp file: mr-5-4
+2024/04/18 23:06:07 worker create a temp file: mr-5-6
+2024/04/18 23:06:07 worker create a temp file: mr-5-1
+2024/04/18 23:06:07 worker create a temp file: mr-5-7
+2024/04/18 23:06:07 worker create a temp file: mr-5-5
+2024/04/18 23:06:07 worker create a temp file: mr-5-2
+2024/04/18 23:06:07 worker create a temp file: mr-5-8
+2024/04/18 23:06:07 worker create a temp file: mr-5-3
+2024/04/18 23:06:07 worker create a temp file: mr-5-0
+2024/04/18 23:06:07 msg:{Id:5,SchedulePhase:MapPhase}
+2024/04/18 23:06:07 Coordinator: Worker has executed task {Id:5,SchedulePhase:MapPhase} 
+2024/04/18 23:06:07 Report Finish
+2024/04/18 23:06:07 work93948 JobRequest Send
+2024/04/18 23:06:07 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:07 c.Schedulephase:MapPhase
+2024/04/18 23:06:07 start changPhase
+2024/04/18 23:06:07 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:07 work93948 JobHeartbeat Finish
+2024/04/18 23:06:07 Worker93948: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:07 Wait job 0
+2024/04/18 23:06:07 work44075 JobRequest Send
+2024/04/18 23:06:07 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:07 c.Schedulephase:MapPhase
+2024/04/18 23:06:07 start changPhase
+2024/04/18 23:06:07 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:07 work44075 JobHeartbeat Finish
+2024/04/18 23:06:07 Worker44075: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:07 Wait job 0
+2024/04/18 23:06:07 work32827 JobRequest Send
+2024/04/18 23:06:07 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:07 c.Schedulephase:MapPhase
+2024/04/18 23:06:07 start changPhase
+2024/04/18 23:06:07 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:07 work32827 JobHeartbeat Finish
+2024/04/18 23:06:07 Worker32827: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:07 Wait job 0
+2024/04/18 23:06:08 work93948 JobRequest Send
+2024/04/18 23:06:08 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:08 c.Schedulephase:MapPhase
+2024/04/18 23:06:08 start changPhase
+2024/04/18 23:06:08 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:08 work93948 JobHeartbeat Finish
+2024/04/18 23:06:08 Worker93948: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:08 Wait job 0
+2024/04/18 23:06:08 work44075 JobRequest Send
+2024/04/18 23:06:08 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:08 c.Schedulephase:MapPhase
+2024/04/18 23:06:08 start changPhase
+2024/04/18 23:06:08 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:08 work44075 JobHeartbeat Finish
+2024/04/18 23:06:08 Worker44075: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:08 Wait job 0
+2024/04/18 23:06:08 work32827 JobRequest Send
+2024/04/18 23:06:08 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:08 c.Schedulephase:MapPhase
+2024/04/18 23:06:08 start changPhase
+2024/04/18 23:06:08 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:08 work32827 JobHeartbeat Finish
+2024/04/18 23:06:08 Worker32827: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:08 Wait job 0
+2024/04/18 23:06:09 work93948 JobRequest Send
+2024/04/18 23:06:09 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:09 c.Schedulephase:MapPhase
+2024/04/18 23:06:09 start changPhase
+2024/04/18 23:06:09 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:09 work93948 JobHeartbeat Finish
+2024/04/18 23:06:09 Worker93948: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:09 Wait job 0
+2024/04/18 23:06:09 work44075 JobRequest Send
+2024/04/18 23:06:09 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:09 c.Schedulephase:MapPhase
+2024/04/18 23:06:09 start changPhase
+2024/04/18 23:06:09 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:09 work44075 JobHeartbeat Finish
+2024/04/18 23:06:09 Worker44075: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:09 Wait job 0
+2024/04/18 23:06:09 work32827 JobRequest Send
+2024/04/18 23:06:09 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:09 c.Schedulephase:MapPhase
+2024/04/18 23:06:09 start changPhase
+2024/04/18 23:06:09 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:09 work32827 JobHeartbeat Finish
+2024/04/18 23:06:09 Worker32827: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:09 Wait job 0
+2024/04/18 23:06:10 work93948 JobRequest Send
+2024/04/18 23:06:10 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:10 c.Schedulephase:MapPhase
+2024/04/18 23:06:10 start changPhase
+2024/04/18 23:06:10 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:10 work93948 JobHeartbeat Finish
+2024/04/18 23:06:10 Worker93948: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:10 Wait job 0
+2024/04/18 23:06:10 work44075 JobRequest Send
+2024/04/18 23:06:10 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:10 c.Schedulephase:MapPhase
+2024/04/18 23:06:10 start changPhase
+2024/04/18 23:06:10 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:10 work44075 JobHeartbeat Finish
+2024/04/18 23:06:10 Worker44075: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:10 Wait job 0
+2024/04/18 23:06:10 work32827 JobRequest Send
+2024/04/18 23:06:10 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:10 c.Schedulephase:MapPhase
+2024/04/18 23:06:10 start changPhase
+2024/04/18 23:06:10 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:10 work32827 JobHeartbeat Finish
+2024/04/18 23:06:10 Worker32827: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:10 Wait job 0
+2024/04/18 23:06:11 work93948 JobRequest Send
+2024/04/18 23:06:11 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:11 c.Schedulephase:MapPhase
+2024/04/18 23:06:11 start changPhase
+2024/04/18 23:06:11 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:11 work93948 JobHeartbeat Finish
+2024/04/18 23:06:11 Worker93948: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:11 Wait job 0
+2024/04/18 23:06:11 work44075 JobRequest Send
+2024/04/18 23:06:11 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:11 c.Schedulephase:MapPhase
+2024/04/18 23:06:11 start changPhase
+2024/04/18 23:06:11 Break change phase ../pg-dorian_gray.txt
+2024/04/18 23:06:11 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-dorian_gray.txt,Id:1,NReduce:10} to worker 
+2024/04/18 23:06:11 work44075 JobHeartbeat Finish
+2024/04/18 23:06:11 Worker44075: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-dorian_gray.txt,Id:1,NReduce:10} 
+2024/04/18 23:06:11 Map job 1
+2024/04/18 23:06:11 work32827 JobRequest Send
+2024/04/18 23:06:11 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:11 c.Schedulephase:MapPhase
+2024/04/18 23:06:11 start changPhase
+2024/04/18 23:06:11 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:11 work32827 JobHeartbeat Finish
+2024/04/18 23:06:11 Worker32827: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:11 Wait job 0
+2024/04/18 23:06:12 work93948 JobRequest Send
+2024/04/18 23:06:12 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:12 c.Schedulephase:MapPhase
+2024/04/18 23:06:12 start changPhase
+2024/04/18 23:06:12 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:12 work93948 JobHeartbeat Finish
+2024/04/18 23:06:12 Worker93948: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:12 Wait job 0
+2024/04/18 23:06:12 work6099 JobRequest Send
+2024/04/18 23:06:12 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:12 c.Schedulephase:MapPhase
+2024/04/18 23:06:12 start changPhase
+2024/04/18 23:06:12 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:12 work6099 JobHeartbeat Finish
+2024/04/18 23:06:12 Worker6099: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:12 Wait job 0
+2024/04/18 23:06:12 work32827 JobRequest Send
+2024/04/18 23:06:12 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:12 c.Schedulephase:MapPhase
+2024/04/18 23:06:12 start changPhase
+2024/04/18 23:06:12 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:12 work32827 JobHeartbeat Finish
+2024/04/18 23:06:12 Worker32827: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:12 Wait job 0
+2024/04/18 23:06:13 work93948 JobRequest Send
+2024/04/18 23:06:13 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:13 c.Schedulephase:MapPhase
+2024/04/18 23:06:13 start changPhase
+2024/04/18 23:06:13 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:13 work93948 JobHeartbeat Finish
+2024/04/18 23:06:13 Worker93948: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:13 Wait job 0
+2024/04/18 23:06:13 work6099 JobRequest Send
+2024/04/18 23:06:13 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:13 c.Schedulephase:MapPhase
+2024/04/18 23:06:13 start changPhase
+2024/04/18 23:06:13 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:13 work6099 JobHeartbeat Finish
+2024/04/18 23:06:13 Worker6099: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:13 Wait job 0
+2024/04/18 23:06:13 work32827 JobRequest Send
+2024/04/18 23:06:13 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:13 c.Schedulephase:MapPhase
+2024/04/18 23:06:13 start changPhase
+2024/04/18 23:06:13 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:13 work32827 JobHeartbeat Finish
+2024/04/18 23:06:13 Worker32827: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:13 Wait job 0
+2024/04/18 23:06:14 work93948 JobRequest Send
+2024/04/18 23:06:14 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:14 c.Schedulephase:MapPhase
+2024/04/18 23:06:14 start changPhase
+2024/04/18 23:06:14 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:14 work93948 JobHeartbeat Finish
+2024/04/18 23:06:14 Worker93948: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:14 Wait job 0
+2024/04/18 23:06:14 work6099 JobRequest Send
+2024/04/18 23:06:14 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:14 c.Schedulephase:MapPhase
+2024/04/18 23:06:14 start changPhase
+2024/04/18 23:06:14 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:14 work6099 JobHeartbeat Finish
+2024/04/18 23:06:14 Worker6099: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:14 Wait job 0
+2024/04/18 23:06:14 work32827 JobRequest Send
+2024/04/18 23:06:14 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:14 c.Schedulephase:MapPhase
+2024/04/18 23:06:14 start changPhase
+2024/04/18 23:06:14 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:14 work32827 JobHeartbeat Finish
+2024/04/18 23:06:14 Worker32827: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:14 Wait job 0
+2024/04/18 23:06:15 work93948 JobRequest Send
+2024/04/18 23:06:15 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:15 c.Schedulephase:MapPhase
+2024/04/18 23:06:15 start changPhase
+2024/04/18 23:06:15 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:15 work93948 JobHeartbeat Finish
+2024/04/18 23:06:15 Worker93948: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:15 Wait job 0
+2024/04/18 23:06:15 work6099 JobRequest Send
+2024/04/18 23:06:15 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:15 c.Schedulephase:MapPhase
+2024/04/18 23:06:15 start changPhase
+2024/04/18 23:06:15 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:15 work6099 JobHeartbeat Finish
+2024/04/18 23:06:15 Worker6099: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:15 Wait job 0
+2024/04/18 23:06:15 work32827 JobRequest Send
+2024/04/18 23:06:15 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:15 c.Schedulephase:MapPhase
+2024/04/18 23:06:15 start changPhase
+2024/04/18 23:06:15 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:15 work32827 JobHeartbeat Finish
+2024/04/18 23:06:15 Worker32827: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:15 Wait job 0
+2024/04/18 23:06:16 work93948 JobRequest Send
+2024/04/18 23:06:16 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:16 c.Schedulephase:MapPhase
+2024/04/18 23:06:16 start changPhase
+2024/04/18 23:06:16 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:16 work93948 JobHeartbeat Finish
+2024/04/18 23:06:16 Worker93948: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:16 Wait job 0
+2024/04/18 23:06:16 work6099 JobRequest Send
+2024/04/18 23:06:16 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:16 c.Schedulephase:MapPhase
+2024/04/18 23:06:16 start changPhase
+2024/04/18 23:06:16 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:16 work6099 JobHeartbeat Finish
+2024/04/18 23:06:16 Worker6099: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:16 Wait job 0
+2024/04/18 23:06:16 work32827 JobRequest Send
+2024/04/18 23:06:16 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:16 c.Schedulephase:MapPhase
+2024/04/18 23:06:16 start changPhase
+2024/04/18 23:06:16 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:16 work32827 JobHeartbeat Finish
+2024/04/18 23:06:16 Worker32827: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:16 Wait job 0
+2024/04/18 23:06:17 work93948 JobRequest Send
+2024/04/18 23:06:17 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:17 c.Schedulephase:MapPhase
+2024/04/18 23:06:17 start changPhase
+2024/04/18 23:06:17 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:17 work93948 JobHeartbeat Finish
+2024/04/18 23:06:17 Worker93948: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:17 Wait job 0
+2024/04/18 23:06:17 work6099 JobRequest Send
+2024/04/18 23:06:17 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:17 c.Schedulephase:MapPhase
+2024/04/18 23:06:17 start changPhase
+2024/04/18 23:06:17 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:17 work6099 JobHeartbeat Finish
+2024/04/18 23:06:17 Worker6099: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:17 Wait job 0
+2024/04/18 23:06:17 work32827 JobRequest Send
+2024/04/18 23:06:17 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:17 c.Schedulephase:MapPhase
+2024/04/18 23:06:17 start changPhase
+2024/04/18 23:06:17 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:17 work32827 JobHeartbeat Finish
+2024/04/18 23:06:17 Worker32827: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:17 Wait job 0
+2024/04/18 23:06:18 work93948 JobRequest Send
+2024/04/18 23:06:18 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:18 c.Schedulephase:MapPhase
+2024/04/18 23:06:18 start changPhase
+2024/04/18 23:06:18 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:18 work93948 JobHeartbeat Finish
+2024/04/18 23:06:18 Worker93948: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:18 Wait job 0
+2024/04/18 23:06:18 work6099 JobRequest Send
+2024/04/18 23:06:18 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:18 c.Schedulephase:MapPhase
+2024/04/18 23:06:18 start changPhase
+2024/04/18 23:06:18 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:18 work6099 JobHeartbeat Finish
+2024/04/18 23:06:18 Worker6099: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:18 Wait job 0
+2024/04/18 23:06:18 work32827 JobRequest Send
+2024/04/18 23:06:18 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:18 c.Schedulephase:MapPhase
+2024/04/18 23:06:18 start changPhase
+2024/04/18 23:06:18 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:18 work32827 JobHeartbeat Finish
+2024/04/18 23:06:18 Worker32827: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:18 Wait job 0
+2024/04/18 23:06:19 work93948 JobRequest Send
+2024/04/18 23:06:19 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:19 c.Schedulephase:MapPhase
+2024/04/18 23:06:19 start changPhase
+2024/04/18 23:06:19 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:19 work93948 JobHeartbeat Finish
+2024/04/18 23:06:19 Worker93948: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:19 Wait job 0
+2024/04/18 23:06:19 work6099 JobRequest Send
+2024/04/18 23:06:19 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:19 c.Schedulephase:MapPhase
+2024/04/18 23:06:19 start changPhase
+2024/04/18 23:06:19 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:19 work6099 JobHeartbeat Finish
+2024/04/18 23:06:19 Worker6099: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:19 Wait job 0
+2024/04/18 23:06:19 work32827 JobRequest Send
+2024/04/18 23:06:19 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:19 c.Schedulephase:MapPhase
+2024/04/18 23:06:19 start changPhase
+2024/04/18 23:06:19 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:19 work32827 JobHeartbeat Finish
+2024/04/18 23:06:19 Worker32827: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:19 Wait job 0
+2024/04/18 23:06:20 work93948 JobRequest Send
+2024/04/18 23:06:20 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:20 c.Schedulephase:MapPhase
+2024/04/18 23:06:20 start changPhase
+2024/04/18 23:06:20 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:20 work93948 JobHeartbeat Finish
+2024/04/18 23:06:20 Worker93948: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:20 Wait job 0
+2024/04/18 23:06:20 work6099 JobRequest Send
+2024/04/18 23:06:20 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:20 c.Schedulephase:MapPhase
+2024/04/18 23:06:20 start changPhase
+2024/04/18 23:06:20 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:20 work6099 JobHeartbeat Finish
+2024/04/18 23:06:20 Worker6099: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:20 Wait job 0
+2024/04/18 23:06:20 work32827 JobRequest Send
+2024/04/18 23:06:20 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:20 c.Schedulephase:MapPhase
+2024/04/18 23:06:20 start changPhase
+2024/04/18 23:06:20 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:20 work32827 JobHeartbeat Finish
+2024/04/18 23:06:20 Worker32827: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:20 Wait job 0
+2024/04/18 23:06:21 work93948 JobRequest Send
+2024/04/18 23:06:21 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:21 c.Schedulephase:MapPhase
+2024/04/18 23:06:21 start changPhase
+2024/04/18 23:06:21 Coordinator: assigned a task {JobType:WaitJob} to worker 
+2024/04/18 23:06:21 work93948 JobHeartbeat Finish
+2024/04/18 23:06:21 Worker93948: get coordinator's heartbeat {JobType:WaitJob} 
+2024/04/18 23:06:21 Wait job 0
+2024/04/18 23:06:21 work6099 JobRequest Send
+2024/04/18 23:06:21 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:21 c.Schedulephase:MapPhase
+2024/04/18 23:06:21 start changPhase
+2024/04/18 23:06:21 Break change phase ../pg-dorian_gray.txt
+2024/04/18 23:06:21 Coordinator: assigned a task {JobType:MapJob,FilePath:../pg-dorian_gray.txt,Id:1,NReduce:10} to worker 
+2024/04/18 23:06:21 work6099 JobHeartbeat Finish
+2024/04/18 23:06:21 Worker6099: get coordinator's heartbeat {JobType:MapJob,FilePath:../pg-dorian_gray.txt,Id:1,NReduce:10} 
+2024/04/18 23:06:21 Map job 1
+2024/04/18 23:06:21 intermediates' len:10
+2024/04/18 23:06:21 worker create a temp file: mr-1-9
+2024/04/18 23:06:21 worker create a temp file: mr-1-4
+2024/04/18 23:06:21 worker create a temp file: mr-1-6
+2024/04/18 23:06:21 worker create a temp file: mr-1-2
+2024/04/18 23:06:21 worker create a temp file: mr-1-5
+2024/04/18 23:06:21 worker create a temp file: mr-1-8
+2024/04/18 23:06:21 worker create a temp file: mr-1-7
+2024/04/18 23:06:21 worker create a temp file: mr-1-0
+2024/04/18 23:06:21 worker create a temp file: mr-1-3
+2024/04/18 23:06:21 worker create a temp file: mr-1-1
+2024/04/18 23:06:21 msg:{Id:1,SchedulePhase:MapPhase}
+2024/04/18 23:06:21 Coordinator: Worker has executed task {Id:1,SchedulePhase:MapPhase} 
+2024/04/18 23:06:21 Report Finish
+2024/04/18 23:06:21 work6099 JobRequest Send
+2024/04/18 23:06:21 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:21 c.Schedulephase:MapPhase
+2024/04/18 23:06:21 start changPhase
+2024/04/18 23:06:21 init ReducePhase
+2024/04/18 23:06:21 task:{ 0 {0 0 <nil>} 0}
+2024/04/18 23:06:21 task:{ 1 {0 0 <nil>} 0}
+2024/04/18 23:06:21 task:{ 2 {0 0 <nil>} 0}
+2024/04/18 23:06:21 task:{ 3 {0 0 <nil>} 0}
+2024/04/18 23:06:21 task:{ 4 {0 0 <nil>} 0}
+2024/04/18 23:06:21 task:{ 5 {0 0 <nil>} 0}
+2024/04/18 23:06:21 task:{ 6 {0 0 <nil>} 0}
+2024/04/18 23:06:21 task:{ 7 {0 0 <nil>} 0}
+2024/04/18 23:06:21 task:{ 8 {0 0 <nil>} 0}
+2024/04/18 23:06:21 task:{ 9 {0 0 <nil>} 0}
+2024/04/18 23:06:21 start changPhase
+2024/04/18 23:06:21 select task { 0 {0 0 <nil>} 0}
+2024/04/18 23:06:21 Break change phase 
+2024/04/18 23:06:21 Coordinator: MapPhase finished, start ReducePhase 
+2024/04/18 23:06:21 Coordinator: assigned a task {JobType:ReduceJob,Id:0,NMap:8,NReduce:10} to worker 
+2024/04/18 23:06:21 work6099 JobHeartbeat Finish
+2024/04/18 23:06:21 Worker6099: get coordinator's heartbeat {JobType:ReduceJob,Id:0,NMap:8,NReduce:10} 
+2024/04/18 23:06:21 Reduce job 0
+2024/04/18 23:06:21 msg:{Id:0,SchedulePhase:ReducePhase}
+2024/04/18 23:06:21 Coordinator: Worker has executed task {Id:0,SchedulePhase:ReducePhase} 
+2024/04/18 23:06:21 Report Finish
+2024/04/18 23:06:21 work6099 JobRequest Send
+2024/04/18 23:06:21 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:21 c.Schedulephase:ReducePhase
+2024/04/18 23:06:21 start changPhase
+2024/04/18 23:06:21 select task { 1 {0 0 <nil>} 0}
+2024/04/18 23:06:21 Break change phase 
+2024/04/18 23:06:21 Coordinator: assigned a task {JobType:ReduceJob,Id:1,NMap:8,NReduce:10} to worker 
+2024/04/18 23:06:21 work6099 JobHeartbeat Finish
+2024/04/18 23:06:21 Worker6099: get coordinator's heartbeat {JobType:ReduceJob,Id:1,NMap:8,NReduce:10} 
+2024/04/18 23:06:21 Reduce job 1
+2024/04/18 23:06:21 msg:{Id:1,SchedulePhase:ReducePhase}
+2024/04/18 23:06:21 Coordinator: Worker has executed task {Id:1,SchedulePhase:ReducePhase} 
+2024/04/18 23:06:21 Report Finish
+2024/04/18 23:06:21 work6099 JobRequest Send
+2024/04/18 23:06:21 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:21 c.Schedulephase:ReducePhase
+2024/04/18 23:06:21 start changPhase
+2024/04/18 23:06:21 select task { 2 {0 0 <nil>} 0}
+2024/04/18 23:06:21 Break change phase 
+2024/04/18 23:06:21 Coordinator: assigned a task {JobType:ReduceJob,Id:2,NMap:8,NReduce:10} to worker 
+2024/04/18 23:06:21 work6099 JobHeartbeat Finish
+2024/04/18 23:06:21 Worker6099: get coordinator's heartbeat {JobType:ReduceJob,Id:2,NMap:8,NReduce:10} 
+2024/04/18 23:06:21 Reduce job 2
+2024/04/18 23:06:21 msg:{Id:2,SchedulePhase:ReducePhase}
+2024/04/18 23:06:21 Coordinator: Worker has executed task {Id:2,SchedulePhase:ReducePhase} 
+2024/04/18 23:06:21 Report Finish
+2024/04/18 23:06:21 work6099 JobRequest Send
+2024/04/18 23:06:21 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:21 c.Schedulephase:ReducePhase
+2024/04/18 23:06:21 start changPhase
+2024/04/18 23:06:21 select task { 3 {0 0 <nil>} 0}
+2024/04/18 23:06:21 Break change phase 
+2024/04/18 23:06:21 Coordinator: assigned a task {JobType:ReduceJob,Id:3,NMap:8,NReduce:10} to worker 
+2024/04/18 23:06:21 work6099 JobHeartbeat Finish
+2024/04/18 23:06:21 Worker6099: get coordinator's heartbeat {JobType:ReduceJob,Id:3,NMap:8,NReduce:10} 
+2024/04/18 23:06:21 Reduce job 3
+2024/04/18 23:06:21 msg:{Id:3,SchedulePhase:ReducePhase}
+2024/04/18 23:06:21 Coordinator: Worker has executed task {Id:3,SchedulePhase:ReducePhase} 
+2024/04/18 23:06:21 Report Finish
+2024/04/18 23:06:21 work6099 JobRequest Send
+2024/04/18 23:06:21 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:21 c.Schedulephase:ReducePhase
+2024/04/18 23:06:21 start changPhase
+2024/04/18 23:06:21 select task { 4 {0 0 <nil>} 0}
+2024/04/18 23:06:21 Break change phase 
+2024/04/18 23:06:21 Coordinator: assigned a task {JobType:ReduceJob,Id:4,NMap:8,NReduce:10} to worker 
+2024/04/18 23:06:21 work6099 JobHeartbeat Finish
+2024/04/18 23:06:21 Worker6099: get coordinator's heartbeat {JobType:ReduceJob,Id:4,NMap:8,NReduce:10} 
+2024/04/18 23:06:21 Reduce job 4
+2024/04/18 23:06:21 msg:{Id:4,SchedulePhase:ReducePhase}
+2024/04/18 23:06:21 Coordinator: Worker has executed task {Id:4,SchedulePhase:ReducePhase} 
+2024/04/18 23:06:21 Report Finish
+2024/04/18 23:06:21 work6099 JobRequest Send
+2024/04/18 23:06:21 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:21 c.Schedulephase:ReducePhase
+2024/04/18 23:06:21 start changPhase
+2024/04/18 23:06:21 select task { 5 {0 0 <nil>} 0}
+2024/04/18 23:06:21 Break change phase 
+2024/04/18 23:06:21 Coordinator: assigned a task {JobType:ReduceJob,Id:5,NMap:8,NReduce:10} to worker 
+2024/04/18 23:06:21 work6099 JobHeartbeat Finish
+2024/04/18 23:06:21 Worker6099: get coordinator's heartbeat {JobType:ReduceJob,Id:5,NMap:8,NReduce:10} 
+2024/04/18 23:06:21 Reduce job 5
+2024/04/18 23:06:21 msg:{Id:5,SchedulePhase:ReducePhase}
+2024/04/18 23:06:21 Coordinator: Worker has executed task {Id:5,SchedulePhase:ReducePhase} 
+2024/04/18 23:06:21 Report Finish
+2024/04/18 23:06:21 work6099 JobRequest Send
+2024/04/18 23:06:21 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:21 c.Schedulephase:ReducePhase
+2024/04/18 23:06:21 start changPhase
+2024/04/18 23:06:21 select task { 6 {0 0 <nil>} 0}
+2024/04/18 23:06:21 Break change phase 
+2024/04/18 23:06:21 Coordinator: assigned a task {JobType:ReduceJob,Id:6,NMap:8,NReduce:10} to worker 
+2024/04/18 23:06:21 work6099 JobHeartbeat Finish
+2024/04/18 23:06:21 Worker6099: get coordinator's heartbeat {JobType:ReduceJob,Id:6,NMap:8,NReduce:10} 
+2024/04/18 23:06:21 Reduce job 6
+2024/04/18 23:06:21 msg:{Id:6,SchedulePhase:ReducePhase}
+2024/04/18 23:06:21 Coordinator: Worker has executed task {Id:6,SchedulePhase:ReducePhase} 
+2024/04/18 23:06:21 Report Finish
+2024/04/18 23:06:21 work6099 JobRequest Send
+2024/04/18 23:06:21 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:21 c.Schedulephase:ReducePhase
+2024/04/18 23:06:21 start changPhase
+2024/04/18 23:06:21 select task { 7 {0 0 <nil>} 0}
+2024/04/18 23:06:21 Break change phase 
+2024/04/18 23:06:21 Coordinator: assigned a task {JobType:ReduceJob,Id:7,NMap:8,NReduce:10} to worker 
+2024/04/18 23:06:21 work6099 JobHeartbeat Finish
+2024/04/18 23:06:21 Worker6099: get coordinator's heartbeat {JobType:ReduceJob,Id:7,NMap:8,NReduce:10} 
+2024/04/18 23:06:21 Reduce job 7
+2024/04/18 23:06:21 msg:{Id:7,SchedulePhase:ReducePhase}
+2024/04/18 23:06:21 Coordinator: Worker has executed task {Id:7,SchedulePhase:ReducePhase} 
+2024/04/18 23:06:21 Report Finish
+2024/04/18 23:06:21 work6099 JobRequest Send
+2024/04/18 23:06:21 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:21 c.Schedulephase:ReducePhase
+2024/04/18 23:06:21 start changPhase
+2024/04/18 23:06:21 select task { 8 {0 0 <nil>} 0}
+2024/04/18 23:06:21 Break change phase 
+2024/04/18 23:06:21 Coordinator: assigned a task {JobType:ReduceJob,Id:8,NMap:8,NReduce:10} to worker 
+2024/04/18 23:06:21 work6099 JobHeartbeat Finish
+2024/04/18 23:06:21 Worker6099: get coordinator's heartbeat {JobType:ReduceJob,Id:8,NMap:8,NReduce:10} 
+2024/04/18 23:06:21 Reduce job 8
+2024/04/18 23:06:21 msg:{Id:8,SchedulePhase:ReducePhase}
+2024/04/18 23:06:21 Coordinator: Worker has executed task {Id:8,SchedulePhase:ReducePhase} 
+2024/04/18 23:06:21 Report Finish
+2024/04/18 23:06:21 work6099 JobRequest Send
+2024/04/18 23:06:21 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:21 c.Schedulephase:ReducePhase
+2024/04/18 23:06:21 start changPhase
+2024/04/18 23:06:21 select task { 9 {0 0 <nil>} 0}
+2024/04/18 23:06:21 Break change phase 
+2024/04/18 23:06:21 Coordinator: assigned a task {JobType:ReduceJob,Id:9,NMap:8,NReduce:10} to worker 
+2024/04/18 23:06:21 work6099 JobHeartbeat Finish
+2024/04/18 23:06:21 Worker6099: get coordinator's heartbeat {JobType:ReduceJob,Id:9,NMap:8,NReduce:10} 
+2024/04/18 23:06:21 Reduce job 9
+2024/04/18 23:06:21 msg:{Id:9,SchedulePhase:ReducePhase}
+2024/04/18 23:06:21 Coordinator: Worker has executed task {Id:9,SchedulePhase:ReducePhase} 
+2024/04/18 23:06:21 Report Finish
+2024/04/18 23:06:21 work6099 JobRequest Send
+2024/04/18 23:06:21 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:21 c.Schedulephase:ReducePhase
+2024/04/18 23:06:21 start changPhase
+2024/04/18 23:06:21 init CompletePhase
+2024/04/18 23:06:21 task:{ 0 {13943262761311453242 31191166557 0xaede00} 2}
+2024/04/18 23:06:21 task:{ 1 {13943262761312345431 31192058736 0xaede00} 2}
+2024/04/18 23:06:21 task:{ 2 {13943262761313207661 31192920976 0xaede00} 2}
+2024/04/18 23:06:21 task:{ 3 {13943262761314118284 31193831599 0xaede00} 2}
+2024/04/18 23:06:21 task:{ 4 {13943262761314890922 31194604237 0xaede00} 2}
+2024/04/18 23:06:21 task:{ 5 {13943262761315590247 31195303562 0xaede00} 2}
+2024/04/18 23:06:21 task:{ 6 {13943262761316400947 31196114262 0xaede00} 2}
+2024/04/18 23:06:21 task:{ 7 {13943262761317114539 31196827854 0xaede00} 2}
+2024/04/18 23:06:21 task:{ 8 {13943262761317920340 31197633655 0xaede00} 2}
+2024/04/18 23:06:21 task:{ 9 {13943262761318687066 31198400381 0xaede00} 2}
+2024/04/18 23:06:21 Coordinator: ReducePhase finished, Congratulations 
+2024/04/18 23:06:21 Coordinator: assigned a task {JobType:CompleteJob} to worker 
+2024/04/18 23:06:21 work6099 JobHeartbeat Finish
+2024/04/18 23:06:21 Worker6099: get coordinator's heartbeat {JobType:CompleteJob} 
+2024/04/18 23:06:21 work32827 JobRequest Send
+2024/04/18 23:06:21 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:21 c.Schedulephase:CompletePhase
+2024/04/18 23:06:21 Coordinator: assigned a task {JobType:CompleteJob} to worker 
+2024/04/18 23:06:21 work32827 JobHeartbeat Finish
+2024/04/18 23:06:21 Worker32827: get coordinator's heartbeat {JobType:CompleteJob} 
+2024/04/18 23:06:22 work93948 JobRequest Send
+2024/04/18 23:06:22 msg:{JobType:MapJob,FilePath:,Id:0,NReduce:0}
+2024/04/18 23:06:22 c.Schedulephase:CompletePhase
+2024/04/18 23:06:22 Coordinator: assigned a task {JobType:CompleteJob} to worker 
+2024/04/18 23:06:22 work93948 JobHeartbeat Finish
+2024/04/18 23:06:22 Worker93948: get coordinator's heartbeat {JobType:CompleteJob} 
